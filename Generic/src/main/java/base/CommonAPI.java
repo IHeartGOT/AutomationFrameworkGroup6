@@ -47,8 +47,8 @@ public class CommonAPI {
         }else{
             getLocalDriver(os, browserName);
         }
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();
     }
@@ -120,7 +120,10 @@ public class CommonAPI {
     public void typeOnID(String locator, String value) {
         driver.findElement(By.id(locator)).sendKeys(value);
     }
+    public static void typeOnIdEnter(String locator, String value){
+        driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
 
+    }
     public void typeOnElement(String locator, String value) {
         try {
             driver.findElement(By.cssSelector(locator)).sendKeys(value);
@@ -143,17 +146,21 @@ public class CommonAPI {
     public static void typeOnElementNEnter(String locator, String value) {
         try {
             driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
+            System.out.println("First Attempt with cssSelector is a success");
         } catch (Exception ex1) {
             try {
                 System.out.println("First Attempt was not successful");
-                driver.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
+                driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
+                System.out.println("Second Attempt with name is a success");
             } catch (Exception ex2) {
                 try {
                     System.out.println("Second Attempt was not successful");
                     driver.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
+                    System.out.println("Third Attempt with xpath is a success");
                 } catch (Exception ex3) {
                     System.out.println("Third Attempt was not successful");
-                    driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
+                    driver.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
+                    System.out.println("Fourth Attempt with ID is a success");
                 }
             }
         }
@@ -177,6 +184,7 @@ public class CommonAPI {
             }
         }
     }
+
     public void clearField(String locator) {
         driver.findElement(By.id(locator)).clear();
     }
