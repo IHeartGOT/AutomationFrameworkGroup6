@@ -8,9 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-/**
- * Created by mrahman on 04/02/18.
- */
+
 
 public class ConnectToSqlDB {
 
@@ -21,7 +19,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("/Users/prodipbhowmik/IdeaProjects/Group6AutomationFramework/Generic/src/secret.properties");
+        InputStream ism = new FileInputStream("/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Generic/src/secret.properties");
         prop.load(ism);
         ism.close();
         return prop;

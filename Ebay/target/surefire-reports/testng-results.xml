@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ebay Automation Script " duration-ms="3" started-at="2019-03-21T06:09:02Z" finished-at="2019-03-21T06:09:02Z">
+    <groups>
+    </groups>
+    <test name="Ebay Home" duration-ms="3" started-at="2019-03-21T06:09:02Z" finished-at="2019-03-21T06:09:02Z">
+    </test> <!-- Ebay Home -->
+  </suite> <!-- Ebay Automation Script  -->
+</testng-results>
