@@ -13,9 +13,8 @@
 
     <test name = "BestBuy Home">
         <classes>
-            <!--<class name="title.AmazonHome"/>-->
-            <!--<class name="search.SearchTest"/>-->
-            <class name="menu.MenuTest"/>
+            <class name="home.TitlePage"/>
+
         </classes>
     </test>
 
