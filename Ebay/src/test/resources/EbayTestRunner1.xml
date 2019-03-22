@@ -16,7 +16,9 @@
             <!--<class name="home.Title"/>-->
             <!--<class name="search.SearchTest"/>-->
             <!--<class name="home.Links"/>-->
-            <class name="fashionpage.HometoFashion"/>
+            <!--<class name="fashionpage.HometoFashion"/>-->
+            <!--<class name="login.LoginPage"/>-->
+            <class name="dropdown.DropSelection"/>
 
 
         </classes>
