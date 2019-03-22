@@ -254,6 +254,7 @@ public class CommonAPI {
         driver.findElement(By.xpath(locator)).click();
     }
 
+    public void clickByLink(String locator) {driver.findElement (By.linkText (locator)).click ();}
     public void typeByCss(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
