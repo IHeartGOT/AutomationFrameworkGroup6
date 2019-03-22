@@ -14,7 +14,7 @@
     <test name = "Ebay Home">
         <classes>
             <!--<class name="home.Title"/>-->
-            <class name="home.SearchBox"/>
+            <class name="search.SearchTest"/>
 
         </classes>
     </test>

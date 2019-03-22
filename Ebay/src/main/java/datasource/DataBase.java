@@ -10,28 +10,6 @@ import java.util.List;
 public class DataBase {
     static ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 
-    public static void insertDataIntoDB(){
-        List<String> list = getItemValue();
-        connectToSqlDB = new ConnectToSqlDB();
-        connectToSqlDB.insertDataFromArrayListToSqlTable(list,"ItemList","items");
-    }
-
-    public static List<String> getItemValue(){
-        List<String> itemsList = new ArrayList<String>();
-        itemsList.add("laptop");
-        itemsList.add("soccer");
-        itemsList.add("tv");
-        itemsList.add("shoes");
-        itemsList.add("camera");
-        itemsList.add("cars");
-        itemsList.add("hats");
-        itemsList.add("jewelry");
-        itemsList.add("toys");
-        itemsList.add("iphone");
-
-
-        return itemsList;
-    }
 
     public List<String> getItemsListFromDB()throws Exception, IOException, SQLException, ClassNotFoundException {
         List<String> list = new ArrayList<>();
