@@ -9,6 +9,7 @@
         <module name="BestBuy" />
         <module name="Ebay" />
         <module name="Generic" />
+        <module name="HomeDepot" />
       </profile>
     </annotationProcessing>
   </component>

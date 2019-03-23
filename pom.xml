@@ -13,6 +13,7 @@
         <module>Generic</module>
         <module>Ebay</module>
         <module>BestBuy</module>
+        <module>HomeDepot</module>
     </modules>
     <dependencyManagement>
         <dependencies>
