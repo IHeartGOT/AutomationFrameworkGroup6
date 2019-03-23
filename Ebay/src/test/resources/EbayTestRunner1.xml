@@ -18,7 +18,8 @@
             <!--<class name="home.Links"/>-->
             <!--<class name="fashionpage.HometoFashion"/>-->
             <!--<class name="login.LoginPage"/>-->
-            <class name="dropdown.DropSelection"/>
+            <!--<class name="dropdown.DropSelection"/>-->
+            <class name="home.TestHomePage"/>
 
 
         </classes>
