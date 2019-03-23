@@ -15,11 +15,11 @@
         <classes>
             <!--<class name="home.Title"/>-->
             <!--<class name="search.SearchTest"/>-->
-            <!--<class name="home.Links"/>-->
+            <class name="home.Links"/>
             <!--<class name="fashionpage.HometoFashion"/>-->
             <!--<class name="login.LoginPage"/>-->
             <!--<class name="dropdown.DropSelection"/>-->
-            <class name="home.TestHomePage"/>
+            <!--<class name="home.TestHomePage"/>-->
 
 
         </classes>

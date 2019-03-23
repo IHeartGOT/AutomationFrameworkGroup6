@@ -1,23 +1,25 @@
 package home;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+
 
 public class Links extends CommonAPI {
 
     @Test
-    public void MotorClick(){
-        clickByXpath ("//*[@id=\"mainContent\"]/div[1]/ul/li[3]/a");
-    }
+    public void HomePageLinks(){
 
-    @Test
-    public void MyEbay(){
-        clickByXpath ("//*[@id=\"gh-eb-My\"]/div/a[1]");
-    }
+        EHomePage eh = new EHomePage();
 
-    @Test
-    public void ShoppingCart(){
-        clickOnCss ("#gh-cart-i");
-    }
+        eh.MotorLink ().click ();
+        eh.LoginLink ().click ();
+        driver.navigate ().back ();
+        eh.ShoppingLink ().click ();
+        eh.SignInLink ().click ();
+        eh.UserName ().sendKeys ("ProdipBhowmik");
+        eh.Password ().sendKeys ("123456");
+        eh.SignButton ();
 
+    }
 }
