@@ -8,7 +8,7 @@ public class LoginPage extends CommonAPI {
     public void LoginInput(){
         clickOnCss (".gh-eb-li-a");
         typeOnID ("userid", "Prodip Bhowmik");
-        typeOnIdEnter ("pass","12345");
+
 
 
     }

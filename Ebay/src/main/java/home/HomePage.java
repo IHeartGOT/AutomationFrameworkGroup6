@@ -1,43 +1,43 @@
-package home;
-
-import base.CommonAPI;
-import org.openqa.selenium.WebElement;
-
-import org.openqa.selenium.support.FindBy;
-import reporting.TestLogger;
-
-public class HomePage extends CommonAPI {
-    @FindBy (id = "gh-btn")
-    public static WebElement searchButton;
-
-    @FindBy (linkText = "Electronics")
-    public static WebElement findElectronics;
-
-    @FindBy (xpath = "//*[@id=\"gh-ac\"]")
-    public static WebElement searchPhone;
-
-    @FindBy (linkText = "Deals")
-    public static WebElement findDeals;
-
-
-    public void checksearchButton(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        searchButton.click();
-    }
-    public void checkfindElectronics(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        findElectronics.click();
-    }
-    public void checksearchPhone(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        searchPhone.click();
-
-    }
-    public void checkfindDeals() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        findDeals.click();
-    }
-
-
-}
+//package home;
+//
+//import base.CommonAPI;
+//import org.openqa.selenium.WebElement;
+//
+//import org.openqa.selenium.support.FindBy;
+//import reporting.TestLogger;
+//
+//public class HomePage extends CommonAPI {
+//    @FindBy (id = "gh-btn")
+//    public static WebElement searchButton;
+//
+//    @FindBy (linkText = "Electronics")
+//    public static WebElement findElectronics;
+//
+//    @FindBy (xpath = "//*[@id=\"gh-ac\"]")
+//    public static WebElement searchPhone;
+//
+//    @FindBy (linkText = "Deals")
+//    public static WebElement findDeals;
+//
+//
+//    public void checksearchButton(){
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+//        searchButton.click();
+//    }
+//    public void checkfindElectronics(){
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+//        findElectronics.click();
+//    }
+//    public void checksearchPhone(){
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+//        searchPhone.click();
+//
+//    }
+//    public void checkfindDeals() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        findDeals.click();
+//    }
+//
+//
+//}

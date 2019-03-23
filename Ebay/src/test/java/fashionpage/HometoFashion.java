@@ -4,7 +4,6 @@ import base.CommonAPI;
 import org.testng.annotations.Test;
 import java.util.Iterator;
 import java.util.Set;
-import static com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolver.iterator;
 
 public class HometoFashion extends CommonAPI {
 
