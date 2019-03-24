@@ -18,7 +18,6 @@ public class DropSelection extends CommonAPI {
             if("Travel".equals(option.getText()))
                 option.click(); }
         clickByXpath ("//*[@id=\"gh-btn\"]");
-        Thread.sleep (5000);
 
 
     }

@@ -131,7 +131,7 @@ public class CommonAPI {
         return driver;
     }
 
-    @AfterMethod
+    @AfterClass
     public void cleanUp() {
         driver.close ();
     }

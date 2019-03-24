@@ -1,4 +1,4 @@
-package pages;
+package search;
 import datasource.DataBase;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -14,24 +14,16 @@ public class SearchPage {
 
     DataBase dataBase = new DataBase();
 
-    @FindBy(how = How.CSS, using ="#gh-ac")
+    @FindBy(how = How.ID, using ="headerSearch")
     public static WebElement searchInputWebElement;
 
-    @FindBy(how = How.CSS, using ="#gh-btn")
-    public static WebElement submitButtonWebElement;
 
     public WebElement getSearchInputWebElement() {
         return searchInputWebElement;
     }
-    public WebElement getSubmitButtonWebElement() {
-        return submitButtonWebElement;
-    }
 
     public void searchFor(String value){
-        getSearchInputWebElement().sendKeys(value);
-    }
-    public void submitSearchButton(){
-        getSubmitButtonWebElement().click();
+        getSearchInputWebElement().sendKeys(value, Keys.ENTER);
     }
     public void clearInput(){
         getSearchInputWebElement().clear();
@@ -40,7 +32,6 @@ public class SearchPage {
         List<String> list = dataBase.getItemsListFromDB();
         for(int i=0; i<list.size(); i++) {
             searchFor(list.get(i));
-            submitSearchButton();
             clearInput();
         }
     }
@@ -49,7 +40,6 @@ public class SearchPage {
         List<String> list = dataBase.getItemsListFromDB();
         for(int i=0; i<list.size(); i++) {
             searchFor(list.get(i));
-            submitSearchButton();
             clearInput();
         }
     }
@@ -68,6 +58,7 @@ public class SearchPage {
         for(String st: itemList) {
             getSearchInputField().sendKeys(st, Keys.ENTER);
             getSearchInputField().clear();
+            //validate items
         }
     }
 
