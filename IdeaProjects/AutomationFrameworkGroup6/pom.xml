@@ -12,9 +12,8 @@
 
         <module>Generic</module>
         <module>Cnn</module>
-        <module>MySpace</module>
-        <module>Cnn</module>
-        <module>MySpace</module>
+        <module>Myspace</module>
+
     </modules>
     <dependencyManagement>
         <dependencies>

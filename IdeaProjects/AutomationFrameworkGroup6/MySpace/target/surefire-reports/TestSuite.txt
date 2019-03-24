@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 114, Failures: 1, Errors: 0, Skipped: 113, Time elapsed: 1.679 s <<< FAILURE! - in TestSuite
+setUp(home.TestHome)  Time elapsed: 1.331 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 675 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Alexs-MacBook-Pro.local', ip: '2604:2000:b056:d800:0:0:0:8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+
