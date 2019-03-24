@@ -2,24 +2,24 @@ package home;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.Registration;
 
 
 public class Links extends CommonAPI {
 
     @Test
-    public void HomePageLinks(){
+    public void TestHomeLinks(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.HomePageLinks ();
+    }
 
-        EHomePage eh = new EHomePage();
-
-        eh.MotorLink ().click ();
-        eh.LoginLink ().click ();
-        driver.navigate ().back ();
-        eh.ShoppingLink ().click ();
-        eh.SignInLink ().click ();
-        eh.UserName ().sendKeys ("ProdipBhowmik");
-        eh.Password ().sendKeys ("123456");
-        eh.SignButton ();
-
+    @Test
+    public void TestRegister()throws InterruptedException {
+        Registration registration = PageFactory.initElements (driver, Registration.class);
+        registration.ResgistationPage ();
     }
 }

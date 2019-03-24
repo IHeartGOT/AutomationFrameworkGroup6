@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="HomeDepot Automation Script " duration-ms="44391" started-at="2019-03-23T20:25:17Z" finished-at="2019-03-23T20:26:02Z">
+  <suite name="HomeDepot Automation Script " duration-ms="36665" started-at="2019-03-24T06:05:39Z" finished-at="2019-03-24T06:06:15Z">
     <groups>
     </groups>
-    <test name="HomeDepot Home" duration-ms="44391" started-at="2019-03-23T20:25:17Z" finished-at="2019-03-23T20:26:02Z">
+    <test name="HomeDepot Home" duration-ms="36665" started-at="2019-03-24T06:05:39Z" finished-at="2019-03-24T06:06:15Z">
       <class name="home.TestHomePage">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHomePage@15975490]" name="setUp" is-config="true" duration-ms="25761" started-at="2019-03-23T20:25:17Z" finished-at="2019-03-23T20:25:43Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHomePage@15975490]" name="setUp" is-config="true" duration-ms="17054" started-at="2019-03-24T06:05:39Z" finished-at="2019-03-24T06:05:56Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="HomePageLinks()[pri:0, instance:home.TestHomePage@15975490]" name="HomePageLinks" duration-ms="18188" started-at="2019-03-23T20:25:43Z" finished-at="2019-03-23T20:26:01Z">
+        <test-method status="FAIL" signature="HomePageLinks()[pri:0, instance:home.TestHomePage@15975490]" name="HomePageLinks" duration-ms="19227" started-at="2019-03-24T06:05:56Z" finished-at="2019-03-24T06:06:15Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not interactable
@@ -56,10 +56,10 @@
   (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'prodips-MacBook-Pro.local', ip: 'fe80:0:0:0:21:dd28:591a:348e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_201'
+System info: host: 'prodips-MacBook-Pro.local', ip: '2600:380:597c:cf6d:4191:3b7:de62:8383%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/v_/68hn7ntn0bj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64220}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 61934c7ff1e2bb2b480a2e0a322b7bdb]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/v_/68hn7ntn0bj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53767}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: faac55620448dc4daa71e659a49bdffa]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
@@ -67,10 +67,10 @@ Session ID: 61934c7ff1e2bb2b480a2e0a322b7bdb]]>
   (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'prodips-MacBook-Pro.local', ip: 'fe80:0:0:0:21:dd28:591a:348e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_201'
+System info: host: 'prodips-MacBook-Pro.local', ip: '2600:380:597c:cf6d:4191:3b7:de62:8383%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/v_/68hn7ntn0bj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64220}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 61934c7ff1e2bb2b480a2e0a322b7bdb
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/v_/68hn7ntn0bj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53767}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: faac55620448dc4daa71e659a49bdffa
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -121,7 +121,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageLinks -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestHomePage@15975490]" name="cleanUp" is-config="true" duration-ms="415" started-at="2019-03-23T20:26:01Z" finished-at="2019-03-23T20:26:02Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestHomePage@15975490]" name="cleanUp" is-config="true" duration-ms="357" started-at="2019-03-24T06:06:15Z" finished-at="2019-03-24T06:06:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->

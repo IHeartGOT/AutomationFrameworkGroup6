@@ -10,13 +10,14 @@
   <parameter name="url" value="https://www.ebay.com/"/>
   <test thread-count="5" verbose="0" name="Ebay Home(failed)">
     <classes>
-      <class name="search.SearchTest">
+      <class name="home.Links">
         <methods>
-          <include name="search"/>
+          <include name="ResgistationPage"/>
           <include name="setUp"/>
+          <include name="HomePageLinks"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- search.SearchTest -->
+      </class> <!-- home.Links -->
     </classes>
   </test> <!-- Ebay Home(failed) -->
 </suite> <!-- Failed suite [Ebay Automation Script ] -->

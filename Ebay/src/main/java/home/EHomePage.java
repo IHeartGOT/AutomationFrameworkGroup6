@@ -4,51 +4,92 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class EHomePage extends CommonAPI {
 
+    public EHomePage(){
 
-    By motor = By.xpath ("//*[@id=\"mainContent\"]/div[1]/ul/li[3]/a");
-    By MyEbay = By.xpath ("//*[@id=\"gh-eb-My\"]/div/a[1]");
-    By shopping = By.id ("gh-cart-i");
-    By signin = By.xpath ("//*[@id=\"gh-ug\"]/a");
-    By username = By.id ("userid");
-    By password = By.id ("pass");
-    By signButton = By.id ("sgnBt");
+        PageFactory.initElements (driver, this);
+    }
+
+
+    @FindBy (css = "#mainContent > div.hl-cat-nav > ul > li:nth-child(3) > a")
+    WebElement motor;
+
+    @FindBy (css = "#gh-eb-My > div > a.gh-eb-li-a")
+    WebElement MyEbay;
+
+    @FindBy (id ="gh-cart-i")
+    WebElement shopping;
+
+    @FindBy (css = "#gh-ug > a")
+    WebElement signin;
+
+    @FindBy (id = "userid")
+    WebElement username;
+
+    @FindBy (id = "pass")
+    WebElement password;
+
+    @FindBy (id = "sgnBt")
+    WebElement signButton;
+
+    @FindBy(className ="gh-p")
+    WebElement sell;
+
 
     public WebElement MotorLink() {
 
-        return driver.findElement (motor);
+        return motor;
     }
 
     public WebElement LoginLink() {
-        return driver.findElement (MyEbay);
+        return MyEbay;
 
     }
 
     public WebElement ShoppingLink() {
-        return driver.findElement (shopping);
+        return shopping;
 
     }
 
     public WebElement SignInLink() {
-        return driver.findElement (signin);
+        return signin;
 
     }
 
     public WebElement UserName() {
-        return driver.findElement (username);
+        return username;
 
     }
 
     public WebElement Password() {
-        return driver.findElement (password);
+        return password;
 
     }
 
     public WebElement SignButton() {
-        return driver.findElement (signButton);
+        return signButton;
 
     }
 
-}
+    public WebElement SellPage() {
+        return sell;
+    }
+
+        public void HomePageLinks(){
+            MotorLink ().click ();
+            LoginLink ().click ();
+            driver.navigate ().back ();
+            ShoppingLink ().click ();
+            SignInLink ().click ();
+            UserName ().sendKeys ("ProdipBhowmik");
+            Password ().sendKeys ("123456");
+            SignButton ();
+            SellPage ();
+
+        }
+
+    }
