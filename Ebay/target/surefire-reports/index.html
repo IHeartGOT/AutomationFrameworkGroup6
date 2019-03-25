@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Ebay_Automation_Script_">
-              <span class="suite-name border-passed">Ebay Automation Script </span>
+              <span class="suite-name border-failed">Ebay Automation Script </span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Ebay_Automation_Script_" class="hide-methods passed suite-Ebay_Automation_Script_"> (hide)</a> <!-- hide-methods passed suite-Ebay_Automation_Script_ -->
-                      <a href="#" panel-name="suite-Ebay_Automation_Script_" class="show-methods passed suite-Ebay_Automation_Script_"> (show)</a> <!-- show-methods passed suite-Ebay_Automation_Script_ -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Ebay_Automation_Script_" class="hide-methods failed suite-Ebay_Automation_Script_"> (hide)</a> <!-- hide-methods failed suite-Ebay_Automation_Script_ -->
+                      <a href="#" panel-name="suite-Ebay_Automation_Script_" class="show-methods failed suite-Ebay_Automation_Script_"> (show)</a> <!-- show-methods failed suite-Ebay_Automation_Script_ -->
                     </span>
-                    <div class="method-list-content passed suite-Ebay_Automation_Script_">
+                    <div class="method-list-content failed suite-Ebay_Automation_Script_">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Ebay_Automation_Script_" title="home.Links" hash-for-method="TestHomeLinks">TestHomeLinks</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ebay_Automation_Script_" title="home.TestOrders" hash-for-method="TestOrderPageg">TestOrderPageg</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Ebay_Automation_Script_" title="home.Links" hash-for-method="TestRegister">TestRegister</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Ebay_Automation_Script_ -->
+                    </div> <!-- method-list-content failed suite-Ebay_Automation_Script_ -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,28 +117,51 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Ebay_Automation_Script_" class="panel Ebay_Automation_Script_">
-          <div class="suite-Ebay_Automation_Script_-class-passed">
+          <div class="suite-Ebay_Automation_Script_-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">home.Links</span>
+              <img src="failed.png"/>
+              <span class="class-name">home.TestOrders</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TestHomeLinks">
-                  </a> <!-- TestHomeLinks -->
-                  <span class="method-name">TestHomeLinks</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TestRegister">
-                  </a> <!-- TestRegister -->
-                  <span class="method-name">TestRegister</span>
+                  <a name="TestOrderPageg">
+                  </a> <!-- TestOrderPageg -->
+                  <span class="method-name">TestOrderPageg</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;userid&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;prodips-MBP&apos;, ip: &apos;2604:2000:1700:c228:0:0:0:c85%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/v_/68hn7ntn0bj...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54702}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: a3a04d1c5bfd94ceee4f2955b1b0e207
+*** Element info: {Using=id, value=userid}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at pages.Orders.UserOrders(Orders.java:48)
+	at home.TestOrders.TestOrderPageg(TestOrders.java:15)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Ebay_Automation_Script_-class-passed -->
+          </div> <!-- suite-Ebay_Automation_Script_-class-failed -->
         </div> <!-- panel Ebay_Automation_Script_ -->
         <div panel-name="test-xml-Ebay_Automation_Script_" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -163,7 +181,7 @@
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.ebay.com/&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Ebay Home&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;home.Links&quot;/&gt;
+      &lt;class name=&quot;home.TestOrders&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Ebay Home --&gt;
 &lt;/suite&gt; &lt;!-- Ebay Automation Script  --&gt;
@@ -203,20 +221,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TestHomeLinks')
-data.setCell(0, 2, 'home.Links')
-data.setCell(0, 3, 9091);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TestRegister')
-data.setCell(1, 2, 'home.Links')
-data.setCell(1, 3, 2609);
+data.setCell(0, 1, 'TestOrderPageg')
+data.setCell(0, 2, 'home.TestOrders')
+data.setCell(0, 3, 22574);
 window.suiteTableData['Ebay_Automation_Script_']= { tableData: data, tableDiv: 'times-div-Ebay_Automation_Script_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-Ebay_Automation_Script_">
               </div> <!-- times-div-Ebay_Automation_Script_ -->
             </div> <!-- times-div -->
@@ -242,31 +256,37 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">home.Links</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.ebay.com/)</span>
+              <div class="chronological-class-name">home.TestOrders</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@45312be2)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">TestHomeLinks</span>
-                <span class="method-start">4604 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">13696 ms</span>
-              </div> <!-- configuration-method after -->
+              </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.ebay.com/)</span>
-                <span class="method-start">13813 ms</span>
+                <span class="method-start">160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.TestOrders.TestOrderPageg())</span>
+                <span class="method-start">4778 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TestRegister</span>
-                <span class="method-start">19976 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestOrderPageg</span>
+                <span class="method-start">4784 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">22585 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=TestOrderPageg status=FAILURE method=TestOrders.TestOrderPageg()[pri:0, instance:ho...)</span>
+                <span class="method-start">27367 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">31399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">31463 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

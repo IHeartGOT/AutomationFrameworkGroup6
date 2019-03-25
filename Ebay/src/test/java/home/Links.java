@@ -15,11 +15,15 @@ public class Links extends CommonAPI {
     public void TestHomeLinks(){
         EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
         eHomePage.HomePageLinks ();
+        Assert.assertEquals (true, true);
     }
 
     @Test
     public void TestRegister()throws InterruptedException {
         Registration registration = PageFactory.initElements (driver, Registration.class);
         registration.ResgistationPage ();
+        Assert.assertEquals (true, true);
     }
+
+
 }

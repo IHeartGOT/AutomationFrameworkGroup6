@@ -10,14 +10,17 @@
   <parameter name="url" value="https://www.ebay.com/"/>
   <test thread-count="5" verbose="0" name="Ebay Home(failed)">
     <classes>
-      <class name="home.Links">
+      <class name="home.TestOrders">
         <methods>
-          <include name="ResgistationPage"/>
+          <include name="afterEachTestMethod"/>
+          <include name="TestOrderPageg"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
           <include name="setUp"/>
-          <include name="HomePageLinks"/>
+          <include name="startExtent"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- home.Links -->
+      </class> <!-- home.TestOrders -->
     </classes>
   </test> <!-- Ebay Home(failed) -->
 </suite> <!-- Failed suite [Ebay Automation Script ] -->

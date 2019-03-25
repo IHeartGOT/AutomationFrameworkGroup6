@@ -31,24 +31,13 @@ public class Registration extends CommonAPI{
 
 
 
-    public WebElement RegistrationPage() {
-        return registration;
-    }
-
-    public WebElement FirstNameInput() {
-        return firstname;
-
-    }
-    public WebElement LastNameInput() {
-        return lastname;
-
-    }
+    public WebElement RegistrationPage() {return registration;}
+    public WebElement FirstNameInput() {return firstname;}
+    public WebElement LastNameInput() {return lastname;}
     public WebElement EmailInput() {
         return email;
     }
-    public WebElement PasswordInput() {
-        return password;
-    }
+    public WebElement PasswordInput() {return password;}
 
 
     public void ResgistationPage(){
@@ -59,4 +48,6 @@ public class Registration extends CommonAPI{
         EmailInput ().sendKeys ("ptbhowmik@gmail.com");
         PasswordInput ().sendKeys ("A12345b", Keys.ENTER);
     }
+
+
 }
