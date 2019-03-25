@@ -9,7 +9,7 @@ import pages.Orders;
 public class TestOrders extends CommonAPI {
 
     @Test
-    public void TestOrderPageg(){
+    public void TestOrderPage(){
 
         Orders orders = PageFactory.initElements (driver, Orders.class);
         orders.UserOrders ();
