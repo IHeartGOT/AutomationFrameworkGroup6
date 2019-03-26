@@ -9,8 +9,26 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.Group6AutomationFramework</groupId>
+    <groupId>Group6AutomationFramework</groupId>
     <artifactId>NYLproject</artifactId>
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-java</artifactId>
+                <version>3.141.59</version>
+            </dependency>
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-server</artifactId>
+                <version>3.141.59</version>
+            </dependency>
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>6.14.3</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

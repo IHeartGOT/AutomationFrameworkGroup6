@@ -21,6 +21,8 @@
         <module>NewYorkLife</module>
         <module>NewYorkLife</module>
         <module>Costco</module>
+        <module>NewYorkLife</module>
+        <module>NewYorkLife</module>
     </modules>
     <dependencyManagement>
         <dependencies>
