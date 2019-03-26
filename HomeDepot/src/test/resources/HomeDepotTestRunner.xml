@@ -13,8 +13,8 @@
 
     <test name = "HomeDepot Home">
         <classes>
-            <!--<class name="home.TestHomePage"/>-->
-            <class name="search.SearchTest"/>
+            <class name="home.TestHomePage"/>
+            <!--<class name="search.SearchTest"/>-->
         </classes>
     </test>
 

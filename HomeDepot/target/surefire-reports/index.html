@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-HomeDepot_Automation_Script_">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomeDepot_Automation_Script_" title="search.SearchTest" hash-for-method="search">search</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-HomeDepot_Automation_Script_" title="home.TestHomePage" hash-for-method="TestTitle">TestTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HomeDepot_Automation_Script_" title="home.TestHomePage" hash-for-method="TrackOrders">TrackOrders</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-HomeDepot_Automation_Script_ -->
@@ -120,14 +125,21 @@
           <div class="suite-HomeDepot_Automation_Script_-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">search.SearchTest</span>
+              <span class="class-name">home.TestHomePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="search">
-                  </a> <!-- search -->
-                  <span class="method-name">search</span>
+                  <a name="TestTitle">
+                  </a> <!-- TestTitle -->
+                  <span class="method-name">TestTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TrackOrders">
+                  </a> <!-- TrackOrders -->
+                  <span class="method-name">TrackOrders</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,7 +163,7 @@
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.homedepot.com/&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;HomeDepot Home&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;search.SearchTest&quot;/&gt;
+      &lt;class name=&quot;home.TestHomePage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- HomeDepot Home --&gt;
 &lt;/suite&gt; &lt;!-- HomeDepot Automation Script  --&gt;
@@ -191,16 +203,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'search')
-data.setCell(0, 2, 'search.SearchTest')
-data.setCell(0, 3, 45809);
+data.setCell(0, 1, 'TrackOrders')
+data.setCell(0, 2, 'home.TestHomePage')
+data.setCell(0, 3, 9686);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestTitle')
+data.setCell(1, 2, 'home.TestHomePage')
+data.setCell(1, 3, 106);
 window.suiteTableData['HomeDepot_Automation_Script_']= { tableData: data, tableDiv: 'times-div-HomeDepot_Automation_Script_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-HomeDepot_Automation_Script_">
               </div> <!-- times-div-HomeDepot_Automation_Script_ -->
             </div> <!-- times-div -->
@@ -226,19 +242,55 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">search.SearchTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">home.TestHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@5dcd8c7a)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, Sierra, Chrome, 30.0, https://www.homedepot.com/)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.TestHomePage.TestTitle())</span>
+                <span class="method-start">10180 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">search</span>
-                <span class="method-start">17993 ms</span>
+                <span class="method-name">TestTitle</span>
+                <span class="method-start">10202 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">63803 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=TestTitle status=SUCCESS method=TestHomePage.TestTitle()[pri:0, instance:home.TestH...)</span>
+                <span class="method-start">10311 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">11195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, Chrome, 30.0, https://www.homedepot.com/)</span>
+                <span class="method-start">11196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.TestHomePage.TrackOrders())</span>
+                <span class="method-start">19480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TrackOrders</span>
+                <span class="method-start">19481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=TrackOrders status=SUCCESS method=TestHomePage.TrackOrders()[pri:0, instance:home.T...)</span>
+                <span class="method-start">29168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">29495 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">29581 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
