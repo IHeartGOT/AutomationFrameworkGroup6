@@ -10,8 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Cnn</artifactId>
+    <packaging>pom</packaging>
 
-<dependencies>
+
+    <dependencies>
     <dependency>
         <groupId>Group6AutomationFramework</groupId>
         <artifactId>Generic</artifactId>
