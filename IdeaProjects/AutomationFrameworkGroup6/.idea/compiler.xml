@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Cnn" />
         <module name="Generic" />
         <module name="Myspace" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CNN" target="1.8" />
+      <module name="Extent-Report" target="1.8" />
+      <module name="ExtentReport" target="1.8" />
       <module name="Instagram" target="1.8" />
       <module name="MySpace" target="1.8" />
     </bytecodeTargetLevel>

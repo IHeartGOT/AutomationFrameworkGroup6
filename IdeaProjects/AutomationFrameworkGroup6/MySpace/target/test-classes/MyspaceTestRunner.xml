@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Myspace Automation Script " parallel="false">
+<suite name="Myspace Automation Script " parallel="true">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
@@ -13,7 +13,7 @@
 
     <test name = "Employee Information Services">
         <classes>
-            <class name="home.TestHome"/>
+            <class name="title.TestHome"/>
         </classes>
     </test>
 </suite>
