@@ -6,6 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.Developer;
 import pages.Fashion;
 import pages.GiftsCards;
 import pages.Registration;
@@ -43,6 +44,11 @@ public class Links extends CommonAPI {
     @Test void TestWomenFashion(){
         Fashion fashion = PageFactory.initElements (driver, Fashion.class);
         fashion.FashionPageLink ();
+    }
+
+    @Test void TestDeveloper(){
+        Developer developer = PageFactory.initElements (driver, Developer.class);
+        developer.DeveloperPage ();
     }
 
 
