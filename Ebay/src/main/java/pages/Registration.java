@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class Registration extends CommonAPI{
 
@@ -43,10 +44,12 @@ public class Registration extends CommonAPI{
     public void ResgistationPage(){
 
         RegistrationPage ().click ();
+        String title = driver.getTitle ();
         FirstNameInput ().sendKeys ("prodip");
         LastNameInput ().sendKeys ("Bhowmik");
         EmailInput ().sendKeys ("ptbhowmik@gmail.com");
         PasswordInput ().sendKeys ("A12345b", Keys.ENTER);
+        Assert.assertEquals (title, "Sign in or Register | eBay");
     }
 
 

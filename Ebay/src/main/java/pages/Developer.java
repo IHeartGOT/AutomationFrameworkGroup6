@@ -4,6 +4,9 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class Developer extends CommonAPI {
 
@@ -67,6 +70,7 @@ public class Developer extends CommonAPI {
 
     public void DeveloperPage(){
         Develop ().click ();
+        driver.manage().timeouts().pageLoadTimeout(200, SECONDS);
         Regis ().click ();
         Usr ().sendKeys ("prodip718");
         Pass ().sendKeys ("123456abc");
@@ -76,6 +80,8 @@ public class Developer extends CommonAPI {
         Tel ().sendKeys ("7184080480");
         rdio2 ().click ();
         JoinBtn ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "eBay Developers Program Registration | eBay");
 
     }
 }

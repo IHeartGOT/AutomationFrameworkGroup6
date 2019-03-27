@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class GiftsCards extends CommonAPI {
 
@@ -35,5 +36,7 @@ public class GiftsCards extends CommonAPI {
         GiftCards ().click ();
         DigitalCards ().click ();
         Under35Cards ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Digital Gifts & Coupons | eBay");
     }
 }

@@ -16,23 +16,23 @@ public class Links extends CommonAPI {
 
     @Test
     public void TestHomeLinks(){
+        String title = driver.getTitle();
         EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
         eHomePage.HomePageLinks ();
-        Assert.assertEquals (true, true);
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
     }
 
     @Test
-    public void TestRegister()throws InterruptedException {
-        Registration registration = PageFactory.initElements (driver, Registration.class);
+    public void TestRegister(){
+
+        Registration registration= PageFactory.initElements (driver, Registration.class);
         registration.ResgistationPage ();
-        Assert.assertEquals (true, true);
     }
 
     @Test
     public void BuyGiftCards(){
         GiftsCards giftsCards = PageFactory.initElements (driver, GiftsCards.class);
         giftsCards.GiftCardsPage ();
-
     }
 
     @Test
@@ -51,5 +51,6 @@ public class Links extends CommonAPI {
     void TestDeveloper() {
         Developer developer = PageFactory.initElements (driver, Developer.class);
         developer.DeveloperPage ();
+
     }
 }

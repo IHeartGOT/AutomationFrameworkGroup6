@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class Fashion extends CommonAPI {
 
@@ -32,6 +33,8 @@ public class Fashion extends CommonAPI {
     public void FashionPageLink(){
         Fashion2 ().click ();
         Women ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Fashion | eBay");
     }
 
 
