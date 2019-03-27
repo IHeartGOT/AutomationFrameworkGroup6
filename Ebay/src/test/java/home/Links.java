@@ -41,15 +41,15 @@ public class Links extends CommonAPI {
         fashion.FashionPage ();
     }
 
-    @Test void TestWomenFashion(){
+    @Test
+    void TestWomenFashion(){
         Fashion fashion = PageFactory.initElements (driver, Fashion.class);
         fashion.FashionPageLink ();
     }
 
-    @Test void TestDeveloper(){
+    @Test
+    void TestDeveloper() {
         Developer developer = PageFactory.initElements (driver, Developer.class);
         developer.DeveloperPage ();
     }
-
-
 }

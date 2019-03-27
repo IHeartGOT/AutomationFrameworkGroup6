@@ -10,13 +10,18 @@
   <parameter name="url" value="https://www.homedepot.com/"/>
   <test thread-count="5" verbose="0" name="HomeDepot Home(failed)">
     <classes>
-      <class name="search.SearchTest">
+      <class name="home.TestHomePage">
         <methods>
-          <include name="search"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="TestTitle"/>
+          <include name="TrackOrders"/>
+          <include name="extentSetup"/>
           <include name="setUp"/>
+          <include name="startExtent"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- search.SearchTest -->
+      </class> <!-- home.TestHomePage -->
     </classes>
   </test> <!-- HomeDepot Home(failed) -->
 </suite> <!-- Failed suite [HomeDepot Automation Script ] -->
