@@ -36,7 +36,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
-    //WebDriver Instance
+    WebDriver Instance;
     public static WebDriver driver = null;
     public String browserstack_username= "prodipbhowmik1";
     public String browserstack_accesskey = "zcsSyv1NSxppCq6E7TPT";

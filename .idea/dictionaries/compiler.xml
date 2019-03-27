@@ -12,5 +12,9 @@
         <module name="HomeDepot" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BestBuy" target="1.8" />
+      <module name="Yahoo" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -14,10 +14,10 @@
     <test name = "Facebook1 Home">
         <classes>
             <!--<class name="search.SearchTest"/>-->
-            <class name="Homepage.TestDemo"/>
-            <!--<class name="Homepage.TestPostStatus"/>-->
-            <!--<class name="Homepage.TestYourAcc"/>-->
-            <!--<class name="TestLandingPage.TestLogin"/>-->
+            <class name="Homepage.FBTest"/>
+            <!--<class name="homepage.SearchButton"/>-->
+            <!--<class name="homepage.Links"/>-->
+            <!--<class name="moviespage.Links"/>-->
 
         </classes>
     </test>
