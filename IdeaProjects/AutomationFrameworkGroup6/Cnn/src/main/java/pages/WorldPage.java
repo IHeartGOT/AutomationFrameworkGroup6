@@ -40,8 +40,9 @@ public class WorldPage extends CommonAPI {
     @FindBy(css = "#nav-section-submenu > a:nth-child(4)")
     WebElement AustraliaLink;
     public WebElement getAustraliaLink () { return AustraliaLink;}
-    public void Australia(){ AustraliaLink.click();
-    getAustraliaLink().sendKeys("Australia", Keys.ENTER);
+    public void Australia() {
+        AustraliaLink.click();
+        getAustraliaLink().sendKeys("Australia", Keys.ENTER);
     }
     }
 
