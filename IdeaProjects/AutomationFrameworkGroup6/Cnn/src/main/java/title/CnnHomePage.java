@@ -148,8 +148,7 @@ public class CnnHomePage extends CommonAPI {
     public WebElement getVideosLink(){
         return VideosLink;
     }
-    public WebElement getLiveTVLink(){
-        return LiveTVLink;
+    public WebElement getLiveTVLink(){ return LiveTVLink;
     }
     public WebElement getUSEditionLink(){
         return USEditionLink;
@@ -169,8 +168,7 @@ public class CnnHomePage extends CommonAPI {
     public WebElement getNewsAndBuzzLink(){
         return NewsAndBuzzLink;
     }
-    public WebElement getAppleBigEventLink(){
-        return AppleBigEventLink;
+    public WebElement getAppleBigEventLink(){ return AppleBigEventLink;
     }
     public WebElement getCNNBusinessLink(){
         return CNNBusinessLink;
@@ -181,8 +179,7 @@ public class CnnHomePage extends CommonAPI {
     public WebElement getPaidPartnerContentLink(){
         return PaidPartnerContentLink;
     }
-    public WebElement getTechLink(){
-        return TechLink;
+    public WebElement getTechLink(){ return TechLink;
     }
     public WebElement getTrandingLink(){
         return TrandingLink;
@@ -210,7 +207,9 @@ public class CnnHomePage extends CommonAPI {
     }
     public void CnnHomePageLinks(){
         USLink.click();
+
         WorldLink.click();
+
         PoliticsLink.click();
         BusinessLink.click();
         OpinionLink.click();

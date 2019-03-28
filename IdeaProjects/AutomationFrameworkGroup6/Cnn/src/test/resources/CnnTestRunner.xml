@@ -16,6 +16,7 @@
            <class name="Home.TestCnnHomePage"/>
             <!--<class name="title.CnnHomePage"/>-->
            <!-- <class name="search.SearchTest"/>-->
+            <!--<class name="testpages.TestSearchKeyword"/>-->
         </classes>
     </test>
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Myspace Automation Script ]" parallel="methods">
-  <parameter name="useCloudEnv" value="true"/>
+  <parameter name="useCloudEnv" value="false"/>
   <parameter name="os" value="OS X"/>
   <parameter name="os_version" value="Sierra"/>
   <parameter name="browserVersion" value="60.0"/>
@@ -12,13 +12,16 @@
     <classes>
       <class name="title.TestHome">
         <methods>
+          <include name="Test2"/>
+          <include name="Test1"/>
           <include name="afterEachTestMethod"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
-          <include name="TestHomeLinks"/>
           <include name="startExtent"/>
+          <include name="Test4"/>
           <include name="cleanUp"/>
+          <include name="Test3"/>
         </methods>
       </class> <!-- title.TestHome -->
     </classes>

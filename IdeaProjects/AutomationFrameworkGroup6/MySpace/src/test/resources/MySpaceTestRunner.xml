@@ -11,7 +11,7 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.myspace.com/"/>
 
-    <test name = "Employee Information Services">
+    <test name = "My Space">
         <classes>
             <class name="title.TestHome"/>
         </classes>

@@ -33,4 +33,5 @@ public class TestHome extends CommonAPI {
         homePage.getLogoTab();
         Assert.assertEquals(true, true);
     }
+
     }
