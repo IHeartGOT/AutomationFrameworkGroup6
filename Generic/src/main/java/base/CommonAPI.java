@@ -1,5 +1,6 @@
 package base;
 
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -11,9 +12,10 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-//import reporting.TestLogger;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -24,6 +26,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+//import reporting.Testlogger;
+
 public class CommonAPI {
 
     public static WebDriver driver = null;
@@ -31,11 +35,12 @@ public class CommonAPI {
     public String browserstack_accesskey = "zcsSyv1NSxppCq6E7TPT";
     public String saucelabs_username = "pbhowmik";
     public String saucelabs_accesskey = "dcd43ab5-1709-4f77-b2ce-5c9ba66054be";
+    //Extent Report Listener
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
-                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
+                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("34")
                               String browserVersion, @Optional("https://www.uhc.com/") String url) throws IOException {
         //System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
         if (useCloudEnv == true) {
@@ -56,7 +61,7 @@ public class CommonAPI {
     public WebDriver getLocalDriver(@Optional("Windows") String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\sheik\\AutomationFrameworkGroup6\\Generic\\drivers\\chromedrive\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\sheik\\AutomationFrameworkGroup6Rahman\\AutomationFrameworkGroup6\\Generic\\drivers\\chromedrive\\chromedriver.exe");
             } else if (OS.equalsIgnoreCase("mac")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/drivers/chromedriver");
             }
@@ -65,7 +70,7 @@ public class CommonAPI {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\sheik\\AutomationFrameworkGroup6\\Generic\\drivers\\chromedrive\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\sheik\\AutomationFrameworkGroup6Rahman\\AutomationFrameworkGroup6\\Generic\\drivers\\chromedrive\\chromedriver.exe");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/drivers/chromedriver");
             }
@@ -485,26 +490,27 @@ public class CommonAPI {
         }
     }
 
-//    public void typeOnElementNEnters(String locator, String value) {
-//            TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//            }.getClass().getEnclosingMethod().getName()));
-//            try {
-//                driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
-//
-//            } catch (Exception ex1) {
-//                try {
-//                    System.out.println("First Attempt was not successful");
-//                    driver.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
-//                } catch (Exception ex2) {
-//                    try {
-//                        System.out.println("Second Attempt was not successful");
-//                        driver.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
-//                    } catch (Exception ex3) {
-//                        System.out.println("Third Attempt was not successful");
-//                        driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
-//                    }
+   // public void typeOnelemntsEnters(String locator, String value) {
+//        TestLogger.log(getClass().getSimpleName()+":"+convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+//        try{
+//            driver.findElement(By.cssSelector(locator)).sendKeys(value,Keys.ENTER);
+//        }
+//        catch (Exception ex){
+//            try{
+//                System.out.println("First Attempt Successful");
+//                driver.findElement(By.name(locator)).sendKeys(value,Keys.ENTER);
+//            }
+//            catch (Exception ex1){
+//                try{
+//                    System.out.println("Second Attempt was not successfull");
+//                    driver.findElement(By.xpath(locator)).sendKeys(value,Keys.ENTER);
+//                }
+//                catch (Exception ex2){
+//                    System.out.println("Third Attempt Was not successful");
+//                    driver.findElement(By.id(locator)).sendKeys(value,Keys.ENTER);
 //                }
 //            }
 //        }
-
+//    }
+   // }
 }

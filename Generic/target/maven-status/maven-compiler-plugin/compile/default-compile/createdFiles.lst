@@ -1,1 +1,5 @@
+ExtentReport\ExtentTestManager.class
+ExtentReport\ApplicationLog.class
+ExtentReport\testLogger.class
 utility\DataReader.class
+ExtentReport\ExtentManager.class
