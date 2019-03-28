@@ -1,15 +1,55 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 1.711 s <<< FAILURE! - in TestSuite
-setUp(title.TestHome)  Time elapsed: 1.544 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 757 milliseconds
+Tests run: 21, Failures: 5, Errors: 0, Skipped: 16, Time elapsed: 29.666 s <<< FAILURE! - in TestSuite
+setUp(title.TestHome)  Time elapsed: 22.205 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Alexs-MacBook-Pro.local', ip: '2604:2000:b056:d800:0:0:0:8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'
-Driver info: driver.version: RemoteWebDriver
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/9c/082wz8lj5pq...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53986}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 4c9114844d036bdb033099a222b2cfc2
 
-generateReport(title.TestHome)  Time elapsed: 1.574 s  <<< FAILURE!
+setUp(title.TestHome)  Time elapsed: 29.001 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Alexs-MacBook-Pro.local', ip: '2604:2000:b056:d800:0:0:0:8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/9c/082wz8lj5pq...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53989}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: a682ae5ba27e55dcb6ef9737b7ef0b9f
+
+setUp(title.TestHome)  Time elapsed: 29.032 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Alexs-MacBook-Pro.local', ip: '2604:2000:b056:d800:0:0:0:8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/9c/082wz8lj5pq...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53986}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 4c9114844d036bdb033099a222b2cfc2
+
+setUp(title.TestHome)  Time elapsed: 29.093 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Alexs-MacBook-Pro.local', ip: '2604:2000:b056:d800:0:0:0:8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/9c/082wz8lj5pq...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53987}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: ac07456fa9172f1d9d49856392f77ffa
+
+generateReport(title.TestHome)  Time elapsed: 29.264 s  <<< FAILURE!
 java.lang.NullPointerException
 

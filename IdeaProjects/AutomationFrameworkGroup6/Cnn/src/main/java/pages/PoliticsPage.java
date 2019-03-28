@@ -1,4 +1,4 @@
-package title;
+package pages;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
@@ -10,6 +10,7 @@ public class PoliticsPage extends CommonAPI {
     public PoliticsPage() {
         PageFactory.initElements(driver, this);
     }
+
     @FindBy(css = "#nav > div > div.drawer > div.drawer__container.politics__drawer--navigation > ul.buckets > li.bucket.congress.selected.open > a")
     WebElement CongressLink;
 
@@ -28,11 +29,17 @@ public class PoliticsPage extends CommonAPI {
     public WebElement getFactFirst(){
         return FactFirst;
     }
-    public void PoliticsPage(){
+
+    public void PoliticsPagelinks(){
         CongressLink.click();
         SupremeCourt.click();
         FactFirst.click();
     }
+    public void PoliticsPageLinks2() {
+
+    }
+
 }
+
 
 

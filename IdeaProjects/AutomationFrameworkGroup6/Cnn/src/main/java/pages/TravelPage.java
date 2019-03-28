@@ -1,4 +1,4 @@
-package title;
+package pages;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
@@ -10,6 +10,7 @@ public class TravelPage extends CommonAPI {
     public TravelPage() {
         PageFactory.initElements(driver, this);
     }
+
     @FindBy(css = "#mount > div > div:nth-child(2) > div.Header__container.Header__isShown > div > div > div.Header__navigation > a.Header__section.Header__active")
     WebElement DestinationLink;
 
@@ -34,6 +35,7 @@ public class TravelPage extends CommonAPI {
     public WebElement getStayLink(){
         return StayLink;
     }
+
     public void TravelPageLinks(){
         DestinationLink.click();
         FoodAndDrink.click();
