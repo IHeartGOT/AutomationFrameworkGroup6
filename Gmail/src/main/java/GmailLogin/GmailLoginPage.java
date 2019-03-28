@@ -31,7 +31,6 @@ import GmailAPI.GmailCommonAPI;
             typeOnElement("//input[@name='ConfirmPasswd']","naz");
         }
         public void composeMail() throws InterruptedException {
-
             login();
             getEelementsByCss(".T-I.J-J5-Ji.T-I-KE.L3");
             typeByXpath("//*[@id=':px']","chocolategirl1995@gmail.com");

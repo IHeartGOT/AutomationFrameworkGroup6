@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
     GmailLoginPage gmailLoginPage;
     @BeforeMethod
     public void setUp(){
-        gmailLoginPage = PageFactory.initElements(driver,GmailLoginPage.class);
-    }
+        gmailLoginPage = PageFactory.initElements(driver,GmailLoginPage.class); }
     @Test
     public void test1() { login(); }
     @Test

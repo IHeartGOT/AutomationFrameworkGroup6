@@ -54,7 +54,7 @@ import static org.openqa.selenium.support.How.CSS;
             inputValueInTextBoxByWebElement(password, row.get(1).toString());
             sleepFor(1);
             //actual.add(getCurrentPageTitle());
-            actual.add(getTextByWebElement(logInErrorMesage));
+            boolean add = actual.add(getTextByWebElement(logInErrorMesage));
             System.out.println(getTextByWebElement(logInErrorMesage));
             clearInputBox(user);
             clearInputBox(password);

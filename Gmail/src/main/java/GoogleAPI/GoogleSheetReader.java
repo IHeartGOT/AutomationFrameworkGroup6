@@ -2,9 +2,11 @@ package GoogleAPI;
 
 import base.CommonAPI;
 import com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp;
+import com.google.api.client.extensions.jetty.auth.oauth2.LocalServerReceiver;
 import com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeFlow;
 import com.google.api.client.googleapis.auth.oauth2.GoogleClientSecrets;
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
+import com.google.api.client.http.HttpRequestInitializer;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.client.json.JsonFactory;
 import com.google.api.client.util.store.FileDataStoreFactory;
@@ -19,7 +21,6 @@ import java.util.List;
 
    public class GoogleSheetReader extends CommonAPI {
 
-    // Application name.
     private static final String APPLICATION_NAME = "My Project 3864";
     // Directory to store user credentials for this application.
     private static final java.io.File DATA_STORE_DIR = new java.io.File(System.getProperty("user.dir"), ".credentials/sheets-googleapis/");
@@ -41,22 +42,30 @@ import java.util.List;
             System.exit(1);
         }
     }
-    public static Credential authorize() throws IOException {
+    public static <credential> Credential authorize() throws IOException {
         // Load client secrets.
         InputStream in = GoogleSheetReader.class.getResourceAsStream("/credentials.json");
         GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(JSON_FACTORY, new InputStreamReader(in));
         // Build flow and trigger user authorization request.
         GoogleAuthorizationCodeFlow flow = new GoogleAuthorizationCodeFlow.Builder(HTTP_TRANSPORT, JSON_FACTORY, clientSecrets, SCOPES) {
-                .setDataStoreFactory(DATA_STORE_FACTORY).setAccessType("offline").build();
+                .
 
-            Credential credential = new AuthorizationCodeInstalledApp(flow, new LocalServerReceiver()).authorize("user");
+            setDataStoreFactory(DATA_STORE_FACTORY).
+
+            setAccessType("offline").
+
+            build() {
+
+            }
+
+            com.google.api.client.auth.oauth2.Credential credential = new AuthorizationCodeInstalledApp(flow, new LocalServerReceiver()).authorize("user");
         System.out.println("Credentials saved to "+DATA_STORE_DIR.getAbsolutePath());
         return credential;
 
-        public Sheets getSheetsService() throws IOException {
-            Credential credential = authorize();
-            Sheets sheets = new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, credential)
-                    .setApplicationName(APPLICATION_NAME).build();
+            public Sheets getSheetsService() throws IOException {
+                Credential credential = authorize();
+                Sheets sheets = new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, (HttpRequestInitializer) credential)
+                        .setApplicationName(APPLICATION_NAME).build();
                 return sheets;
             }
         }

@@ -13,6 +13,8 @@
         <module>Generic</module>
         <module>Ebay</module>
         <module>HomeDepot</module>
+        <module>Facebook1</module>
+        <module>Gmail</module>
     </modules>
     <dependencyManagement>
         <dependencies>
