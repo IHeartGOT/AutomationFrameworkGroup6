@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite name="Ebay Automation Script " duration-ms="46410" started-at="2019-03-26T08:57:40Z" finished-at="2019-03-26T08:58:27Z">
+    <groups>
+    </groups>
+    <test name="Ebay Home" duration-ms="46410" started-at="2019-03-26T08:57:40Z" finished-at="2019-03-26T08:58:27Z">
+      <class name="home.Links">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.Links@2096442d]" name="extentSetup" is-config="true" duration-ms="134" started-at="2019-03-26T08:57:40Z" finished-at="2019-03-26T08:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29ef6856]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.Links@2096442d]" name="setUp" is-config="true" duration-ms="4998" started-at="2019-03-26T08:57:40Z" finished-at="2019-03-26T08:57:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.Links@2096442d]" name="startExtent" is-config="true" duration-ms="9" started-at="2019-03-26T08:57:45Z" finished-at="2019-03-26T08:57:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.Links.BuyGiftCards()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="BuyGiftCards()[pri:0, instance:home.Links@2096442d]" name="BuyGiftCards" duration-ms="6535" started-at="2019-03-26T08:57:45Z" finished-at="2019-03-26T08:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyGiftCards -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.Links@2096442d]" name="afterEachTestMethod" is-config="true" duration-ms="556" started-at="2019-03-26T08:57:52Z" finished-at="2019-03-26T08:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BuyGiftCards status=SUCCESS method=Links.BuyGiftCards()[pri:0, instance:home.Links@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.Links@2096442d]" name="cleanUp" is-config="true" duration-ms="1" started-at="2019-03-26T08:57:52Z" finished-at="2019-03-26T08:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.Links@2096442d]" name="setUp" is-config="true" duration-ms="5032" started-at="2019-03-26T08:57:52Z" finished-at="2019-03-26T08:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.Links@2096442d]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-26T08:57:57Z" finished-at="2019-03-26T08:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.Links.TestHomeLinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="TestHomeLinks()[pri:0, instance:home.Links@2096442d]" name="TestHomeLinks" duration-ms="8013" started-at="2019-03-26T08:57:57Z" finished-at="2019-03-26T08:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomeLinks -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.Links@2096442d]" name="afterEachTestMethod" is-config="true" duration-ms="239" started-at="2019-03-26T08:58:05Z" finished-at="2019-03-26T08:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestHomeLinks status=SUCCESS method=Links.TestHomeLinks()[pri:0, instance:home.Links@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.Links@2096442d]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-26T08:58:06Z" finished-at="2019-03-26T08:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.Links@2096442d]" name="setUp" is-config="true" duration-ms="3955" started-at="2019-03-26T08:58:06Z" finished-at="2019-03-26T08:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestRegister()[pri:0, instance:home.Links@2096442d]" name="TestRegister" duration-ms="6018" started-at="2019-03-26T08:58:10Z" finished-at="2019-03-26T08:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRegister -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.Links@2096442d]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-26T08:58:10Z" finished-at="2019-03-26T08:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.Links.TestRegister() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.Links@2096442d]" name="afterEachTestMethod" is-config="true" duration-ms="281" started-at="2019-03-26T08:58:16Z" finished-at="2019-03-26T08:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestRegister status=SUCCESS method=Links.TestRegister()[pri:0, instance:home.Links@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.Links@2096442d]" name="cleanUp" is-config="true" duration-ms="1" started-at="2019-03-26T08:58:16Z" finished-at="2019-03-26T08:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.Links@2096442d]" name="setUp" is-config="true" duration-ms="3148" started-at="2019-03-26T08:58:16Z" finished-at="2019-03-26T08:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.Links@2096442d]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-26T08:58:19Z" finished-at="2019-03-26T08:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void home.Links.TestWomenFashion()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="TestWomenFashion()[pri:0, instance:home.Links@2096442d]" name="TestWomenFashion" duration-ms="1760" started-at="2019-03-26T08:58:19Z" finished-at="2019-03-26T08:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWomenFashion -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.Links@2096442d]" name="afterEachTestMethod" is-config="true" duration-ms="185" started-at="2019-03-26T08:58:21Z" finished-at="2019-03-26T08:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestWomenFashion status=SUCCESS method=Links.TestWomenFashion()[pri:0, instance:home.Links@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.Links@2096442d]" name="cleanUp" is-config="true" duration-ms="1" started-at="2019-03-26T08:58:21Z" finished-at="2019-03-26T08:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.Links@2096442d]" name="setUp" is-config="true" duration-ms="3855" started-at="2019-03-26T08:58:21Z" finished-at="2019-03-26T08:58:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.Links@2096442d]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-26T08:58:25Z" finished-at="2019-03-26T08:58:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.Links.TestWomenPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="TestWomenPage()[pri:0, instance:home.Links@2096442d]" name="TestWomenPage" duration-ms="1543" started-at="2019-03-26T08:58:25Z" finished-at="2019-03-26T08:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWomenPage -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.Links@2096442d]" name="afterEachTestMethod" is-config="true" duration-ms="259" started-at="2019-03-26T08:58:26Z" finished-at="2019-03-26T08:58:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestWomenPage status=SUCCESS method=Links.TestWomenPage()[pri:0, instance:home.Links@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.Links@2096442d]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-26T08:58:27Z" finished-at="2019-03-26T08:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:home.Links@2096442d]" name="generateReport" is-config="true" duration-ms="33" started-at="2019-03-26T08:58:27Z" finished-at="2019-03-26T08:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- home.Links -->
+    </test> <!-- Ebay Home -->
+  </suite> <!-- Ebay Automation Script  -->
+</testng-results>

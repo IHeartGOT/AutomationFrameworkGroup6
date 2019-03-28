@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite name="HomeDepot Automation Script " duration-ms="29368" started-at="2019-03-26T08:58:29Z" finished-at="2019-03-26T08:58:58Z">
+    <groups>
+    </groups>
+    <test name="HomeDepot Home" duration-ms="29368" started-at="2019-03-26T08:58:29Z" finished-at="2019-03-26T08:58:58Z">
+      <class name="home.TestHomePage">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.TestHomePage@2096442d]" name="extentSetup" is-config="true" duration-ms="128" started-at="2019-03-26T08:58:29Z" finished-at="2019-03-26T08:58:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dcd8c7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHomePage@2096442d]" name="setUp" is-config="true" duration-ms="10040" started-at="2019-03-26T08:58:29Z" finished-at="2019-03-26T08:58:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.TestHomePage@2096442d]" name="startExtent" is-config="true" duration-ms="22" started-at="2019-03-26T08:58:39Z" finished-at="2019-03-26T08:58:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.TestHomePage.TestTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="TestTitle()[pri:0, instance:home.TestHomePage@2096442d]" name="TestTitle" duration-ms="106" started-at="2019-03-26T08:58:39Z" finished-at="2019-03-26T08:58:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTitle -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.TestHomePage@2096442d]" name="afterEachTestMethod" is-config="true" duration-ms="883" started-at="2019-03-26T08:58:39Z" finished-at="2019-03-26T08:58:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestTitle status=SUCCESS method=TestHomePage.TestTitle()[pri:0, instance:home.TestHomePage@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestHomePage@2096442d]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-26T08:58:40Z" finished-at="2019-03-26T08:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHomePage@2096442d]" name="setUp" is-config="true" duration-ms="8284" started-at="2019-03-26T08:58:40Z" finished-at="2019-03-26T08:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.TestHomePage@2096442d]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-26T08:58:48Z" finished-at="2019-03-26T08:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.TestHomePage.TrackOrders()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="TrackOrders()[pri:0, instance:home.TestHomePage@2096442d]" name="TrackOrders" duration-ms="9686" started-at="2019-03-26T08:58:48Z" finished-at="2019-03-26T08:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrackOrders -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.TestHomePage@2096442d]" name="afterEachTestMethod" is-config="true" duration-ms="327" started-at="2019-03-26T08:58:58Z" finished-at="2019-03-26T08:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TrackOrders status=SUCCESS method=TestHomePage.TrackOrders()[pri:0, instance:home.TestHomePage@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestHomePage@2096442d]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-26T08:58:58Z" finished-at="2019-03-26T08:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:home.TestHomePage@2096442d]" name="generateReport" is-config="true" duration-ms="32" started-at="2019-03-26T08:58:58Z" finished-at="2019-03-26T08:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- home.TestHomePage -->
+    </test> <!-- HomeDepot Home -->
+  </suite> <!-- HomeDepot Automation Script  -->
+</testng-results>
