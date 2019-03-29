@@ -71,7 +71,6 @@ public class SearchPage extends CommonAPI {
         for(String st: itemList) {
             getSearchInputField().sendKeys(st, Keys.ENTER);
             getSearchInputField().clear();
-            //validate items
         }
     }
 

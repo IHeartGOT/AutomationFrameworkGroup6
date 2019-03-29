@@ -14,9 +14,9 @@ public class TicketsExperiences extends CommonAPI {
     }
 
     public void TicketsPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("Lady gaga");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("1305");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

@@ -14,9 +14,9 @@ public class PotteryGlass extends CommonAPI {
     }
 
     public void PotteryPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("Rookwood");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("870");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

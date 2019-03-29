@@ -27,6 +27,11 @@ public class TestHomePage extends CommonAPI {
 
     }
 
+    @Test
+    public void TestStoreLocator(){
+        StoreFinder storeFinder = PageFactory.initElements (driver, StoreFinder.class);
+        storeFinder.StoreLocation ();
+    }
 
 }
 

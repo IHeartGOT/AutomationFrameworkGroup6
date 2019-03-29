@@ -14,9 +14,9 @@ public class HealthBeauty extends CommonAPI {
     }
 
     public void HealthPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("makeup");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("26395");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

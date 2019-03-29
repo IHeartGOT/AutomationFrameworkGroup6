@@ -18,9 +18,10 @@
             <!--<class name="home.Links"/>-->
             <!--<class name="fashionpage.HometoFashion"/>-->
             <!--<class name="login.LoginPage"/>-->
-            <!--<class name="dropdown.TestDropSelection"/>-->
+            <class name="dropdown.TestDropSelection"/>
             <!--<class name="home.TestHomePage"/>-->
             <!--<class name="home.TestOrders"/>-->
+            <!--<class name="search.SearchTestExcel"/>-->
 
 
         </classes>

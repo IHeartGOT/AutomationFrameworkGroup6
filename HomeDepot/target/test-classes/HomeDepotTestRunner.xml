@@ -9,14 +9,14 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="Chrome"/>
     <parameter name="browserVersion" value="30.0"/>
-    <!--<parameter name="url" value="https://www.homedepot.com/"/>-->
-    <parameter name="url" value="https://www.homedepot.com/c/Terms_of_Use"/>
+    <parameter name="url" value="https://www.homedepot.com/"/>
+    <!--<parameter name="url" value="https://www.homedepot.com/c/Terms_of_Use"/>-->
 
     <test name = "HomeDepot Home">
         <classes>
-            <!--<class name="home.TestHomePage"/>-->
+            <class name="home.TestHomePage"/>
             <!--<class name="search.SearchTest"/>-->
-            <class name="tabletest.TestTableData"/>
+            <!--<class name="tabletest.TestTableData"/>-->
         </classes>
     </test>
 

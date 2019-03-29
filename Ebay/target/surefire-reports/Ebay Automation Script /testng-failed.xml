@@ -10,22 +10,17 @@
   <parameter name="url" value="https://www.ebay.com/"/>
   <test thread-count="5" verbose="0" name="Ebay Home(failed)">
     <classes>
-      <class name="home.Links">
+      <class name="search.SearchTest">
         <methods>
-          <include name="BuyGiftCards"/>
-          <include name="TestWomenPage"/>
           <include name="afterEachTestMethod"/>
+          <include name="search"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
-          <include name="TestRegister"/>
-          <include name="TestWomenFashion"/>
           <include name="startExtent"/>
           <include name="cleanUp"/>
-          <include name="TestDeveloper"/>
-          <include name="TestHomeLinks"/>
         </methods>
-      </class> <!-- home.Links -->
+      </class> <!-- search.SearchTest -->
     </classes>
   </test> <!-- Ebay Home(failed) -->
 </suite> <!-- Failed suite [Ebay Automation Script ] -->

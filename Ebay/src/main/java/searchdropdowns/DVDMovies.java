@@ -14,9 +14,9 @@ public class DVDMovies extends CommonAPI {
     }
 
     public void DVDPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("Avatar");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("11232");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

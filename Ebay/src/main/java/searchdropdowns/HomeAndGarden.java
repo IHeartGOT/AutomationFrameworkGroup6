@@ -14,9 +14,9 @@ public class HomeAndGarden extends CommonAPI {
     }
 
     public void GardenPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("plant seed");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("11700");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

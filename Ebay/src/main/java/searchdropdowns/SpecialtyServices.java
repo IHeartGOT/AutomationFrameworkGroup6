@@ -14,9 +14,9 @@ public class SpecialtyServices extends CommonAPI {
     }
 
     public void SpecialtyPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("repair");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("316");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

@@ -14,9 +14,9 @@ public class JewelryWatches extends CommonAPI {
     }
 
     public void JewelryPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("rolex");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("281");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

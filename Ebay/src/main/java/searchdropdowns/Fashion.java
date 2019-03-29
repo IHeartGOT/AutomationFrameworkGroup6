@@ -15,9 +15,9 @@ public class Fashion extends CommonAPI {
     }
 
     public void FashionPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("gucci");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("281");
         driver.findElement (By.id ("gh-btn")).click ();
         String title = driver.getTitle ();
         Assert.assertEquals (title, "Fashion | eBay");

@@ -14,9 +14,9 @@ public class VideoGamesConsoles extends CommonAPI {
     }
 
     public void VideoGamingPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("xbox");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("1249");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

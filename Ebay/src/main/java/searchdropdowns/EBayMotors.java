@@ -14,9 +14,9 @@ public class EBayMotors extends CommonAPI {
     }
 
     public void MotorPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("BMW");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("6000");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

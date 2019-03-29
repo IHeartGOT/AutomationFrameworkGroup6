@@ -14,9 +14,9 @@ public class GiftCardsCoupons extends CommonAPI {
     }
 
     public void GiftCardsPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("birthday");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("172008");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

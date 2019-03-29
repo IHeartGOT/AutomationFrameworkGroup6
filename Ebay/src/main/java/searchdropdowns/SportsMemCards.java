@@ -14,9 +14,9 @@ public class SportsMemCards extends CommonAPI {
     }
 
     public void SportsMemPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("Baseball Cards");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("64482");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

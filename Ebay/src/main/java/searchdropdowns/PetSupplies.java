@@ -14,9 +14,9 @@ public class PetSupplies extends CommonAPI {
     }
 
     public void PetsPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("pedigree");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("1281");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

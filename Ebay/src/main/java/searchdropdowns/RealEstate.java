@@ -14,10 +14,10 @@ public class RealEstate extends CommonAPI {
     }
 
     public void RealEstatePage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("Timeshares");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("10542");
         driver.findElement (By.id ("gh-btn")).click ();
 
-    }
-}
+        }
+        }

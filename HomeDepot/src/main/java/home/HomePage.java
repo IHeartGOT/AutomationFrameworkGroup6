@@ -24,6 +24,7 @@ public class HomePage extends CommonAPI {
     By submit = By.xpath ("//*[@id=\"orders_root\"]/div/div[2]/div[1]/div[2]/form/div[3]/button/span");
 
 
+
 public WebElement AllDept(){ return driver.findElement (alldept);}
 
 public WebElement SearchBox(){ return driver.findElement (search);}

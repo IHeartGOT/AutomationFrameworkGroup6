@@ -14,9 +14,9 @@ public class ToysHobbies extends CommonAPI {
     }
 
     public void ToysPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("sling");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("220");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

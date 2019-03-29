@@ -68,6 +68,17 @@ public class SearchPage extends CommonAPI {
         }
     }
 
+    public void searchItemsAndSubmitButtonFromExcelFile()throws Exception, IOException, SQLException, ClassNotFoundException  {
+        // ToDo
+        //Read data from Excel file using Apache POI
+        List<String> list = null;
+        for(int i=0; i<list.size(); i++) {
+            searchFor(list.get(i));
+            submitSearchButton();
+            clearInput();
+        }
+    }
+
     public WebElement getSearchInputField() {
         return searchInputWebElement;
     }

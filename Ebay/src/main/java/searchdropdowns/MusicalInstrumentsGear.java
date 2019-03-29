@@ -14,9 +14,9 @@ public class MusicalInstrumentsGear extends CommonAPI {
     }
 
     public void MusicalInstruPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("drums");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("619");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

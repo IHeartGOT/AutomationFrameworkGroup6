@@ -5,18 +5,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class Deals extends CommonAPI {
+public class SportingGoods extends CommonAPI {
 
 
-    public Deals() {
+    public SportingGoods() {
 
         PageFactory.initElements (driver, this);
     }
 
-    public void DealsPage() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+    public void SportingPage() {
+        driver.findElement (By.id ("gh-ac")).sendKeys ("hunting");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("888");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }

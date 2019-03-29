@@ -14,9 +14,9 @@ public class EntertainmentMemo extends CommonAPI {
     }
 
     public void EnterMemoPapge() {
-        driver.findElement (By.id ("gh-ac")).sendKeys ("office");
+        driver.findElement (By.id ("gh-ac")).sendKeys ("Movie Posters");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
-        s.selectByValue ("12576");
+        s.selectByValue ("45100");
         driver.findElement (By.id ("gh-btn")).click ();
 
     }
