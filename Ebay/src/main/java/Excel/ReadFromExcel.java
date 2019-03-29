@@ -17,7 +17,7 @@ public class ReadFromExcel {
     {
         ArrayList<String> a= new ArrayList<String> ();
 
-        FileInputStream fis = new FileInputStream ("/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/ExcelFile/ExcelData.xlsx");
+        FileInputStream fis = new FileInputStream ("/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/ExcelFile/excel2.xlsx");
 
         XSSFWorkbook workbook = new XSSFWorkbook (fis);
 

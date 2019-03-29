@@ -15,16 +15,12 @@ public class TestHomePage extends CommonAPI {
         String title = driver.getTitle ();
         System.out.println ("Webpage Title: " + driver.getTitle ());
         Assert.assertEquals (title, "The Home Depot");
-
-
     }
-
     @Test
     public void TrackOrders() {
 
         HomePage homePage = PageFactory.initElements (driver, HomePage.class);
         homePage.TrackOrders ();
-
     }
 
     @Test

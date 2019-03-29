@@ -19,28 +19,24 @@ public class TestDropSelection extends CommonAPI {
 
         Collectibles collectibles= PageFactory.initElements (driver, Collectibles.class );
         collectibles.CollectiblesPage ();
-
     }
 
     @Test
     public void TestElectronics(){
         ConsumerElectronics consumerElectronics = PageFactory.initElements (driver, ConsumerElectronics.class );
         consumerElectronics.ElectronicsPage ();
-
     }
 
     @Test
     public void TestFashion(){
         Fashion fashion = PageFactory.initElements (driver, Fashion.class );
         fashion.FashionPage ();
-
     }
 
     @Test
     public void TestHomeGarden(){
         HomeAndGarden homeAndGarden= PageFactory.initElements (driver, HomeAndGarden.class );
         homeAndGarden.GardenPage ();
-
 
     }
 

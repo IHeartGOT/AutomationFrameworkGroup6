@@ -19,7 +19,7 @@ public class Links extends CommonAPI {
         String title = driver.getTitle();
         EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
         eHomePage.HomePageLinks ();
-        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+
     }
 
     @Test

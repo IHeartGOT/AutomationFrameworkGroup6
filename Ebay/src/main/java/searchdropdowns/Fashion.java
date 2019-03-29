@@ -20,6 +20,6 @@ public class Fashion extends CommonAPI {
         s.selectByValue ("281");
         driver.findElement (By.id ("gh-btn")).click ();
         String title = driver.getTitle ();
-        Assert.assertEquals (title, "Fashion | eBay");
+        Assert.assertEquals (title, "gucci in Jewelry and Watches | eBay");
     }
 }

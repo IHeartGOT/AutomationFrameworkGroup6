@@ -13,6 +13,7 @@
       <class name="home.TestHomePage">
         <methods>
           <include name="afterEachTestMethod"/>
+          <include name="TestStoreLocator"/>
           <include name="generateReport"/>
           <include name="TestTitle"/>
           <include name="TrackOrders"/>
