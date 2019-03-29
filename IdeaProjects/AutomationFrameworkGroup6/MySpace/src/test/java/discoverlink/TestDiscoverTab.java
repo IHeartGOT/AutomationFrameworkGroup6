@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import title.DiscoverTab;
 
-public class TestDiscoverLink extends CommonAPI {
+public class TestDiscoverTab extends CommonAPI {
 
     @Test
     public void Test63() {
