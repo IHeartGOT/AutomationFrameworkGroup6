@@ -13,8 +13,8 @@
     <test name = "United Home">
         <classes>
             <!--<class name="title.AmazonHome"/>-->
-            <!--<class name="TestPageObjectModel.TestFindIndividualsAndFamilies"/>-->
-            <class name="UnitedHomeTest.HomePageTest"/>
+            <class name="TestPageObjectModel.TestFindIndividualsAndFamilies"/>
+           <class name="UnitedHomeTest.HomePageTest"/>
         </classes>
     </test>
 </suite>

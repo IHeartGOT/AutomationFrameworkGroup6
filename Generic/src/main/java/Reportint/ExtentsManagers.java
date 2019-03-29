@@ -1,12 +1,9 @@
-package ExtentReport;
-
+package Reportint;
 import com.relevantcodes.extentreports.ExtentReports;
 import org.testng.ITestContext;
 import org.testng.Reporter;
-
 import java.io.File;
-
-public class ExtentManager {
+public class ExtentsManagers {
     private static ExtentReports extent;
     private static ITestContext context;
     public synchronized static ExtentReports getInstance(){
@@ -15,12 +12,12 @@ public class ExtentManager {
             File resultDirectory = new File(outputDirectory.getParentFile(),"html");
             extent = new ExtentReports(System.getProperty("user.dir")+"/Extent-Report/ExtentReport.html",true);
             Reporter.log("Extent Report Directory"+resultDirectory,true);
-            extent.addSystemInfo("Host Name","").addSystemInfo("Environment","QA").addSystemInfo("User Name","shaik");
-            extent.loadConfig(new File(System.getProperty("use.dir")+"/report-config.xml"));
+            extent.addSystemInfo("Host Name","sheik").addSystemInfo("Environment","QA").addSystemInfo("User Name","Sheikh Rahman");
+            extent.loadConfig(new File(System.getProperty("user.dir")+"/report-config.xml"));
         }
         return extent;
     }
     public static void setOutPutDirectory(ITestContext context){
-        ExtentManager.context = context;
+        ExtentsManagers.context =context;
     }
 }

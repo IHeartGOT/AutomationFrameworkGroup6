@@ -1,6 +1,10 @@
 package base;
 
 
+import Reportint.ExtentTestManagers;
+import Reportint.ExtentsManagers;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -12,16 +16,20 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.ITestContext;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
+
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.lang.reflect.Method;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -36,6 +44,108 @@ public class CommonAPI {
     public String saucelabs_username = "pbhowmik";
     public String saucelabs_accesskey = "dcd43ab5-1709-4f77-b2ce-5c9ba66054be";
     //Extent Report Listener
+
+    public static ExtentReports extent;
+
+    @BeforeSuite
+
+    public void extentSetup(ITestContext context) {
+
+        ExtentsManagers.setOutPutDirectory(context);
+
+        extent = ExtentsManagers.getInstance();
+
+    }
+
+    @BeforeMethod
+
+    public void startExtent(Method method) {
+
+        String className = method.getDeclaringClass().getSimpleName();
+
+        String methodName = method.getName().toLowerCase();
+
+        ExtentTestManagers.startTest(method.getName());
+
+        ExtentTestManagers.getTest().assignCategory(className);
+
+    }
+
+    protected String getStackTrace(Throwable t) {
+
+        StringWriter sw = new StringWriter();
+
+        PrintWriter pw = new PrintWriter(sw);
+
+        t.printStackTrace(pw);
+
+        return sw.toString();
+
+    }
+
+    @AfterMethod
+
+    public void afterEachTestMethod(ITestResult result) {
+
+        ExtentTestManagers.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
+
+        ExtentTestManagers.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
+
+
+
+        for (String group : result.getMethod().getGroups()) {
+
+            ExtentTestManagers.getTest().assignCategory(group);
+
+        }
+
+
+
+        if (result.getStatus() == 1) {
+
+            ExtentTestManagers.getTest().log(LogStatus.PASS, "Test Passed");
+
+        } else if (result.getStatus() == 2) {
+
+            ExtentTestManagers.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
+
+        } else if (result.getStatus() == 3) {
+
+            ExtentTestManagers.getTest().log(LogStatus.SKIP, "Test Skipped");
+
+        }
+
+        ExtentTestManagers.endTest();
+
+        extent.flush();
+
+        if (result.getStatus() == ITestResult.FAILURE) {
+
+            captureScreenshot(driver, result.getName());
+
+        }
+
+        driver.quit();
+
+    }
+
+    @AfterSuite
+
+    public void generateReport() {
+
+        extent.close();
+
+    }
+
+    private Date getTime(long millis) {
+
+        Calendar calendar = Calendar.getInstance();
+
+        calendar.setTimeInMillis(millis);
+
+        return calendar.getTime();
+
+    }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
@@ -113,7 +223,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void cleanUp() {
-        driver.close();
+        driver.quit();
     }
 
     //type

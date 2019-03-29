@@ -17,12 +17,18 @@ public class TestFindIndividualsAndFamilies extends FindInsuranceForIndividualAn
         indvandfamilies.enterzipCode();
         indvandfamilies.clickOnSearchButton();
         driver.navigate().to("https://www.uhccommunityplan.com/ny.html");
-        driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
-        //indvandfamilies.clickOnSearchPlanButton();
-        //indvandfamilies.dropDownList();
+        //driver.navigate().to("https://www.uhccommunityplan.com/enroll-in-plan.html/steps/medicare-information");
+        //driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
+        indvandfamilies.lookUpZipCodes();
+       // indvandfamilies.clickOnSearchPlanButton();
+       // indvandfamilies.dropDownList();
         //indvandfamilies.clickContinueSearchButton();
-        // indvandfamilies.clickOnEnrollInaPlan();
-        indvandfamilies.clickOnviewPlanDetails();
+        indvandfamilies.clickOnEnrollInaPlan();
+        driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
+        //driver.navigate().to("https://www.uhccommunityplan.com/ny/medicare/2019/dual-complete-hmo-snp.html");
+        //indvandfamilies.clickOnviewPlanDetails();
+        //driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
     }
 
 }

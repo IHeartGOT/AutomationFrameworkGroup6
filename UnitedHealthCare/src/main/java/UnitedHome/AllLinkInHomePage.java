@@ -4,10 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 public class AllLinkInHomePage extends CommonAPI {
-    public AllLinkInHomePage() {
-        PageFactory.initElements(driver, this);
-    }
-
+    public AllLinkInHomePage() { PageFactory.initElements(driver, this); }
     @FindBy(xpath = "//span[@class='list-pipe-separator']//a[@class='at-element-click-tracking' and @href='https://www.uhcprovider.com/']")
     WebElement providerLink;
     @FindBy(xpath = "//span[@class='list-pipe-separator']//a[@href='https://www.uhc.com/broker']")
@@ -150,278 +147,199 @@ public class AllLinkInHomePage extends CommonAPI {
     WebElement checkPrivacy;
     @FindBy(xpath = "//a[contains(text(),'Terms of Use') and @href='/privacy/terms-of-use'] ")
     WebElement checkTermsOfUse;
-
     public WebElement homePageProviderLink() {
         return providerLink;
     }
-
     public WebElement homePageBrokerLink() {
         return brokerLink;
     }
-
     public WebElement homePageLanguageLink() {
         return languageLink;
     }
-
     public WebElement homePageSignInlink() {
         return checkSignIn;
     }
-
     public WebElement homePageHomeLink() {
         return checkHomeLink;
     }
-
     public WebElement homePageIndividualAndFamilyLink() {
         return checkInidvidualAndFamilyLink;
     }
-
     public WebElement homePageEmployerLink() {
         return checkEmployersLink;
     }
-
     public WebElement homePageMedicareLink() {
         return checkMedicareLink;
     }
-
     public WebElement homePageFindDoctorsLink() {
         return checkFindDoctors;
     }
-
     public WebElement homePageSearchProviderLink() {//?
         return SearchProviders;
     }
-
     public WebElement homePageFindOutMore() {//?
         return checkFindOutMore;
     }
-
     public WebElement homePageSeeOptionLink() {//?
         return checkSeeOptions;
     }
-
     public WebElement homePageCheckIndividualsLink() {
         return checkIndividualsLink;
     }
-
     public WebElement homePageEmployees() {
         return checkEmployers;
     }
-
     public WebElement homePageLearnMore() {
         return checkLearnMoreLink;
     }
-
     public WebElement homePagePlanUnderMedicare() {
         return checkViewPlansUnderMedicarePlan;
     }
-
-    public WebElement homePageLearnMoreUnderstandSmallBusiness() {//d
-
-        return checkLearnMoreLinkUnderSmalBusiness;
-    }
-
+    public WebElement homePageLearnMoreUnderstandSmallBusiness() {return checkLearnMoreLinkUnderSmalBusiness; }
     public WebElement homePageLearnMores() {
         return checkViewPlanUnderIndividualsAndFailyPlan;
     }
-
     public WebElement homePageLearnIndvidualFamilyLink() {
         return checkLearnMoreUnderIndividualsFamilyPlan;
     }
-
     public WebElement homePageMorePlan() {
         return checkLearnMoreUnderShortTermHealthIns;
     }
-
     public WebElement homePageDentalPlan() {
         return checkLearnMoreUnderdDentalPlan;
     }
-
     public WebElement homePagePlan() {//d
         return checkViewPlansUnderDentalPlan;
     }
-
     public WebElement homePageShortTremHealthInsurace() {
         return checkLearnMoreUnderShortTermHealthIns;
     }
-
     public WebElement homePageViewPlanUnterShortTerm() {//n
         return checkViewPlansUndedrShortTermIns;
     }
-
-    public WebElement homePageUnderMedicaidPlan() {
-
-        return checkLearnMoreUnderMedicaidPlan;
-    }
-
-    public WebElement homePaeHospitalandDoctoreInsur() {
-
-        return checkHospitalAndDoctorInsurance;
-    }
-
+    public WebElement homePageUnderMedicaidPlan() { return checkLearnMoreUnderMedicaidPlan; }
+    public WebElement homePaeHospitalandDoctoreInsur() { return checkHospitalAndDoctorInsurance; }
     public WebElement homePageCriticalIllnessInsurance() {
         return checkCriticalIllnessInsurance;
     }
-
     public WebElement homePageSuplimentalInsurance() {
         return checkSuplementalInsurance;
     }
-
     public WebElement homePageVisonInsurance() {
         return checkVisionInsurance;
     }
-
     public WebElement homePageAccidentalInsurance() {
         return checkAccidentInsurance;
     }
-
     public WebElement homePageIndividualLink() {
         return checkIndividualsLink;
     }
-
     public WebElement homePageEmplyersLink() {
         return checkEmployers;
     }
-
     public WebElement homePageLearnMoreLink() {
         return checkLearnMoreLink;
     }
-
     public WebElement homePageViewPlansLink() {
         return checkViewPlansUnderMedicarePlan;
     }
-
     public WebElement homePageLearnMoreLinkSmallBusiness() {
         return checkLearnMoreLinkUnderSmalBusiness;
     }
-
     public WebElement homePageLearnMoreLinkIndividualsFamily() {
         return checkLearnMoreUnderIndividualsFamilyPlan;
     }
-
     public WebElement homePageViewPlanIndividualsAndFamily() {
         return checkViewPlanUnderIndividualsAndFailyPlan;
     }
-
     public WebElement homePageLearMoreDeltalPlan() {
         return checkLearnMoreUnderdDentalPlan;
     }
-
     public WebElement homePageViewPlanUnderDentalPlan() {
         return checkViewPlansUnderDentalPlan;
     }
-
-    public WebElement homePageLearnMoreShortTermIns() {
-        return checkLearnMoreUnderShortTermHealthIns;
-    }
-
+    public WebElement homePageLearnMoreShortTermIns() { return checkLearnMoreUnderShortTermHealthIns; }
     public WebElement homePageViewPlanShortTermIns() {
         return checkViewPlansUndedrShortTermIns;
     }
-
     public WebElement homePageLearnMoreMedicaidPlan() {
         return checkLearnMoreUnderMedicaidPlan;
     }
-
     public WebElement homePageHospitalAndDoctorIns() {
         return checkHospitalAndDoctorInsurance;
     }
-
     public WebElement homePageGlobalInsurance() {
         return checkGlobalInsurance;
     }
-
     public WebElement homePageTermLifeInsurace() {
         return checkTermLifeInsurance;
     }
-
     public WebElement homePageHospitalizationIns() {
         return checkHospitalizationInsurance;
     }
-
     public WebElement homePageGlobalTravelIns() {
         return checkGlobalTravelInsurance;
     }
-
     public WebElement homePageAccessProviderPortal() {
         return checkAccessTheProviderPortal;
     }
-
     public WebElement homePageBrokerResource() {
         return checkBrokerResource;
     }
-
     public WebElement homePageNearByClinic() {
         return checkNearByClinic;
     }
-
     public WebElement homePageMarketPlaceIns() {
         return checkMarketPlaceInsurance;
     }
-
     public WebElement homePageFitness() {
         return checkFitness;
     }
-
     public WebElement homePageOpenEnrolment() {
         return checkOpenEnrolMent;
     }
-
     public WebElement homePageLanguageAssistant() {
         return checkLanguageAssistant;
     }
-
     public WebElement homePageMedicares() {
         return checkMedicare;
     }
-
     public WebElement homePageNutrition() {
         return checkNutrition;
     }
-
     public WebElement homePageMemberResource() {
         return checkMemberResource;
     }
-
     public WebElement homePageAssistenciaDeIdiomsa() {
         return checkAsistenciaDeIdiomsa;
     }
-
     public WebElement homePageMedicaid() {
         return checkMedicaid;
     }
-
     public WebElement homePageHealthTopics() {
         return checkHealthTopics;
     }
-
     public WebElement homePageAboutUs() {
         return checkAboutUs;
     }
-
     public WebElement homePageEmplyerGroupPlan() {
         return checkEmployerGropPlan;
     }
-
     public WebElement homePageTakeControlOfYourPlan() {
         return checkTakeControlOfYourCare;
     }
-
     public WebElement homePageUnitedForReform() {
         return checkUnitedForReform;
     }
-
     public WebElement homePageDentalInsurace() {
         return checkDentalInsurance;
     }
-
     public WebElement homePageHealthAndWellness() {
         return checkHealthAndWellness;
     }
-
     public WebElement homePageValueBasedCare() {
         return checkValueBasedCare;
     }
-
     public WebElement homePageVisionInsurace(){
         return checkVisionInsurances;
     }
@@ -476,8 +394,6 @@ public class AllLinkInHomePage extends CommonAPI {
     public WebElement homePagePrvacy(){
         return checkPrivacy;
     }
-    public WebElement homePageTermsOfUse(){
-        return checkTermsOfUse;
-    }
+    public WebElement homePageTermsOfUse(){return checkTermsOfUse;}
 
 }
