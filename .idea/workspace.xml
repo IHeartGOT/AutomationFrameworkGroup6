@@ -2,28 +2,272 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23242d06-b98e-4953-b5d3-fb8352fc2e12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Costco/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/HomepageUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/Searches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/Signing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/TableData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/HomepageUtilitiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/PuchaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/SearchesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/SigningTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/TableDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/Title/CostcoHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/HomepageUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Miscellaneous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Searches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Signing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/TableData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/HomepageUtilitiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/PurchaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/SearchesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/SigningTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/TableDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/TestMiscellaneous.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/src/main/java/home/popup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/src/test/java/home/SearchBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/src/test/java/home/TitlePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/BestBuy-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/2019-03-21T02-05-19_575-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/BestBuy Automation Script /BestBuy Home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/BestBuy Automation Script /BestBuy Home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/BestBuy Automation Script /testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/junitreports/TEST-home.SearchBox.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /BestBuy Home.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/BestBuy Automation Script /toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/test-classes/BestBuyTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/test-classes/home/SearchBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/test-classes/home/TitlePage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Costco/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/test/java/Home/MainMenus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/Costcoproject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/Costcoproject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/datasource/DataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/home/EHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/home/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/pages/SearchPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/dropdown/DropSelection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/home/Links.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/home/SearchBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/home/Title.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/login/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/search/SearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/Ebay-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/datasource/DataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/pages/SearchPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/2019-03-21T01-52-52_033-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/junitreports/TEST-search.SearchTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /Ebay Home.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook1/Facebook1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook1/src/test/java/Homepage/FBTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook1/src/test/resources/Facebook1TestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook1/target/test-classes/Facebook1TestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook1/target/test-classes/Homepage/FBTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkLife/NewYorkLife.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkLife/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UnitedHome/UnitedHomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/HomePageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UnitedHomeTest/TestUnitedHomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/UnitedHealthCare-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/UnitedHome/UnitedHomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UnitedHomeTest/HomePageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UnitedHomeTest/TestUnitedHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/src/test/java/homepage/HBOTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/src/test/java/homepage/Links.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/src/test/java/homepage/SearchButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/src/test/java/moviespage/Links.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/src/test/resources/HBOTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/target/test-classes/HBOTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/target/test-classes/META-INF/HBO.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/target/test-classes/META-INF/Netflix.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/target/test-classes/homepage/HBOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/target/test-classes/homepage/Links.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/target/test-classes/homepage/SearchButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBO/target/test-classes/moviespage/Links.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/home/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/2019-03-23T05-08-03_681-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /HomeDepot Home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /HomeDepot Home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/junitreports/TEST-home.TestHomePage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /HomeDepot Home.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/HomeDepotTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/home/TestHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/.idea/dictionaries/prodipbhowmik.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/.idea/mongoSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/java/Home/TestHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CnnTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/target/Cnn-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/target/test-classes/CnnTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/target/test-classes/Home/TestHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/drivers/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/drivers/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/drivers/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/drivers/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/src/main/java/databases/ConnectToMongoDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/src/main/java/databases/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/src/main/java/utility/DataReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/src/secret.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/target/classes/base/CommonAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/target/classes/databases/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/target/classes/utility/DataReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Group6AutomationFramework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/MySpace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/src/test/java/demo/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/src/test/java/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/src/test/resources/MySpaceTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/out/production/MySpace/test/resources/MySpaceTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/out/test/MySpace/demo/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkLife/NewYorkLife.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkLife/NewYorkLife.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkLife/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkLife/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkLife/src/test/java/Home/MainMenus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkLife/target/NYLproject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkLife/target/NYLproject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkLife/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkLife/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkLife/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkLife/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,49 +290,16 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AutomationFrameworkGroup6$_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml.ic" NAME="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml Coverage Results" MODIFIED="1553360149506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AutomationFrameworkGroup6" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/Home/MainMenus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/java/Home/MainMenus.java">
+        <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/resources/nyltestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-849">
-              <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+            <state relative-caret-position="300">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -100,9 +311,20 @@
       <list>
         <option value="XML Properties File" />
         <option value="XSLT Stylesheet" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>captur</find>
+      <find>testng</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/NewYorkLife/target</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,55 +332,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Generic/src/main/java/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/databases/User.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
-        <option value="$PROJECT_DIR$/Generic/src/secret.properties" />
-        <option value="$PROJECT_DIR$/BestBuy/pom.xml" />
-        <option value="$PROJECT_DIR$/BestBuy/target/test-classes/BestBuyTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Ebay/pom.xml" />
-        <option value="$PROJECT_DIR$/BestBuy/src/test/java/home/HomePage.java" />
-        <option value="$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/home/SearchBox.java" />
-        <option value="$PROJECT_DIR$/BestBuy/src/main/java/home/Popup.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/pages/SearchPage.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/search/SearchTest.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/datasource/DataBase.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/home/Title.java" />
-        <option value="$PROJECT_DIR$/BestBuy/src/main/java/home/popup.java" />
-        <option value="$PROJECT_DIR$/BestBuy/src/test/java/home/SearchBox.java" />
-        <option value="$PROJECT_DIR$/BestBuy/src/test/java/home/TitlePage.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/drowdownllist/DropDown.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/dropdown/DropdownSelection.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/dropdown/DropSelection.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/home/TestHomePage.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/home/EHomePage.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/home/Links.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/pom.xml" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/HomePage.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/login/LoginPage.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/home/HomePage.java" />
         <option value="$PROJECT_DIR$/NewYorkLife/src/test/resources/name.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/resources/name.java" />
         <option value="$PROJECT_DIR$/Costco/common/pom.xml" />
         <option value="$PROJECT_DIR$/Costco/NYLproject/pom.xml" />
-        <option value="$PROJECT_DIR$/Costco/pom.xml" />
-        <option value="$PROJECT_DIR$/NewYorkLife/pom.xml" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/main/java/home/Amazon.java" />
         <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/Home/MainMenus.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/resources/CoastcoRunner.xml" />
+        <option value="$PROJECT_DIR$/Costco/src/test/resources/CostcoRunner.xml" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/MainMenus.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/Home/MainMenus.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/MainMenus.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/MainMenus.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/TestMainMenus.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/signing.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/HomepageUtilities.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/Puchase.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/Searches.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/HomeUtilities.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/FindBy.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Purchase.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/SiginingTest.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/SigningTest.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/Purchase.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/Searches.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/Signing.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/SearchesTest.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/PuchaseTest.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/SearchesTest.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/PurchaseTest.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/SigningTest.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/TablePage.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/TableDataTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/HomepageUtilities.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Miscellaneous.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/TestMiscellaneous.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/HomepageUtilities.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Searches.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Signing.java" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/NewYorkLife/pom.xml" />
+        <option value="$PROJECT_DIR$/Costco/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/HomepageUtilitiesTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/resources/NewYorkLifeTestRunner.xml" />
+        <option value="$PROJECT_DIR$/NewYorkLife/src/test/resources/nyltestRunner.xml" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/HomepageUtilitiesTest.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/Title/CostcoHome.java" />
       </list>
     </option>
   </component>
@@ -174,11 +398,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NYLproject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="NYLproject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Group6AutomationFramework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Group6AutomationFramework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -188,10 +421,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-43" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="488" />
+    <option name="width" value="1483" />
+    <option name="height" value="542" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -217,54 +451,36 @@
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
               <item name="Costco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
               <item name="Costco" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="NewYorkLife" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Costco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="NewYorkLife" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="NewYorkLife" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="NewYorkLife" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -272,22 +488,11 @@
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="NewYorkLife" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkLife" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkLife" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BrowseNYL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
@@ -311,7 +516,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="TestBrowseNYL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,29 +527,39 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553448764444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553964664371" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.19690265" />
     <property name="project.structure.side.proportion" value="0.25480768" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.3399705" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Costco/src/test" />
+      <recent name="$PROJECT_DIR$/NewYorkLife/src/test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Generic/drivers" />
+      <recent name="$PROJECT_DIR$/Generic/browser-driver" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/java/base" />
+      <recent name="$PROJECT_DIR$/Generic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="search" />
       <recent name="pages" />
       <recent name="datasource" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
-      <recent name="$PROJECT_DIR$/Generic/src/main/java/base" />
-      <recent name="$PROJECT_DIR$/Generic" />
-      <recent name="$PROJECT_DIR$/Generic/src" />
-      <recent name="$PROJECT_DIR$/Generic/driver" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="TestBrowseNYL" />
+      <recent name="BrowseNYL" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -359,40 +574,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataBase">
-    <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datasource.DataBase" />
-      <module name="Ebay" />
+  <component name="RunManager" selected="TestNG.PuchaseTest.purchaseAnItemTest">
+    <configuration name="CostcoHome.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Costco" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datasource.*" />
+          <option name="PATTERN" value="Title.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomePage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HomeDepot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.TestHomePage" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="Title" />
+      <option name="MAIN_CLASS_NAME" value="Title.CostcoHome" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml" />
+    <configuration name="PuchaseTest.purchaseAnItemTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Costco" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestBrowseCostco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestBrowseCostco" />
+      <option name="MAIN_CLASS_NAME" value="TestBrowseCostco.PuchaseTest" />
+      <option name="METHOD_NAME" value="purchaseAnItemTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/Prabet/Desktop/AutomationFrameworkGroup6/Costco/src/test/resources/CostcoTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Costco" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -400,9 +621,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HomeDepot" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" />
+    <configuration name="/Users/Prabet/Desktop/AutomationFrameworkGroup6/NewYorkLife/src/test/resources/NewYorkLifeTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewYorkLife" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/NewYorkLife/src/test/resources/NewYorkLifeTestRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -410,29 +631,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reporting" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Generic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reporting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="reporting" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+    <configuration name="/Users/Prabet/Desktop/AutomationFrameworkGroup6/NewYorkLife/src/test/resources/nyltestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewYorkLife" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/NewYorkLife/src/test/resources/nyltestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/Prabet/Desktop/AutomationFrameworkGroup6/NewYorkLife/src/test/resources/NewYorkLifeTestRunner.xml" />
+      <item itemvalue="TestNG./Users/Prabet/Desktop/AutomationFrameworkGroup6/Costco/src/test/resources/CostcoTestRunner.xml" />
+      <item itemvalue="TestNG.CostcoHome.test" />
+      <item itemvalue="TestNG./Users/Prabet/Desktop/AutomationFrameworkGroup6/NewYorkLife/src/test/resources/nyltestRunner.xml" />
+      <item itemvalue="TestNG.PuchaseTest.purchaseAnItemTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataBase" />
-        <item itemvalue="TestNG.TestHomePage (1)" />
-        <item itemvalue="TestNG./Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" />
-        <item itemvalue="TestNG./Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" />
-        <item itemvalue="TestNG.reporting" />
+        <item itemvalue="TestNG.PuchaseTest.purchaseAnItemTest" />
+        <item itemvalue="TestNG./Users/Prabet/Desktop/AutomationFrameworkGroup6/Costco/src/test/resources/CostcoTestRunner.xml" />
+        <item itemvalue="TestNG.CostcoHome.test" />
+        <item itemvalue="TestNG./Users/Prabet/Desktop/AutomationFrameworkGroup6/NewYorkLife/src/test/resources/nyltestRunner.xml" />
+        <item itemvalue="TestNG./Users/Prabet/Desktop/AutomationFrameworkGroup6/NewYorkLife/src/test/resources/NewYorkLifeTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -450,59 +672,87 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_HomeDepot_src_test_resources_HomeDepotTestRunner_xml - 2019.03.23 at 05h 31m 53s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="HomepageUtilitiesTest_homeButtonTest_(1) - 2019.03.30 at 12h 02m 55s.xml">
+      <configuration name="HomepageUtilitiesTest.homeButtonTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_HomeDepot_src_test_resources_HomeDepotTestRunner_xml - 2019.03.23 at 05h 32m 25s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Prabet_Desktop_AutomationFrameworkGroup6_NewYorkLife_src_test_resources_NewYorkLifeTestRunner_xml - 2019.03.30 at 12h 08m 44s.xml">
+      <configuration name="/Users/Prabet/Desktop/AutomationFrameworkGroup6/NewYorkLife/src/test/resources/NewYorkLifeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_HomeDepot_src_test_resources_HomeDepotTestRunner_xml - 2019.03.23 at 05h 32m 29s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Prabet_Desktop_AutomationFrameworkGroup6_NewYorkLife_src_test_resources_NewYorkLifeTestRunner_xml - 2019.03.30 at 12h 09m 08s.xml">
+      <configuration name="/Users/Prabet/Desktop/AutomationFrameworkGroup6/NewYorkLife/src/test/resources/NewYorkLifeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_(1) - 2019.03.23 at 05h 34m 11s.xml">
-      <configuration name="TestHomePage (1)" configurationId="TestNG" />
+    <history-entry file="_Users_Prabet_Desktop_AutomationFrameworkGroup6_NewYorkLife_src_test_resources_NewYorkLifeTestRunner_xml - 2019.03.30 at 12h 10m 41s.xml">
+      <configuration name="/Users/Prabet/Desktop/AutomationFrameworkGroup6/NewYorkLife/src/test/resources/NewYorkLifeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_HomeDepot_src_test_resources_HomeDepotTestRunner_xml - 2019.03.23 at 05h 35m 05s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Prabet_Desktop_AutomationFrameworkGroup6_NewYorkLife_src_test_resources_nyltestRunner_xml - 2019.03.30 at 12h 14m 46s.xml">
+      <configuration name="/Users/Prabet/Desktop/AutomationFrameworkGroup6/NewYorkLife/src/test/resources/nyltestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_HomeDepot_src_test_resources_HomeDepotTestRunner_xml - 2019.03.23 at 05h 36m 03s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="CostcoHome_test - 2019.03.30 at 12h 21m 44s.xml">
+      <configuration name="CostcoHome.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.03.23 at 12h 56m 23s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" configurationId="TestNG" />
+    <history-entry file="CostcoHome_test - 2019.03.30 at 12h 23m 25s.xml">
+      <configuration name="CostcoHome.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.03.23 at 12h 56m 28s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" configurationId="TestNG" />
+    <history-entry file="CostcoHome_test - 2019.03.30 at 12h 23m 48s.xml">
+      <configuration name="CostcoHome.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.03.23 at 12h 58m 06s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Prabet_Desktop_AutomationFrameworkGroup6_Costco_src_test_resources_CostcoTestRunner_xml - 2019.03.30 at 12h 48m 58s.xml">
+      <configuration name="/Users/Prabet/Desktop/AutomationFrameworkGroup6/Costco/src/test/resources/CostcoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_(1) - 2019.03.23 at 15h 20m 18s.xml">
-      <configuration name="TestHomePage (1)" configurationId="TestNG" />
+    <history-entry file="PuchaseTest_purchaseAnItemTest - 2019.03.30 at 12h 52m 13s.xml">
+      <configuration name="PuchaseTest.purchaseAnItemTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="488" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22532189" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.22532189" />
+      <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.22532189" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.502" side_tool="true" weight="0.22532189" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89413446" weight="0.07978723" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49928468" weight="0.32729805" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88268954" weight="0.4927711" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3983287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" visible="true" weight="0.14393939" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50214595" side_tool="true" visible="true" weight="0.14393939" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49642345" visible="true" weight="0.39759037" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.11731044" side_tool="true" weight="0.46144578" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49713877" weight="0.32650602" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48211733" weight="0.39036146" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.23104435" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.22532189" />
+      <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.22532189" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.502" side_tool="true" weight="0.22532189" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49928468" weight="0.32729805" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88268954" visible="true" weight="0.33493975" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3983287" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49642345" weight="0.3983287" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.11731044" side_tool="true" weight="0.46144578" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48211733" weight="0.39036146" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -512,161 +762,114 @@
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Formatter.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27495">
-          <caret line="1890" selection-start-line="1890" selection-end-line="1890" />
-          <folding>
-            <element signature="e#81177#81178#0" expanded="true" />
-            <element signature="e#81261#81262#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1268">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/Searches.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#2871#2872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#1327#1328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Locale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11775">
-          <caret line="853" selection-start-line="853" selection-end-line="853" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="e#3009#3010#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/drowdownllist/DropDown.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-934">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/dropdown/DropdownSelection.java" />
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/home/popup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/dropdown/DropSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/Purchase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="153">
+          <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+    <entry file="file://$PROJECT_DIR$/Generic/browser-driver/chromedriver" />
+    <entry file="file://$PROJECT_DIR$/Generic/drivers/ChromeDriver">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="-8175">
+          <caret line="2376" column="8" selection-start-line="2376" selection-end-line="2377" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-605">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#2607#2608#0" expanded="true" />
+            <element signature="e#2672#2673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/SearchesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/TablePage.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/RunReport.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="94">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#278#299#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/home/TestHomePage.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/home/Title.java">
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/TableDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -676,221 +879,306 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/How.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/TestMiscellaneous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="855">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java">
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/TableData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/datasource/DataBase.java">
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/SigningTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/login/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/PurchaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="270">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/home/SearchBox.java">
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/TableData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/Signing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/xml/SuiteXmlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/xml/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="150" column="58" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/home/EHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/home/Links.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/home/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="42" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/search/SearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-          <folding>
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYLproject/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/resources/name.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" lean-forward="true" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml" />
-    <entry file="file://$PROJECT_DIR$/Ebay/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" selection-start-line="12" selection-start-column="3" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/common/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="37" selection-start-line="12" selection-start-column="4" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/home/TitlePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/home/SearchBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="3" column="14" selection-start-line="2" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/NYLproject/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/NewYorkLife/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="20" selection-start-line="14" selection-start-column="4" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/Home/MainMenus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-849">
-          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/java/Home/MainMenus.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/BrowseCostco/HomepageUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/HomepageUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/java/TestBrowseNYL/HomepageUtilitiesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="347" selection-start-line="347" selection-end-line="347" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/resources/NewYorkLifeTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/TableDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/Title/CostcoHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4435">
+          <caret line="214" column="95" selection-start-line="214" selection-start-column="95" selection-end-line="214" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8563#8564#0" expanded="true" />
+            <element signature="e#8592#8593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Purchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Searches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="134" selection-start-line="15" selection-start-column="134" selection-end-line="15" selection-end-column="134" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/HomepageUtilitiesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/SearchesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/SigningTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/TestBrowseCostco/PuchaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Signing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/main/java/BrowseNYL/Miscellaneous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="212" column="61" lean-forward="true" selection-start-line="212" selection-start-column="61" selection-end-line="212" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkLife/src/test/resources/nyltestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -946,7 +1234,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Costco</last-edited>
+          <last-edited>NewYorkLife</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -963,7 +1251,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25480768" />
               </list>
             </option>
           </splitter-proportions>

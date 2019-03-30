@@ -1,5 +1,0 @@
-utility/DataReader.class
-databases/User.class
-databases/ConnectToSqlDB.class
-base/CommonAPI.class
-databases/ConnectToMongoDB.class

@@ -6,18 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BestBuy" />
         <module name="Costco" />
-        <module name="Ebay" />
         <module name="Generic" />
-        <module name="HomeDepot" />
         <module name="NewYorkLife" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="1.5" />
-      <module name="NewYorkLife" target="1.5" />
-      <module name="NYLproject" target="1.5" />
+      <module name="NewYorkLife" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,5 +1,9 @@
 package reporting;
 
+//import static reporting.TestLogger.*;
+
+import static reporting.TestLogger.log;
+
 public class ApplicationLog {
     public static void launchBrowser(){
         //TestLogger.log(epic);
