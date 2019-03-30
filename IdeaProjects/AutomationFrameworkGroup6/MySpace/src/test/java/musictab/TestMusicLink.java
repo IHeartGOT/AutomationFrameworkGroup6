@@ -10,7 +10,7 @@ import title.MusicLink;
 public class TestMusicLink extends CommonAPI {
 
     @Test
-    public void Test12() {
+    public void Test68() {
         MusicLink musicLink = PageFactory.initElements(driver, MusicLink.class);
         musicLink.musicltab();
         Assert.assertEquals(true, true);

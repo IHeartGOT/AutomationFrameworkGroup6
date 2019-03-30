@@ -11,7 +11,7 @@ public class TestLogo extends CommonAPI {
         @Test
         public void Test67() {
             Logo logo = PageFactory.initElements(driver, Logo.class);
-            logo.setLogoTab();
+            logo.LogoTab();
             Assert.assertEquals(true, true);
         }
 }
