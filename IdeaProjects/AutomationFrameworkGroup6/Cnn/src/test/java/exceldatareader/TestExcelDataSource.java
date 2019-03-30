@@ -3,6 +3,7 @@ package exceldatareader;
 import base.CommonAPI;
 import exceldata.ExcelDataSource;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 import search.SearchPage;
 
 import java.util.List;
@@ -17,6 +18,7 @@ String homeUrl = "https://www.cnn.com/";
 @Test
     public void TestExceldata () {
     ExcelDataSource dr = new ExcelDataSource();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     String[] data = dr.getExcelData(this.CNNdata, 0);
     for (int i= 0; i< data.length; i++) {
         System.out.println(data[i]);

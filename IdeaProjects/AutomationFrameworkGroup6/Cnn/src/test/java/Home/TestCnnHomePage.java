@@ -24,6 +24,7 @@ public class TestCnnHomePage extends CommonAPI {
     public void Test1() {
         CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
         cnnHomePage.getUSLink();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Assert.assertEquals(true, true);
     }
 
@@ -243,12 +244,14 @@ public class TestCnnHomePage extends CommonAPI {
         cnnHomePage.getPersonalFinanceLink();
         Assert.assertEquals(true, true);
     }
+
     @Test
     public void Test33() {
         CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
         cnnHomePage.getInCaseYouMissedIt();
         Assert.assertEquals(true, true);
     }
+
     @Test
     public void Test34() {
         CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
@@ -263,30 +266,35 @@ public class TestCnnHomePage extends CommonAPI {
         cnnHomePage.getTermOfUseTab();
         Assert.assertEquals(true, true);
     }
+
     @Test
     public void Test36() {
         CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
         cnnHomePage.getPrivacyPolicyTab();
         Assert.assertEquals(true, true);
     }
+
     @Test
     public void Test37() {
         CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
         cnnHomePage.getAddChoicesTab();
         Assert.assertEquals(true, true);
     }
+
     @Test
     public void Test38() {
         CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
         cnnHomePage.getAboutUsTab();
         Assert.assertEquals(true, true);
     }
+
     @Test
     public void Test39() {
         CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
         cnnHomePage.getCNNStudioTours();
         Assert.assertEquals(true, true);
     }
+
     @Test
     public void Test40() {
         CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
@@ -294,4 +302,30 @@ public class TestCnnHomePage extends CommonAPI {
         Assert.assertEquals(true, true);
     }
 
+    @Test
+    public void Test41() {
+        CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
+        cnnHomePage.getNewsLetterTab();
+        Assert.assertEquals(true, true);
+    }
+
+    @Test
+    public void Test42() {
+        CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
+        cnnHomePage.getTranScriptTab();
+        Assert.assertEquals(true, true);
+    }
+
+    @Test
+    public void Test43() {
+        CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
+        cnnHomePage.getLicenseFootageTab();
+        Assert.assertEquals(true, true);
+    }
+    @Test
+    public void Test44() {
+        CnnHomePage cnnHomePage = PageFactory.initElements(driver, CnnHomePage.class);
+        cnnHomePage.getCnnNewsSourceTab();
+        Assert.assertEquals(true, true);
+    }
 }

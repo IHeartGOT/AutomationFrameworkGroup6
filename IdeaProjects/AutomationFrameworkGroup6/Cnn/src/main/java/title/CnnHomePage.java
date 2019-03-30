@@ -3,11 +3,14 @@ package title;
 import base.CommonAPI;
 import org.jsoup.select.Evaluator;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import javax.naming.Name;
 
 public class CnnHomePage extends CommonAPI {
 
@@ -16,7 +19,7 @@ public class CnnHomePage extends CommonAPI {
     }
 
     @FindBy(xpath = "//div[@class='nav-menu-links']//a[@href='/us']")
-    WebElement USLink;
+    WebElement US;
 
     @FindBy(css = "#nav > div.nav__container > div.nav-menu-links > a:nth-child(2")
     WebElement WorldLink;
@@ -135,16 +138,26 @@ public class CnnHomePage extends CommonAPI {
     @FindBy(partialLinkText = "footer_cnn-store")
     WebElement CnnStoreTab;
 
+    @FindBy(xpath = "/html/body/footer/div[2]/div/div[2]/div[2]/div[2]/ul/li[8]/a")
+    WebElement NewsLetterTab;
+
+    @FindBy(partialLinkText = "footer_transcripts")
+    WebElement TranScriptTab;
+
+    @FindBy(partialLinkText = "footer_license-footage")
+    WebElement LicenseFootageTab;
+
+    @FindBy(xpath = "/html/body/footer/div[2]/div/div[2]/div[2]/div[2]/ul/li[11]/a")
+    WebElement CnnNewsSourceTab;
+
 
     public WebElement getUSLink() {
-        return USLink;
+        return US;
     }
     public WebElement getWorldLink() {
         return WorldLink;
     }
-    public WebElement getPoliticsLink() {
-        return PoliticsLink;
-    }
+    public WebElement getPoliticsLink() { return PoliticsLink; }
     public WebElement getBusinessLink(){
         return BusinessLink;
     }
@@ -237,10 +250,15 @@ public class CnnHomePage extends CommonAPI {
     public WebElement getAboutUsTab(){return AboutUsTab;}
     public WebElement getCNNStudioTours() {return CNNStudioTours;}
     public WebElement getCnnStoreTab(){return  CnnStoreTab;}
+    public WebElement getNewsLetterTab(){return NewsLetterTab;}
+    public WebElement getTranScriptTab(){return TranScriptTab;}
+    public WebElement getLicenseFootageTab(){return LicenseFootageTab;}
+    public WebElement getCnnNewsSourceTab() {return CnnNewsSourceTab;}
+
 
     public void CnnHomePageLinks(){
-        USLink.click();
-        WorldLink.click();
+        US.sendKeys("US", Keys.ENTER);
+        WorldLink.sendKeys("WorldLink",Keys.ENTER);
         PoliticsLink.click();
         BusinessLink.click();
         OpinionLink.click();
@@ -278,9 +296,10 @@ public class CnnHomePage extends CommonAPI {
         AboutUsTab.sendKeys("AboutUs", Keys.ENTER);
         CNNStudioTours.click();
         CNNStudioTours.sendKeys("CnnStore",Keys.ENTER);
-
-
-
+        NewsLetterTab.click();
+        TranScriptTab.sendKeys("TranScriptTab",Keys.ENTER);
+        LicenseFootageTab.click();
+        CnnNewsSourceTab.click();
 
     }
 

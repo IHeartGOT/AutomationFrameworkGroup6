@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class TestHome extends CommonAPI {
 
@@ -12,6 +13,7 @@ public class TestHome extends CommonAPI {
     public void Test69() {
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.getSignInTab();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Assert.assertEquals(true, true);
     }
 
@@ -112,10 +114,5 @@ public class TestHome extends CommonAPI {
         homePage.getPortraitsTab();
         Assert.assertEquals(true, true);
     }
-    @Test
-    public void Test85() {
-        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-        homePage.getMoreButtonTab();
-        Assert.assertEquals(true, true);
+
     }
-}
