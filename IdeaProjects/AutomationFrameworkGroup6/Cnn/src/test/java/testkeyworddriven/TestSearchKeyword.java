@@ -1,9 +1,9 @@
-package testpages;
+package testkeyworddriven;
 
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import pages.SearchKeyword;
+import keyword.SearchKeyword;
 
 public class TestSearchKeyword extends CommonAPI {
 
@@ -82,5 +82,6 @@ public class TestSearchKeyword extends CommonAPI {
 
         SearchKeyword searchKeyword = PageFactory.initElements(driver, SearchKeyword.class);
         searchKeyword.SearchBar10();
+
     }
 }

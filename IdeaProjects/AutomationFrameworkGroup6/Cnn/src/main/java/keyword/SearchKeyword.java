@@ -1,15 +1,19 @@
-package pages;
+package keyword;
 
 import base.CommonAPI;
+import exceldata.ExcelDataSource;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import search.SearchPage;
 
 public class SearchKeyword extends CommonAPI {
 
-    public SearchKeyword() {
-        PageFactory.initElements(driver, this);
+    public SearchKeyword() { PageFactory.initElements(driver, this);
     }
 
     @FindBy(id = "search-button")
@@ -17,6 +21,7 @@ public class SearchKeyword extends CommonAPI {
 
     @FindBy(id = "search-input-field")
     WebElement searchBox;
+
 
     public WebElement SearchButton() {
         return search;
@@ -26,6 +31,11 @@ public class SearchKeyword extends CommonAPI {
         return searchBox;
     }
 
+//    @BeforeClass
+//    public void testSetup(){
+//        driver.getCurrentUrl();
+//        SearchKeyword = PageFactory.initElements(driver,SearchKeyword.class);
+//
 
     public void SearchBar() {
         SearchButton().click();
@@ -61,16 +71,25 @@ public class SearchKeyword extends CommonAPI {
         SearchButton().click();
         SearchType().sendKeys("India", Keys.ENTER);
     }
+
     public void SearchBar8() {
         SearchButton().click();
         SearchType().sendKeys("New York Times", Keys.ENTER);
     }
+
     public void SearchBar9() {
         SearchButton().click();
         SearchType().sendKeys("Boston", Keys.ENTER);
     }
+
     public void SearchBar10() {
         SearchButton().click();
         SearchType().sendKeys("Hillary Clinton", Keys.ENTER);
     }
-}
+
+//    @AfterClass
+//    public void tearDown() {
+//        if (driver != null) {
+//            driver.quit();
+        }
+

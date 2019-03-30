@@ -13,10 +13,10 @@
 
     <test name = "Cnn Home">
         <classes>
-           <!--<class name="Home.TestCnnHomePage"/>-->
+           <class name="Home.TestCnnHomePage"/>
             <!--<class name="title.CnnHomePage"/>-->
             <!--<class name="search.SearchTest"/>-->
-            <class name="testpages.TestSearchKeyword"/>
+            <!--<class name="testkeyworddriven.TestSearchKeyword"/>-->
         </classes>
     </test>
 
