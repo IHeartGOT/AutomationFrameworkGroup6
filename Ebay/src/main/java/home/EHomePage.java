@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.asserts.Assertion;
 
 public class EHomePage extends CommonAPI {
 
@@ -39,6 +41,42 @@ public class EHomePage extends CommonAPI {
     @FindBy(className ="gh-p")
     WebElement sell;
 
+    @FindBy(xpath = "//*[@id=\"gf-BIG\"]/table/tbody/tr/td[5]/ul/li[5]/a")
+    WebElement returns;
+
+    public WebElement Returns(){return returns;}
+
+    public void ReturnsPage(){
+        Returns ().click ();
+    }
+
+    @FindBy (linkText = "Company info")
+    WebElement info;
+
+    public WebElement Company(){return info;}
+
+    public void CompanyInfoPage(){
+        Company ().click ();
+    }
+
+    @FindBy (linkText = "News")
+    WebElement news;
+
+    public WebElement News(){return news;}
+
+    public void NewsPage(){
+        News ().click ();
+    }
+
+    @FindBy (linkText = "Investors")
+    WebElement invest;
+
+    public WebElement Inversting(){return invest;}
+
+
+    public void InverstorsPage(){
+        Inversting ().click ();
+    }
 
     public WebElement MotorLink() {
 
@@ -81,6 +119,7 @@ public class EHomePage extends CommonAPI {
 
         public void HomePageLinks(){
             MotorLink ().click ();
+            String title = driver.getTitle ();
             LoginLink ().click ();
             driver.navigate ().back ();
             ShoppingLink ().click ();
@@ -89,7 +128,7 @@ public class EHomePage extends CommonAPI {
             Password ().sendKeys ("123456");
             SignButton ();
             SellPage ();
-
+            Assert.assertEquals (title, "eBay Motors: Auto Parts and Vehicles | eBay");
         }
 
     }

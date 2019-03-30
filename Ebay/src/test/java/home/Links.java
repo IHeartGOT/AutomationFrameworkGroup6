@@ -42,15 +42,99 @@ public class Links extends CommonAPI {
     }
 
     @Test
-    void TestWomenFashion(){
+    public void TestWomenFashion(){
         Fashion fashion = PageFactory.initElements (driver, Fashion.class);
         fashion.FashionPageLink ();
     }
 
     @Test
-    void TestDeveloper() {
+    public void TestDeveloper() {
         Developer developer = PageFactory.initElements (driver, Developer.class);
         developer.DeveloperPage ();
 
     }
+    @Test
+    public void TestReturns(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.ReturnsPage ();
+    }
+
+    @Test
+    public void TestCompanyInfoPage(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.CompanyInfoPage ();
+    }
+
+    @Test
+    public void TestnvestPage(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.Inversting ();
+    }
+
+    @Test
+    public void TestNewsPage(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.News ();
+    }
+
+//    @Test
+//    public void TestReturns(){
+//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+//        eHomePage.ReturnsPage ();
+//    }
+//
+//    @Test
+//    public void TestReturns(){
+//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+//        eHomePage.ReturnsPage ();
+//    }
+//
+//    @Test
+//    public void TestReturns(){
+//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+//        eHomePage.ReturnsPage ();
+//    }
+//
+//    @Test
+//    public void TestReturns(){
+//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+//        eHomePage.ReturnsPage ();
+//    }
+//
+//    @Test
+//    public void TestReturns(){
+//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+//        eHomePage.ReturnsPage ();
+//    }
+//
+//    @Test
+//    public void TestReturns(){
+//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+//        eHomePage.ReturnsPage ();
+//    }
+//
+//    @Test
+//    public void TestReturns(){
+//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+//        eHomePage.ReturnsPage ();
+//    }
+//
+//    @Test
+//    public void TestReturns(){
+//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+//        eHomePage.ReturnsPage ();
+//    }
+//
+//    @Test
+//    public void TestReturns(){
+//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+//        eHomePage.ReturnsPage ();
+//    }
+//
+//    @Test
+//    public void TestReturns(){
+//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+//        eHomePage.ReturnsPage ();
+//    }
+
 }
