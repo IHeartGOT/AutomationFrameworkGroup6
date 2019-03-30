@@ -11,8 +11,8 @@
     <modules>
 
         <module>Generic</module>
-        <module>Ebay</module>
-        <module>HomeDepot</module>
+        <module>Citibank1</module>
+        <module>OfficeDepot</module>
     </modules>
     <dependencyManagement>
         <dependencies>

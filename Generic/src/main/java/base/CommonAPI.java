@@ -102,7 +102,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://www.ebay.com") String url) throws IOException {
+                              String browserVersion, @Optional("https://www.officedepot.com") String url) throws IOException {
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase ("browserstack")) {
                 getCloudDriver (cloudEnvName, browserstack_username, browserstack_accesskey, os, os_version, browserName, browserVersion);
@@ -112,8 +112,8 @@ public class CommonAPI {
         } else {
             getLocalDriver (os, browserName);
         }
-        driver.manage ().timeouts ().implicitlyWait (20, TimeUnit.SECONDS);
-        driver.manage ().timeouts ().pageLoadTimeout (15, TimeUnit.SECONDS);
+        driver.manage ().timeouts ().implicitlyWait (30, TimeUnit.SECONDS);
+        driver.manage ().timeouts ().pageLoadTimeout (45, TimeUnit.SECONDS);
         driver.get (url);
         driver.manage ().window ().maximize ();
     }
