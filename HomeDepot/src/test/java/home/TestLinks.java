@@ -9,7 +9,7 @@ public class TestLinks extends CommonAPI {
     @Test
     public void TestTruckandTools(){
         HomePageLinks homePageLinks = PageFactory.initElements (driver, HomePageLinks.class);
-        homePageLinks.TruckandTools ();
+        homePageLinks.TruckandToolsPage ();
     }
 
     @Test
@@ -25,8 +25,45 @@ public class TestLinks extends CommonAPI {
     }
 
     @Test
-    public void TesCreditPage(){
+    public void TesHelp(){
+        HomePageLinks homePageLinks = PageFactory.initElements (driver, HomePageLinks.class);
+        homePageLinks.HelpPage ();
+    }
+
+    @Test
+    public void TestShipping(){
+        HomePageLinks homePageLinks = PageFactory.initElements (driver, HomePageLinks.class);
+        homePageLinks.ShippingPage ();
+    }
+
+    @Test
+    public void TestCreditPage(){
         HomePageLinks homePageLinks = PageFactory.initElements (driver, HomePageLinks.class);
         homePageLinks.CreditPage ();
+
+    }
+
+    @Test
+    public void TestCorporate(){
+        HomePageLinks homePageLinks = PageFactory.initElements (driver, HomePageLinks.class);
+        homePageLinks.CorporatePage ();
+    }
+
+    @Test
+    public void TestFavorite(){
+        HomePageLinks homePageLinks = PageFactory.initElements (driver, HomePageLinks.class);
+        homePageLinks.FavoritePage ();
+    }
+
+    @Test
+    public void TestNews(){
+        HomePageLinks homePageLinks = PageFactory.initElements (driver, HomePageLinks.class);
+        homePageLinks.NewsPage ();
+    }
+
+    @Test
+    public void TestProtect(){
+        HomePageLinks homePageLinks = PageFactory.initElements (driver, HomePageLinks.class);
+        homePageLinks.ProtectionPage ();
     }
 }

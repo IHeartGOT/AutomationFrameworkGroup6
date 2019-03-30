@@ -23,6 +23,35 @@ public class HomePageLinks extends CommonAPI {
     @FindBy (linkText = "Credit Services")
     WebElement cs;
 
+    @FindBy (xpath = "//a[@class='TaskLinks__link'][contains(text(),'Help')]")
+    WebElement help;
+
+    @FindBy(linkText = "Shipping & Delivery")
+    WebElement sh;
+
+    @FindBy(linkText = "Digital Newsroom")
+    WebElement news;
+
+    @FindBy(linkText ="Favorites")
+    WebElement favs;
+
+    @FindBy(linkText = "Corporate Information")
+    WebElement corporate;
+
+    @FindBy(linkText = "Protection Plans")
+    WebElement protect;
+
+    public WebElement getProtect(){return protect;}
+
+    public WebElement getCorporate(){return corporate;}
+
+    public WebElement getFavs(){return favs;}
+
+    public WebElement getNews(){return news;}
+
+    public WebElement getSh(){return sh;}
+
+    public WebElement getHelp() { return help;}
 
     public WebElement Truckandtool(){ return truckntool;}
 
@@ -33,10 +62,33 @@ public class HomePageLinks extends CommonAPI {
     public WebElement CreditServ(){return cs;}
 
 
+    public void ProtectionPage(){
+        getProtect ().click ();
+    }
+
+    public void FavoritePage(){
+        getFavs ().click ();
+    }
+
+    public void CorporatePage(){
+        getCorporate ().click ();
+    }
 
 
-    public void TruckandTools(){
-        truckntool.click ();
+    public void NewsPage(){
+        getNews ().click ();
+    }
+
+    public void ShippingPage(){
+        getSh ().click ();
+    }
+
+    public void HelpPage(){
+        getHelp ().click ();
+    }
+
+    public void TruckandToolsPage(){
+        Truckandtool ().click ();
     }
 
     public void FortheProPage(){
@@ -46,7 +98,10 @@ public class HomePageLinks extends CommonAPI {
     public void  GiftsCardsPage(){
         GiftCards ().click ();
     }
+
     public void CreditPage(){
         CreditServ ().click ();
     }
+
+
 }
