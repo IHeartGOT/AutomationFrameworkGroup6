@@ -24,7 +24,6 @@ public class Links extends CommonAPI {
 
     @Test
     public void TestRegister(){
-
         Registration registration= PageFactory.initElements (driver, Registration.class);
         registration.ResgistationPage ();
     }
@@ -66,75 +65,74 @@ public class Links extends CommonAPI {
     }
 
     @Test
-    public void TestnvestPage(){
+    public void TestInvestPage(){
         EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-        eHomePage.Inversting ();
+        eHomePage.InvestorsPage ();
     }
 
     @Test
     public void TestNewsPage(){
         EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-        eHomePage.News ();
+        eHomePage.NewsPage ();
     }
 
-//    @Test
-//    public void TestReturns(){
-//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-//        eHomePage.ReturnsPage ();
-//    }
-//
-//    @Test
-//    public void TestReturns(){
-//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-//        eHomePage.ReturnsPage ();
-//    }
-//
-//    @Test
-//    public void TestReturns(){
-//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-//        eHomePage.ReturnsPage ();
-//    }
-//
-//    @Test
-//    public void TestReturns(){
-//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-//        eHomePage.ReturnsPage ();
-//    }
-//
-//    @Test
-//    public void TestReturns(){
-//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-//        eHomePage.ReturnsPage ();
-//    }
-//
-//    @Test
-//    public void TestReturns(){
-//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-//        eHomePage.ReturnsPage ();
-//    }
-//
-//    @Test
-//    public void TestReturns(){
-//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-//        eHomePage.ReturnsPage ();
-//    }
-//
-//    @Test
-//    public void TestReturns(){
-//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-//        eHomePage.ReturnsPage ();
-//    }
-//
-//    @Test
-//    public void TestReturns(){
-//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-//        eHomePage.ReturnsPage ();
-//    }
-//
-//    @Test
-//    public void TestReturns(){
-//        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
-//        eHomePage.ReturnsPage ();
-//    }
+    @Test
+    public void TestClassifieds(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.ClassifiedsPage ();
+    }
 
-}
+    @Test
+    public void TestMoneyBack(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.MoneyBackPage ();
+    }
+
+    @Test
+    public void TestStoresPage() {
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.StorePage ();
+    }
+
+    @Test
+    public void TestStubHub(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.StubHubPage ();
+    }
+
+    @Test
+    public void TestCareerPage(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.CareerPage ();
+    }
+
+    @Test
+    public void TestPolicies(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.PoliciesPage ();
+    }
+
+    @Test
+    public void TestContacts(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.ContactPage ();
+    }
+
+    @Test
+    public void TestAnnouncement(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.AnnouncementPage ();
+    }
+
+    @Test
+    public void TestSellPage(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.SellPage ();
+    }
+
+    @Test
+    public void TestCommunity(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.ContactPage ();
+    }
+    }

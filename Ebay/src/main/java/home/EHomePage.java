@@ -44,77 +44,97 @@ public class EHomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"gf-BIG\"]/table/tbody/tr/td[5]/ul/li[5]/a")
     WebElement returns;
 
-    public WebElement Returns(){return returns;}
-
-    public void ReturnsPage(){
-        Returns ().click ();
-    }
 
     @FindBy (linkText = "Company info")
     WebElement info;
 
-    public WebElement Company(){return info;}
-
-    public void CompanyInfoPage(){
-        Company ().click ();
-    }
-
     @FindBy (linkText = "News")
     WebElement news;
-
-    public WebElement News(){return news;}
-
-    public void NewsPage(){
-        News ().click ();
-    }
 
     @FindBy (linkText = "Investors")
     WebElement invest;
 
+    @FindBy (linkText = "eBay Classifieds")
+    WebElement classified;
+
+    @FindBy (linkText = "eBay eBay Money Back Guarantee")
+    WebElement moneyback;
+
+    @FindBy (xpath = "//*[@id=\"gf-BIG\"]/table/tbody/tr/td[1]/ul/li[5]/a")
+    WebElement stores;
+
+    @FindBy(xpath = "//a[contains(text(),'StubHub')]")
+    WebElement stub;
+
+    @FindBy(xpath = "//a[contains(text(),'Careers')]")
+    WebElement career;
+
+    @FindBy(xpath = "//a[@class='thrd'][contains(text(),'Policies')]")
+    WebElement policies;
+
+    @FindBy(xpath = "//a[contains(text(),'Contact us')]")
+    WebElement contact;
+
+    @FindBy(xpath = "//a[@class='thrd'][contains(text(),'Announcements')]")
+    WebElement announcement;
+
+    @FindBy(xpath = "//a[contains(text(),'eBay Community')]")
+    WebElement community;
+
+
+
+
+    public WebElement Community(){return community;}
+
+    public WebElement Announcement(){return announcement;}
+
+    public WebElement Contact(){return contact;}
+
+    public WebElement Policies(){return policies;}
+
+    public WebElement Career(){ return career;}
+
+    public WebElement StubHub(){return stub;}
+
+    public WebElement Stores(){return stores;}
+
+    public WebElement MoneyBack(){return moneyback;}
+
+    public WebElement EClassified(){return  classified;}
+
+    public WebElement Returns(){return returns;}
+
+    public WebElement Company(){return info;}
+
     public WebElement Inversting(){return invest;}
 
+    public WebElement LoginLink() { return MyEbay;}
 
-    public void InverstorsPage(){
-        Inversting ().click ();
+    public WebElement News(){return news;}
+
+    public WebElement MotorLink() { return motor;}
+
+    public WebElement ShoppingLink() { return shopping; }
+
+    public WebElement SignInLink() {return signin;}
+
+    public WebElement UserName() {return username; }
+
+    public WebElement Password() {return password; }
+
+    public WebElement SignButton() {return signButton; }
+
+    public WebElement Sell() { return sell;}
+
+
+
+        public void CompanyInfoPage(){
+        Company ().click ();
     }
 
-    public WebElement MotorLink() {
+        public void ClassifiedsPage(){
+            EClassified ().click ();
 
-        return motor;
-    }
-
-    public WebElement LoginLink() {
-        return MyEbay;
-
-    }
-
-    public WebElement ShoppingLink() {
-        return shopping;
-
-    }
-
-    public WebElement SignInLink() {
-        return signin;
-
-    }
-
-    public WebElement UserName() {
-        return username;
-
-    }
-
-    public WebElement Password() {
-        return password;
-
-    }
-
-    public WebElement SignButton() {
-        return signButton;
-
-    }
-
-    public WebElement SellPage() {
-        return sell;
     }
 
         public void HomePageLinks(){
@@ -129,6 +149,60 @@ public class EHomePage extends CommonAPI {
             SignButton ();
             SellPage ();
             Assert.assertEquals (title, "eBay Motors: Auto Parts and Vehicles | eBay");
+
+    }
+
+        public void ReturnsPage(){
+        Returns ().click ();
+
+    }
+
+        public void NewsPage(){
+        News ().click ();
+
+    }
+
+        public void InvestorsPage(){
+        Inversting ().click ();
+
+    }
+        public void MoneyBackPage(){
+        MoneyBack ().click ();
+
+    }
+
+        public void StorePage(){
+        Stores ().click ();
+
+    }
+
+        public  void StubHubPage(){
+        StubHub ().click ();
+
+    }
+        public void CareerPage(){
+            Career ().click ();
+
+    }
+        public void PoliciesPage(){
+        Policies ().click ();
+
+    }
+        public  void ContactPage(){
+        Contact ().click ();
+
+    }
+        public void AnnouncementPage(){
+        Announcement ().click ();
+
+    }
+        public void SellPage(){
+        Sell ().click ();
+
+    }
+        public void CommunityPage(){
+        Community ().click ();
         }
+
 
     }
