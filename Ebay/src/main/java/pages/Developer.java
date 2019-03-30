@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
@@ -46,25 +47,56 @@ public class Developer extends CommonAPI {
 
 
 
-    public WebElement Develop(){return develop;}
+    public WebElement Develop(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
 
-    public WebElement Regis() {return register;}
+        return develop;}
 
-    public WebElement Usr() {return username;}
 
-    public WebElement Pass() {return password;}
+    public WebElement Regis() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
 
-    public WebElement Rdio1(){return radio8;}
+        return register;}
 
-    public WebElement EmailAd(){return email;}
+    public WebElement Usr() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
 
-    public WebElement ReEmailAd(){return reemail;}
+        return username;}
 
-    public WebElement Tel(){return phone;}
+    public WebElement Pass() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
 
-    public WebElement rdio2(){return checkbox;}
+        return password;}
 
-    public WebElement JoinBtn(){return join;}
+    public WebElement Rdio1(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        return radio8;}
+
+    public WebElement EmailAd(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        return email;}
+
+    public WebElement ReEmailAd(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        return reemail;}
+
+    public WebElement Tel(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        return phone;}
+
+    public WebElement rdio2(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        return checkbox;}
+
+    public WebElement JoinBtn(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        return join;}
 
 
 

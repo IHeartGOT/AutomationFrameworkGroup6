@@ -135,4 +135,24 @@ public class Links extends CommonAPI {
         EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
         eHomePage.ContactPage ();
     }
+
+    @Test
+    public void TestHomePageLink2(){
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.HomePageLinks2 ();
     }
+
+    @Test
+    public void TestHomePageLink3() {
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.HomePageLinks3 ();
+    }
+
+    @Test
+    public void TestSignin() {
+        EHomePage eHomePage = PageFactory.initElements (driver, EHomePage.class);
+        eHomePage.SigninPage ();
+    }
+
+}
+

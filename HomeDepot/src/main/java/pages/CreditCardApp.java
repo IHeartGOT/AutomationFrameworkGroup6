@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import reporting.TestLogger;
 
 public class CreditCardApp extends CommonAPI {
 
@@ -49,23 +50,57 @@ public class CreditCardApp extends CommonAPI {
     @FindBy(className = "asvgTop")
     WebElement svg;
 
-    public WebElement Credit(){ return cs;}
-    public WebElement Application(){return apply;}
-    public WebElement FName(){return fn;}
-    public WebElement LName(){return ln;}
-    public WebElement Email(){return email;}
-    public WebElement Address(){return add;}
-    public WebElement City1(){return city;}
-    public WebElement ZipCode(){return zip;}
-    public WebElement Phone(){return ph;}
-    public WebElement Mortgage(){return mtg;}
-    public WebElement Income(){return income;}
-    public WebElement Social(){return ssn;}
-    public WebElement Birth(){return dob;}
-    public WebElement Agree(){return rdio;}
-    public WebElement EmailAgree(){return edel;}
-    public WebElement SubmitApp(){return submit;}
-    public WebElement SVG(){return svg;};
+    public WebElement Credit(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return cs;}
+    public WebElement Application(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return apply;}
+    public WebElement FName(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return fn;}
+    public WebElement LName(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return ln;}
+    public WebElement Email(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return email;}
+    public WebElement Address(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return add;}
+    public WebElement City1(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return city;}
+    public WebElement ZipCode(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return zip;}
+    public WebElement Phone(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return ph;}
+    public WebElement Mortgage(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return mtg;}
+    public WebElement Income(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return income;}
+    public WebElement Social(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return ssn;}
+    public WebElement Birth(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return dob;}
+    public WebElement Agree(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return rdio;}
+    public WebElement EmailAgree(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return edel;}
+    public WebElement SubmitApp(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return submit;}
+    public WebElement SVG(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return svg;};
 
 
     public void CreditCardAppPage(){

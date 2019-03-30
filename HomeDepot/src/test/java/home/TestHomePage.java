@@ -24,6 +24,22 @@ public class TestHomePage extends CommonAPI {
     }
 
     @Test
+    public void TestSearchBar(){
+        HomePage homePage = PageFactory.initElements (driver, HomePage.class);
+        homePage.SearchBar ();
+    }
+    @Test
+    public void TestShoppinfCart() {
+        HomePage homePage = PageFactory.initElements (driver, HomePage.class);
+        homePage.ShoppingCartPage ();
+    }
+    @Test
+    public void TestTrackPage() {
+        HomePage homePage = PageFactory.initElements (driver, HomePage.class);
+        homePage.TrackPage ();
+    }
+
+    @Test
     public void TestStoreLocator(){
         StoreFinder storeFinder = PageFactory.initElements (driver, StoreFinder.class);
         storeFinder.StoreLocation ();

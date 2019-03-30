@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import reporting.TestLogger;
 
 public class HomePage extends CommonAPI {
 
@@ -25,27 +26,47 @@ public class HomePage extends CommonAPI {
 
 
 
-public WebElement AllDept(){ return driver.findElement (alldept);}
+public WebElement AllDept(){
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    return driver.findElement (alldept);}
 
-public WebElement SearchBox(){ return driver.findElement (search);}
+public WebElement SearchBox(){
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    return driver.findElement (search);}
 
-public WebElement ShoppingCart(){return driver.findElement (cart);}
+public WebElement ShoppingCart(){
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    return driver.findElement (cart);}
 
-public WebElement Track(){return driver.findElement (tracking);}
+public WebElement Track(){
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    return driver.findElement (tracking);}
 
-public WebElement OrderNumber(){return driver.findElement (tracknumber);}
+public WebElement OrderNumber(){
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    return driver.findElement (tracknumber);}
 
-public WebElement EmailAddress(){ return driver.findElement (email);}
+public WebElement EmailAddress(){
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    return driver.findElement (email);}
 
-public WebElement SubmitBttn(){return driver.findElement (submit);}
+public WebElement SubmitBttn(){
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    return driver.findElement (submit);}
 
 
 
 
-public void TrackOrders(){
+public void TrackOrders() {
     AllDept ().click ();
+}
+public void SearchBar() {
     SearchBox ().sendKeys ("plumbing", Keys.ENTER);
+}
+public void ShoppingCartPage() {
     ShoppingCart ().click ();
+}
+public void TrackPage() {
     Track ().click ();
     OrderNumber ().sendKeys ("W565477687");
     EmailAddress ().sendKeys ("ptbhowmik@gmail.com");

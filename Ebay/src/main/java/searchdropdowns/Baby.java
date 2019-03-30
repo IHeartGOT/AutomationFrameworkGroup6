@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import reporting.TestLogger;
 
 public class Baby extends CommonAPI {
 
@@ -16,6 +17,7 @@ public class Baby extends CommonAPI {
     public void BabyPage() {
         driver.findElement (By.id ("gh-ac")).sendKeys ("diapers");
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         s.selectByValue ("2984");
         driver.findElement (By.id ("gh-btn")).click ();
 

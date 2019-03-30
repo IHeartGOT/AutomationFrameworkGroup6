@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class Registration extends CommonAPI{
 
@@ -32,13 +33,25 @@ public class Registration extends CommonAPI{
 
 
 
-    public WebElement RegistrationPage() {return registration;}
-    public WebElement FirstNameInput() {return firstname;}
-    public WebElement LastNameInput() {return lastname;}
-    public WebElement EmailInput() {
-        return email;
+    public WebElement RegistrationPage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return registration;}
+
+    public WebElement FirstNameInput() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return firstname;}
+
+    public WebElement LastNameInput() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return lastname;}
+
+        public WebElement EmailInput() {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            return email;
     }
-    public WebElement PasswordInput() {return password;}
+    public WebElement PasswordInput() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return password;}
 
 
     public void ResgistationPage(){

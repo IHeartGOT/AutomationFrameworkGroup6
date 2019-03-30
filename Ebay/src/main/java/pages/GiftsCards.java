@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class GiftsCards extends CommonAPI {
 
@@ -24,11 +25,20 @@ public class GiftsCards extends CommonAPI {
     WebElement under35;
 
 
-    public WebElement GiftCards() { return giftcards;}
+    public WebElement GiftCards() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
 
-    public WebElement DigitalCards() {return digital;}
+        return giftcards;}
 
-    public WebElement Under35Cards() { return under35;}
+    public WebElement DigitalCards() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        return digital;}
+
+    public WebElement Under35Cards() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        return under35;}
 
 
 

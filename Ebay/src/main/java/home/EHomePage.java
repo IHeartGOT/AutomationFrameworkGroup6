@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.asserts.Assertion;
+import reporting.TestLogger;
 
 public class EHomePage extends CommonAPI {
 
@@ -15,7 +16,6 @@ public class EHomePage extends CommonAPI {
 
         PageFactory.initElements (driver, this);
     }
-
 
     @FindBy (css = "#mainContent > div.hl-cat-nav > ul > li:nth-child(3) > a")
     WebElement motor;
@@ -57,7 +57,7 @@ public class EHomePage extends CommonAPI {
     @FindBy (linkText = "eBay Classifieds")
     WebElement classified;
 
-    @FindBy (linkText = "eBay eBay Money Back Guarantee")
+    @FindBy (linkText = "eBay Money Back Guarantee")
     WebElement moneyback;
 
     @FindBy (xpath = "//*[@id=\"gf-BIG\"]/table/tbody/tr/td[1]/ul/li[5]/a")
@@ -84,116 +84,192 @@ public class EHomePage extends CommonAPI {
 
 
 
-    public WebElement Community(){return community;}
+    public WebElement Community(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return community;}
 
-    public WebElement Announcement(){return announcement;}
+    public WebElement Announcement(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return announcement;}
 
-    public WebElement Contact(){return contact;}
+    public WebElement Contact(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return contact;}
 
-    public WebElement Policies(){return policies;}
+    public WebElement Policies(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return policies;}
 
-    public WebElement Career(){ return career;}
+    public WebElement Career(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return career;}
 
-    public WebElement StubHub(){return stub;}
+    public WebElement StubHub(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return stub;}
 
-    public WebElement Stores(){return stores;}
+    public WebElement Stores(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return stores;}
 
-    public WebElement MoneyBack(){return moneyback;}
+    public WebElement MoneyBack(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return moneyback;}
 
-    public WebElement EClassified(){return  classified;}
+    public WebElement EClassified(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return  classified;}
 
-    public WebElement Returns(){return returns;}
+    public WebElement Returns(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return returns;}
 
-    public WebElement Company(){return info;}
+    public WebElement Company(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return info;}
 
-    public WebElement Inversting(){return invest;}
+    public WebElement Inversting(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return invest;}
 
-    public WebElement LoginLink() { return MyEbay;}
+    public WebElement LoginLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return MyEbay;}
 
-    public WebElement News(){return news;}
+    public WebElement News(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return news;}
 
-    public WebElement MotorLink() { return motor;}
+    public WebElement MotorLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return motor;}
 
-    public WebElement ShoppingLink() { return shopping; }
+    public WebElement ShoppingLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return shopping; }
 
-    public WebElement SignInLink() {return signin;}
+    public WebElement SignInLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return signin;}
 
-    public WebElement UserName() {return username; }
+    public WebElement UserName() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return username; }
 
-    public WebElement Password() {return password; }
+    public WebElement Password() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return password; }
 
-    public WebElement SignButton() {return signButton; }
+    public WebElement SignButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return signButton; }
 
-    public WebElement Sell() { return sell;}
+    public WebElement Sell() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return sell;}
 
 
 
         public void CompanyInfoPage(){
         Company ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Our Company - eBay Inc.");
     }
 
-        public void ClassifiedsPage(){
-            EClassified ().click ();
+        public void ClassifiedsPage() {
+        EClassified ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Home | eBay Classifieds Group");
 
     }
 
-        public void HomePageLinks(){
+        public void HomePageLinks() {
             MotorLink ().click ();
             String title = driver.getTitle ();
+            Assert.assertEquals (title, "eBay Motors: Auto Parts and Vehicles | eBay");
+        }
+
+        public void HomePageLinks2() {
             LoginLink ().click ();
-            driver.navigate ().back ();
+            String title = driver.getTitle ();
+            Assert.assertEquals (title, "Sign in or Register | eBay");
+
+        }
+
+        public void HomePageLinks3() {
+
             ShoppingLink ().click ();
+
+        }
+        public void SigninPage(){
             SignInLink ().click ();
             UserName ().sendKeys ("ProdipBhowmik");
             Password ().sendKeys ("123456");
-            SignButton ();
-            SellPage ();
-            Assert.assertEquals (title, "eBay Motors: Auto Parts and Vehicles | eBay");
-
+            SignButton ().click ();
     }
 
         public void ReturnsPage(){
         Returns ().click ();
+            String title = driver.getTitle ();
+            Assert.assertEquals (title, "eBay Returns");
 
     }
 
         public void NewsPage(){
         News ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Our News - eBay Inc.");
 
     }
 
         public void InvestorsPage(){
         Inversting ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "eBay Inc. - Investor Relations");
 
     }
         public void MoneyBackPage(){
         MoneyBack ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Money Back Guarantee | eBay\n");
 
     }
 
         public void StorePage(){
         Stores ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Why Get an eBay Store");
 
     }
 
         public  void StubHubPage(){
         StubHub ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Buy sports, concert and theater tickets on StubHub!");
 
     }
         public void CareerPage(){
-            Career ().click ();
+        Career ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Find Your Dream Job - eBay Inc. Careers");
 
     }
         public void PoliciesPage(){
         Policies ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Rules and policies | eBay");
 
     }
         public  void ContactPage(){
         Contact ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Sign in or Register | eBay");
 
     }
         public void AnnouncementPage(){
         Announcement ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Announcements - The eBay Community");
 
     }
         public void SellPage(){
@@ -202,7 +278,10 @@ public class EHomePage extends CommonAPI {
     }
         public void CommunityPage(){
         Community ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Groups - The eBay Community");
         }
+
 
 
     }

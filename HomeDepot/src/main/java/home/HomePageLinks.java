@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import reporting.TestLogger;
 
 public class HomePageLinks extends CommonAPI {
 
@@ -41,25 +42,45 @@ public class HomePageLinks extends CommonAPI {
     @FindBy(linkText = "Protection Plans")
     WebElement protect;
 
-    public WebElement getProtect(){return protect;}
+    public WebElement getProtect(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return protect;}
 
-    public WebElement getCorporate(){return corporate;}
+    public WebElement getCorporate(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return corporate;}
 
-    public WebElement getFavs(){return favs;}
+    public WebElement getFavs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return favs;}
 
-    public WebElement getNews(){return news;}
+    public WebElement getNews(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return news;}
 
-    public WebElement getSh(){return sh;}
+    public WebElement getSh(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return sh;}
 
-    public WebElement getHelp() { return help;}
+    public WebElement getHelp() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return help;}
 
-    public WebElement Truckandtool(){ return truckntool;}
+    public WebElement Truckandtool(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return truckntool;}
 
-    public WebElement ForthePro1(){ return  forthepro;}
+    public WebElement ForthePro1(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return  forthepro;}
 
-    public WebElement GiftCards(){return gc;}
+    public WebElement GiftCards(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return gc;}
 
-    public WebElement CreditServ(){return cs;}
+    public WebElement CreditServ(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return cs;}
 
 
     public void ProtectionPage(){

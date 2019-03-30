@@ -16,8 +16,8 @@
         <classes>
             <!--<class name="home.TestHomePage"/>-->
             <!--<class name="search.SearchTest"/>-->
-            <!--<class name="tabletest.TestTableData"/>-->
-            <class name="home.TestLinks"/>
+            <class name="tabletest.TestTableData"/>
+            <!--<class name="home.TestLinks"/>-->
             <!--<class name="pages.TestCreditCard"/>-->
 
         </classes>

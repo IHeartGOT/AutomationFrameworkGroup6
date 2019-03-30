@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class Fashion extends CommonAPI {
 
@@ -16,6 +17,7 @@ public class Fashion extends CommonAPI {
 
     public void FashionPage() {
         driver.findElement (By.id ("gh-ac")).sendKeys ("gucci");
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
         s.selectByValue ("281");
         driver.findElement (By.id ("gh-btn")).click ();
