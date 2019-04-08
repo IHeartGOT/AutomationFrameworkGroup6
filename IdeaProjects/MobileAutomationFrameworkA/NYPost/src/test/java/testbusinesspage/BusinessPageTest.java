@@ -9,12 +9,12 @@ import org.testng.annotations.Test;
 
 public class BusinessPageTest extends CommonAPI {
 
-    BusinessPage businessPage;
-
-    @BeforeMethod
-    public void initElements(){
-       businessPage  = PageFactory.initElements(ad, BusinessPage.class);
-    }
+//    BusinessPage businessPage;
+//
+//    @BeforeMethod
+//    public void initElements(){
+//       businessPage  = PageFactory.initElements(ad, BusinessPage.class);
+//    }
 
     @Test
     public void Menu() {
