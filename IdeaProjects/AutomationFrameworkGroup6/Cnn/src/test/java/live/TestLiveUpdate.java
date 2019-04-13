@@ -3,7 +3,7 @@ package live;
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import pages.LiveUpdate;
+import liveupdate.LiveUpdate;
 
 public class TestLiveUpdate extends CommonAPI {
 

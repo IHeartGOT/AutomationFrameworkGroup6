@@ -42,10 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/Home/TestCnnHomePage.java">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/search/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,10 +54,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/title/TestHome.java">
+        <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/musicpage/Music.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="45">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,87 +75,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testdropdown/TestMoreCatagories.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Myspace/src/test/resources/MyspaceTestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testmusicpage/TestUploadMusic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding>
-                <marker date="1553964894636" expanded="true" signature="580:610" ph="..." />
-                <marker date="1553964894636" expanded="true" signature="581:610" ph="..." />
-                <marker date="1553964894636" expanded="true" signature="624:668" ph="..." />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/travelpage/TravelPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/uspage/USPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/logobutton/TestLogo.java">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/musictab/TestMusicLink.java">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/world/TestWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="525">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Myspace/target/test-classes/MyspaceTestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/search/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/xml/Parser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="232" selection-start-line="232" selection-end-line="232" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testdropdown/TestProfile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,20 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Cnn/src/test/java/travel/TestTravelPage.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/main/java/pages/USPage.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/test/java/us/TestUSPage.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/test/java/Home/World/TestWorldPage.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/main/java/pages/LiveUpdate.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/test/java/live/TestLiveUpdate.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/main/java/pages/entertainment.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/test/java/entertainment/TestEntertainment.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/main/java/pages/Entertainment.java" />
-        <option value="$PROJECT_DIR$/Myspace/src/main/java/title/SignInPage.java" />
-        <option value="$PROJECT_DIR$/Myspace/src/main/java/title/signinpage.java" />
-        <option value="$PROJECT_DIR$/Myspace/src/test/java/title/searchTest.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/test/java/world/TestWorld.java" />
-        <option value="$PROJECT_DIR$/Myspace/src/main/java/title/logo.java" />
         <option value="$PROJECT_DIR$/Cnn/src/main/java/pages/WorldPage.java" />
         <option value="$PROJECT_DIR$/Myspace/src/test/java/discoverlink/TestDiscoverLink.java" />
         <option value="$PROJECT_DIR$/Myspace/src/main/java/title/MusicLink.java" />
@@ -214,15 +186,29 @@
         <option value="$PROJECT_DIR$/Cnn/src/main/java/tabledata/TablePage.java" />
         <option value="$PROJECT_DIR$/Cnn/src/main/java/Weather/NewYorkNY.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/testweather/TestNewYorkNYWeather.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Cnn/src/main/java/title/CnnHomePage.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/exceldatareader/TestExcelDataSource.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/test/java/Home/TestCnnHomePage.java" />
         <option value="$PROJECT_DIR$/Myspace/src/test/java/testdropdown/TestMoreCat.java" />
         <option value="$PROJECT_DIR$/Myspace/src/test/java/testdropdown/TestMoreCatagories.java" />
         <option value="$PROJECT_DIR$/Myspace/src/test/resources/MyspaceTestRunner.xml" />
         <option value="$PROJECT_DIR$/Myspace/src/test/java/title/TestHome.java" />
         <option value="$PROJECT_DIR$/Myspace/src/test/java/logobutton/TestLogo.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/main/java/search/DataBase.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/test/java/entertainment/TestEntertainment.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/main/java/keyworddriven/KeywordEngine.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/main/java/title/CnnHomePage.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/main/java/pages/USPage.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/main/java/pages/TravelPage.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/main/java/pages/Entertainment.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/test/java/Home/TestCnnHomePage.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/main/java/home/CnnHomePage.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/test/java/us/TestUSPage.java" />
+        <option value="$PROJECT_DIR$/Myspace/src/main/java/home/HomePage.java" />
+        <option value="$PROJECT_DIR$/Myspace/src/test/resources/MySpaceTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Cnn/src/test/java/testkeyword/TestSearchKeyword.java" />
+        <option value="$PROJECT_DIR$/Myspace/src/main/java/musicpage/Music.java" />
+        <option value="$PROJECT_DIR$/Myspace/src/test/java/testmusicpage/TestUploadMusic.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml" />
       </list>
     </option>
   </component>
@@ -277,7 +263,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="815" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -287,6 +273,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AutomationFrameworkGroup6" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Generic" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup6" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Group6AutomationFramework" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup6" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Group6AutomationFramework" type="616d4139:PackageViewModuleNode" />
+              <item name="title" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -340,6 +346,15 @@
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Generic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
@@ -364,14 +379,6 @@
               <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dropdown" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -387,39 +394,7 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="discoverlink" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="logobutton" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="musictab" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="testdropdown" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="title" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="testmusicpage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -427,50 +402,6 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="generated-test-sources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test-classes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Myspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test-classes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="signin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Generic" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Group6AutomationFramework" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Group6AutomationFramework" type="616d4139:PackageViewModuleNode" />
-              <item name="title" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -575,7 +506,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553965341711" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555171968436" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -584,12 +515,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Cnn/src/test/java/travel" />
-      <recent name="$PROJECT_DIR$/Cnn/src/test/java/Home/World" />
-      <recent name="$PROJECT_DIR$/Cnn/src/test/java/us" />
-      <recent name="$PROJECT_DIR$/Cnn/src/test/resources" />
-      <recent name="$PROJECT_DIR$/Cnn/Extent-Report" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="base" />
+      <recent name="main.home" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Cnn/src/test/resources" />
@@ -597,9 +525,15 @@
       <recent name="$PROJECT_DIR$/Cnn" />
       <recent name="$PROJECT_DIR$/MySpace/target/maven-Archive" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="base" />
-      <recent name="main.home" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="entertainment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cnn/src/test/java/travel" />
+      <recent name="$PROJECT_DIR$/Cnn/src/test/java/Home/World" />
+      <recent name="$PROJECT_DIR$/Cnn/src/test/java/us" />
+      <recent name="$PROJECT_DIR$/Cnn/src/test/resources" />
+      <recent name="$PROJECT_DIR$/Cnn/Extent-Report" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -614,7 +548,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestLogo.Test67">
+  <component name="RunManager" selected="TestNG./Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CnnTestRunner.xml">
+    <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.DataBase" />
+      <module name="Cnn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestHomePage.Searchlink" type="TestNG" nameIsGenerated="true">
       <module name="CNN" />
       <extension name="coverage">
@@ -633,17 +580,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHome.Test69" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUploadMusic.TestUplaodMusicTab" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Myspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="title.*" />
+          <option name="PATTERN" value="testmusicpage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="title" />
-      <option name="MAIN_CLASS_NAME" value="title.TestHome" />
-      <option name="METHOD_NAME" value="Test69" />
+      <option name="PACKAGE_NAME" value="testmusicpage" />
+      <option name="MAIN_CLASS_NAME" value="testmusicpage.TestUploadMusic" />
+      <option name="METHOD_NAME" value="TestUplaodMusicTab" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -651,64 +598,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogo.Test67" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Myspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="logobutton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="logobutton" />
-      <option name="MAIN_CLASS_NAME" value="logobutton.TestLogo" />
-      <option name="METHOD_NAME" value="Test67" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMoreCatagories.Test86" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Myspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testdropdown.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testdropdown" />
-      <option name="MAIN_CLASS_NAME" value="testdropdown.TestMoreCatagories" />
-      <option name="METHOD_NAME" value="Test86" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMusicLink.Test68" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Myspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="musictab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="musictab" />
-      <option name="MAIN_CLASS_NAME" value="musictab.TestMusicLink" />
-      <option name="METHOD_NAME" value="Test68" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Myspace/src/test/resources/MyspaceTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Myspace" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Myspace/src/test/resources/MyspaceTestRunner.xml" />
+    <configuration name="/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CnnTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cnn" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Myspace/src/test/resources/MySpaceTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Myspace" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Myspace/src/test/resources/MySpaceTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cnn" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -717,11 +630,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestLogo.Test67" />
-        <item itemvalue="TestNG.TestMusicLink.Test68" />
-        <item itemvalue="TestNG.TestHome.Test69" />
-        <item itemvalue="TestNG./Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Myspace/src/test/resources/MyspaceTestRunner.xml" />
-        <item itemvalue="TestNG.TestMoreCatagories.Test86" />
+        <item itemvalue="TestNG./Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CnnTestRunner.xml" />
+        <item itemvalue="TestNG.TestUploadMusic.TestUplaodMusicTab" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG./Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Myspace/src/test/resources/MySpaceTestRunner.xml" />
+        <item itemvalue="Application.DataBase" />
       </list>
     </recent_temporary>
   </component>
@@ -739,18 +652,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_AutomationFrameworkGroup6_Myspace_src_test_resources_MyspaceTestRunner_xml - 2019.03.30 at 12h 49m 27s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Myspace/src/test/resources/MyspaceTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_AutomationFrameworkGroup6_Myspace_src_test_resources_MyspaceTestRunner_xml - 2019.03.30 at 12h 50m 44s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Myspace/src/test/resources/MyspaceTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_AutomationFrameworkGroup6_Myspace_src_test_resources_MyspaceTestRunner_xml - 2019.03.30 at 12h 52m 57s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Myspace/src/test/resources/MyspaceTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_AutomationFrameworkGroup6_Myspace_src_test_resources_MyspaceTestRunner_xml - 2019.03.30 at 12h 54m 09s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Myspace/src/test/resources/MyspaceTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_alexkarmokar_IdeaProjects_AutomationFrameworkGroup6_Myspace_src_test_resources_MyspaceTestRunner_xml - 2019.03.30 at 12h 54m 37s.xml">
       <configuration name="/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Myspace/src/test/resources/MyspaceTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -769,6 +670,18 @@
     <history-entry file="TestLogo_Test67 - 2019.03.30 at 13h 02m 27s.xml">
       <configuration name="TestLogo.Test67" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestFreeLunch_Test86 - 2019.04.13 at 10h 39m 55s.xml">
+      <configuration name="TestFreeLunch.Test86" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_alexkarmokar_IdeaProjects_AutomationFrameworkGroup6_Myspace_src_test_resources_MySpaceTestRunner_xml - 2019.04.13 at 11h 05m 52s.xml">
+      <configuration name="/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Myspace/src/test/resources/MySpaceTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestUploadMusic_TestUplaodMusicTab - 2019.04.13 at 11h 08m 44s.xml">
+      <configuration name="TestUploadMusic.TestUplaodMusicTab" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestUploadMusic_TestUplaodMusicTab - 2019.04.13 at 11h 09m 34s.xml">
+      <configuration name="TestUploadMusic.TestUplaodMusicTab" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,9 +693,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="815" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2267525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -790,7 +703,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985694" weight="0.14266118" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8218884" visible="true" weight="0.25172892" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8218884" weight="0.2510288" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4965278" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -799,14 +712,14 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.28554216" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17811158" side_tool="true" weight="0.25172892" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48855507" weight="0.31622747" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48855507" weight="0.31412894" />
       <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.49861112" weight="0.32884097" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.18168813" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.18383405" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -861,7 +774,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Myspace/src/test/java/title/TestHome.java</url>
+          <url>file://$PROJECT_DIR$/Myspace/src/test/java/testhome/TestHome.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="4" />
@@ -884,323 +797,125 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/entertainment/TestEntertainment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Cnn/Extent-Report/Politicspage/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/search.java" />
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/search/SearchTest.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/pages/TravelPage.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/testtable/TestTableData.java" />
-    <entry file="file://$PROJECT_DIR$/Myspace/Extent-Report/ExtentReport.html">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5422">
-          <caret line="362" column="80" lean-forward="true" selection-start-line="362" selection-start-column="80" selection-end-line="362" selection-end-column="80" />
+        <state relative-caret-position="270">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/xml/Parser.class">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        <state relative-caret-position="45">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestNG.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="267" selection-start-line="267" selection-end-line="267" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Cnn/Extent-Report/CNN HomePage test result: 44/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/testkeyworddriven/TestSearchKeyword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Cnn/Extent-Report/Cnn Test Report others:  23/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/title/SignInPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="126" column="3" selection-start-line="126" selection-start-column="3" selection-end-line="126" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3042#3043#0" expanded="true" />
-            <element signature="e#3072#3073#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/keyword/SearchKeyword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="589">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/title/signinpage.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/entertainment/TestEntertainment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/title/Logo.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/politicspage/PoliticsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/discoverlink/TestDiscoverTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/dropdown/free/FreeLunch.java" />
-    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/title/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2406#2407#0" expanded="true" />
-            <element signature="e#2438#2439#0" expanded="true" />
-            <element signature="e#2478#2479#0" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-            <element signature="e#2551#2552#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
-            <element signature="e#2627#2628#0" expanded="true" />
-            <element signature="e#2662#2663#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2778#2779#0" expanded="true" />
-            <element signature="e#2810#2811#0" expanded="true" />
-            <element signature="e#2849#2850#0" expanded="true" />
-            <element signature="e#2880#2881#0" expanded="true" />
-            <element signature="e#2925#2926#0" expanded="true" />
-            <element signature="e#2962#2963#0" expanded="true" />
-            <element signature="e#3166#3167#0" expanded="true" />
-            <element signature="e#3197#3198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/title/MusicLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/title/DiscoverTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/signin/TestSignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testdropdown/TestDropDownMenu.java" />
-    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/dropdown/profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/tabledata/TablePage.java" />
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/pages/Entertainment.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/liveupdate/LiveUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/pages/PoliticsPage.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/entertainment/Entertainment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/Weather/NewYorkNY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/testweather/TestNewYorkNYWeather.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/home/CnnHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="527">
+          <caret line="372" column="29" lean-forward="true" selection-start-line="372" selection-start-column="29" selection-end-line="372" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/travel/TestTravelPage.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/Home/TestCnnHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="195">
+          <caret line="13" column="60" lean-forward="true" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/us/TestUSPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/exceldata/ExcelDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/search/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/search/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/title/CnnHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="258" column="16" selection-start-line="258" selection-start-column="16" selection-end-line="258" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/exceldatareader/TestExcelDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/title/TestDropdownSelections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/dropdown/FreeLunch.java">
+    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/freelunch/FreeLunch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -1212,7 +927,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/dropdown/More.java">
+    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/title/Logo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/title/MusicLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/discoverlink/TestDiscoverTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/logobutton/TestLogo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testdropdown/TestMoreCatagories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testdropdown/TestProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testfreelunch/TestFreeLunch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/signin/TestSignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/home/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="176" column="1" lean-forward="true" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
+          <folding>
+            <element signature="e#2557#2558#0" expanded="true" />
+            <element signature="e#2631#2632#0" expanded="true" />
+            <element signature="e#2699#2700#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2843#2844#0" expanded="true" />
+            <element signature="e#2915#2916#0" expanded="true" />
+            <element signature="e#2989#2990#0" expanded="true" />
+            <element signature="e#3067#3068#0" expanded="true" />
+            <element signature="e#3143#3144#0" expanded="true" />
+            <element signature="e#3215#3216#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3406#3407#0" expanded="true" />
+            <element signature="e#3438#3439#0" expanded="true" />
+            <element signature="e#3489#3490#0" expanded="true" />
+            <element signature="e#3534#3535#0" expanded="true" />
+            <element signature="e#3571#3572#0" expanded="true" />
+            <element signature="e#3602#3603#0" expanded="true" />
+            <element signature="e#3643#3644#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
+            <element signature="e#3718#3719#0" expanded="true" />
+            <element signature="e#3752#3753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testhome/TestHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/musictab/TestMusicLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/resources/MySpaceTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/more/More.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -1222,34 +1060,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testdropdown/TestFreeLunch.java">
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testmore/TestMore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="8" selection-start-column="3" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/profile/profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testdropdown/TestMoreCatagories.java">
+    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/discover/DiscoverTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/exceldata/ExcelDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/xml/TestNGContentHandler.class">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/exceldatareader/TestExcelDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7215">
-          <caret line="504" selection-start-line="504" selection-end-line="504" />
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testdropdown/TestProfile.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/keyworddriven/KeywordEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/testkeyword/TestSearchKeyword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/testweather/TestNewYorkNYWeather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/Weather/NewYorkNY.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1259,83 +1140,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/xml/TestNGContentHandler.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/worldpage/WorldPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/Home/TestCnnHomePage.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/search/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="90">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/target/test-classes/MyspaceTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/search/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/title/TestHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/resources/MyspaceTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/world/TestWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <marker date="1553964894636" expanded="true" signature="580:610" ph="..." />
-            <marker date="1553964894636" expanded="true" signature="581:610" ph="..." />
-            <marker date="1553964894636" expanded="true" signature="624:668" ph="..." />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/musictab/TestMusicLink.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="282">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/xml/Parser.java">
+    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/testmusicpage/TestUploadMusic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        <state relative-caret-position="165">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myspace/src/test/java/logobutton/TestLogo.java">
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/travelpage/TravelPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/uspage/USPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myspace/src/main/java/musicpage/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1278,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Cnn</last-edited>
+          <last-edited>AutomationFrameworkGroup6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

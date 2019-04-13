@@ -4,8 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.TravelPage;
-import title.CnnHomePage;
+import travelpage.TravelPage;
 
 public class TestTravelPage  extends CommonAPI {
 

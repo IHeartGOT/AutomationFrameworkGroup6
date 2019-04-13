@@ -13,8 +13,11 @@
 
     <test name = "My Space">
         <classes>
-            <class name="title.TestHome"/>
+            <class name="testhome.TestHome"/>
             <class name="discoverlink.TestDiscoverTab"/>
+            <class name="testfreelunch.TestFreeLunch"/>
+            <class name="testmusicpage.TestUploadMusic"/>
+
         </classes>
     </test>
 </suite>

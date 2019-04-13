@@ -4,7 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.WorldPage;
+import worldpage.WorldPage;
 
 public class TestWorld extends CommonAPI {
 

@@ -4,7 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import title.DiscoverTab;
+import discover.DiscoverTab;
 
 public class TestDiscoverTab extends CommonAPI {
 

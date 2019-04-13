@@ -14,9 +14,17 @@
     <test name = "Cnn Home">
         <classes>
            <class name="Home.TestCnnHomePage"/>
-            <!--<class name="title.CnnHomePage"/>-->
-            <!--<class name="search.SearchTest"/>-->
-            <!--<class name="testkeyworddriven.TestSearchKeyword"/>-->
+            <class name="entertainment.TestEntertainment"/>
+            <class name="search.SearchPage"/>
+            <class name="testkeyword.TestSearchKeyword"/>
+            <class name="live.TestLiveUpdate"/>
+            <class name="politics.TestPolitics"/>
+            <class name="testweather.TestNewYorkNYWeather"/>
+            <class name="travel.TestTravelPage"/>
+            <class name="world.TestWorld"/>
+
+
+
         </classes>
     </test>
 

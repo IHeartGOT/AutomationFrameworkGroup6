@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/CucumberWithSelenium" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/July2018WebAutomation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MobileAutomationJanuary2019" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Web-AutomationJan2019" vcs="Git" />
+  </component>
+</project>

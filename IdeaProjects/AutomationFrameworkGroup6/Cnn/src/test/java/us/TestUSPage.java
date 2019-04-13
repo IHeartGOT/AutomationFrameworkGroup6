@@ -4,17 +4,11 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.USPage;
-import title.CnnHomePage;
+import uspage.USPage;
 
 public class TestUSPage extends CommonAPI {
 
-    @Test
-    public void Test40() {
-        USPage usPage = PageFactory.initElements(driver, USPage.class);
-        usPage.getUS();
-        Assert.assertEquals(true, true);
-    }
+
     @Test
     public void Test41() {
         USPage usPage = PageFactory.initElements(driver, USPage.class);
