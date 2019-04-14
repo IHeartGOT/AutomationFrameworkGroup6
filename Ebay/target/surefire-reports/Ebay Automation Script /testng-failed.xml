@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Ebay Automation Script ]">
-  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="useCloudEnv" value="true"/>
   <parameter name="os" value="OS X"/>
   <parameter name="os_version" value="Sierra"/>
   <parameter name="browserVersion" value="30.0"/>
@@ -10,53 +10,17 @@
   <parameter name="url" value="https://www.ebay.com/"/>
   <test thread-count="5" verbose="0" name="Ebay Home(failed)">
     <classes>
-      <class name="dropdown.TestDropSelection">
+      <class name="home.Title">
         <methods>
-          <include name="TestElectronics"/>
-          <include name="TestToys"/>
           <include name="afterEachTestMethod"/>
-          <include name="TestBaby"/>
-          <include name="TestCoinsPage"/>
-          <include name="TestSportsMemo"/>
-          <include name="extentSetup"/>
-          <include name="TestBusiness"/>
-          <include name="cleanUp"/>
-          <include name="TestAntiques"/>
-          <include name="TestHealthPage"/>
-          <include name="TestMusic"/>
-          <include name="TestCellPage"/>
-          <include name="TestComputersPage"/>
-          <include name="TestArt"/>
-          <include name="TestPottery"/>
-          <include name="setUp"/>
-          <include name="TestCamera"/>
-          <include name="TestStampsPage"/>
-          <include name="TestDVDPage"/>
-          <include name="TestMotors"/>
-          <include name="TestTickets"/>
-          <include name="TestCrafts"/>
-          <include name="TestCollectibles"/>
-          <include name="TestSpecialtyl"/>
-          <include name="TestTravel"/>
-          <include name="TestVideosGames"/>
-          <include name="TestEntertainment"/>
-          <include name="TestClothingPage"/>
-          <include name="startExtent"/>
-          <include name="TestRealEstate"/>
-          <include name="TestSportingGoodsPage"/>
-          <include name="TestDolls"/>
-          <include name="TestJewelryPage"/>
-          <include name="TestFashion"/>
-          <include name="TestToysHobbiesPage"/>
-          <include name="TestPetPage"/>
-          <include name="TestEverythingPage"/>
           <include name="generateReport"/>
-          <include name="TestMusicalInstruments"/>
-          <include name="TestGiftCards"/>
-          <include name="TestAllCat"/>
-          <include name="TestHomeGarden"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="Test1"/>
         </methods>
-      </class> <!-- dropdown.TestDropSelection -->
+      </class> <!-- home.Title -->
     </classes>
   </test> <!-- Ebay Home(failed) -->
 </suite> <!-- Failed suite [Ebay Automation Script ] -->

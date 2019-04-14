@@ -14,7 +14,7 @@ public class Stamps extends CommonAPI {
         PageFactory.initElements (driver, this);
     }
 
-    public void StampsPage() {
+        public void StampsPage() {
         driver.findElement (By.id ("gh-ac")).sendKeys ("USA");
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select s = new Select (driver.findElement (By.id ("gh-cat")));
@@ -22,4 +22,20 @@ public class Stamps extends CommonAPI {
         driver.findElement (By.id ("gh-btn")).click ();
 
     }
+        public void StampsPage2() {
+        driver.findElement (By.id ("gh-ac")).sendKeys ("USA");
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select s = new Select (driver.findElement (By.id ("gh-cat")));
+        s.selectByValue ("260");
+        driver.findElement (By.id ("gh-btn")).click ();
+
+    }  public void StampsPage3() {
+        driver.findElement (By.id ("gh-ac")).sendKeys ("USA");
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select s = new Select (driver.findElement (By.id ("gh-cat")));
+        s.selectByValue ("260");
+        driver.findElement (By.id ("gh-btn")).click ();
+
+    }
+
 }

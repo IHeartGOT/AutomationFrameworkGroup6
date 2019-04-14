@@ -2,65 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23242d06-b98e-4953-b5d3-fb8352fc2e12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/home/EHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/home/EHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/pages/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/pages/Developer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/pages/Fashion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/pages/Fashion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/pages/GiftsCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/pages/GiftsCards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/pages/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/pages/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/pages/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/pages/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/pages/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/AllCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/AllCategories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Antiques.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Antiques.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Art.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Art.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Baby.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Baby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/BusinessAndIndstrial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/BusinessAndIndstrial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CameraAndPhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CameraAndPhoto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CellPhoneAndAcc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CellPhoneAndAcc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ClothingShoesAcc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ClothingShoesAcc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CoinsAndPaperMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CoinsAndPaperMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Collectibles.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Collectibles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ComputersTabletsNetworking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ComputersTabletsNetworking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ConsumerElectronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ConsumerElectronics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Crafts.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Crafts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/DVDMovies.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/DVDMovies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/DollsBears.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/DollsBears.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EBayMotors.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EBayMotors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EntertainmentMemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EntertainmentMemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EverythingElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EverythingElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Fashion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Fashion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/GiftCardsCoupons.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/GiftCardsCoupons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/HealthBeauty.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/HealthBeauty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/HomeAndGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/HomeAndGarden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/JewelryWatches.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/JewelryWatches.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/MusicalInstrumentsGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/MusicalInstrumentsGear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PetSupplies.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PetSupplies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PotteryGlass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PotteryGlass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/RealEstate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/RealEstate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SpecialtyServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SpecialtyServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SportingGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SportingGoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SportsMemCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SportsMemCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Stamps.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Stamps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/TicketsExperiences.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/TicketsExperiences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ToysHobbies.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ToysHobbies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Travel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Travel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/VideoGamesConsoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/VideoGamesConsoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/dropdown/TestDropSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/dropdown/TestDropSelection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/home/Links.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/home/Links.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/META-INF/Ebay.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/pages/GiftsCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/pages/GiftsCards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/AllCategories.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/AllCategories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Antiques$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Antiques.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Antiques.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Music.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/PetSupplies.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/PetSupplies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/RealEstate.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/RealEstate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SpecialtyServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SpecialtyServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SportingGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SportingGoods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SportsMemCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SportsMemCards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Stamps.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Stamps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/TicketsExperiences.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/TicketsExperiences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/ToysHobbies.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/ToysHobbies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Travel.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Travel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/VideoGamesConsoles.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/VideoGamesConsoles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/junitreports/TEST-home.TestOrders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/junitreports/TEST-home.TestOrders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/dropdown/TestDropSelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/dropdown/TestDropSelection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/fashionpage/HometoFashion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/fashionpage/HometoFashion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/home/Links.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/home/Links.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group6AutomationFramework.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeDepot/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/datasource/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/datasource/DataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePageLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePageLinks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/home/StoreFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/home/StoreFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/CreditCardApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/CreditCardApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/tabledata/TablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/tabledata/TablePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestLinks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/home/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/home/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/home/HomePageLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/home/HomePageLinks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/home/StoreFinder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/home/StoreFinder$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/home/StoreFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/home/StoreFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /HomeDepot Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /HomeDepot Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /HomeDepot Home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /HomeDepot Home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/HomeDepotTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/test-classes/HomeDepotTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/home/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/test-classes/home/TestHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/home/TestLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/test-classes/home/TestLinks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CnnTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/src/test/resources/MySpaceTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/src/test/resources/MySpaceTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,6 +116,7 @@
     <ignored path="$PROJECT_DIR$/Ebay/target/" />
     <ignored path="$PROJECT_DIR$/BestBuy/target/" />
     <ignored path="$PROJECT_DIR$/HomeDepot/target/" />
+    <ignored path="$PROJECT_DIR$/RestAssured-Twitter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,98 +126,106 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AutomationFrameworkGroup6$_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml.ic" NAME="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml Coverage Results" MODIFIED="1553360149506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePageLinks.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/search/SearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="81" column="144" selection-start-line="81" selection-start-column="144" selection-end-line="81" selection-end-column="144" />
+            <state relative-caret-position="60">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/authorization/secret.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/tweets/TweetsClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
               <folding>
-                <element signature="e#3100#3101#0" expanded="true" />
-                <element signature="e#3138#3139#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/test/java/api/tests/TestTweets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="70" column="7" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="70" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/home/StoreFinder.java">
+        <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/base/BaseTwitterClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="27" column="144" selection-start-line="27" selection-start-column="144" selection-end-line="27" selection-end-column="144" />
+            <state relative-caret-position="360">
+              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/CreditCardApp.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="101" column="144" selection-start-line="101" selection-start-column="144" selection-end-line="101" selection-end-column="144" />
+            <state relative-caret-position="80">
+              <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/search/SearchPage.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/dropdown/TestDropSelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="3690">
+              <caret line="249" column="5" selection-start-line="249" selection-start-column="5" selection-end-line="249" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/tabledata/TablePage.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="165">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/tabletest/TestTableData.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/datasource/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/pages/Developer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1313">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/pages/Fashion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="37" column="144" selection-start-line="37" selection-start-column="144" selection-end-line="37" selection-end-column="144" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/home/EHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,57 +252,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/pages/Fashion.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/pages/GiftsCards.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/pages/Orders.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/pages/Registration.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Art.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Baby.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Books.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/BusinessAndIndstrial.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CameraAndPhoto.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CellPhoneAndAcc.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ClothingShoesAcc.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CoinsAndPaperMoney.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Collectibles.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ComputersTabletsNetworking.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ConsumerElectronics.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Crafts.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/DollsBears.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/DVDMovies.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EBayMotors.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EntertainmentMemo.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EverythingElse.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Fashion.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/GiftCardsCoupons.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/HealthBeauty.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/HomeAndGarden.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/JewelryWatches.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Music.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/MusicalInstrumentsGear.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PetSupplies.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PotteryGlass.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/AllCategories.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Antiques.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/RealEstate.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SpecialtyServices.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SportingGoods.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SportsMemCards.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Stamps.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/TicketsExperiences.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ToysHobbies.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Travel.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/VideoGamesConsoles.java" />
         <option value="$PROJECT_DIR$/HomeDepot/src/main/java/datasource/DataBase.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePage.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePageLinks.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/home/StoreFinder.java" />
         <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/CreditCardApp.java" />
         <option value="$PROJECT_DIR$/HomeDepot/src/main/java/tabledata/TablePage.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/pages/Orders.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/AllCategories.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Stamps.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PetSupplies.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Music.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/home/Links.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePageLinks.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/home/StoreFinder.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestLinks.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePage.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/../Keyword-Driven-Web-UI-Framework/src/main/java/com/qa/hs/keyword/base/Base.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/keyword/keyWordDriven.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/keyword/Login.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/home/EHomePage.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/keyword/KeywordDrivenBase.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/keyword/KeyWordEngine.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" />
+        <option value="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/src/test/resources/MySpaceTestRunner.xml" />
+        <option value="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CnnTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/pages/GiftsCards.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/dropdown/TestHome.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/dropdown/TestDropSelection.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAssured-Twitter/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/base/BaseTwitterClient.java" />
+        <option value="$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/tweets/TweetsClient.java" />
+        <option value="$PROJECT_DIR$/RestAssured-Twitter/src/main/authorization/secret.properties" />
+        <option value="$PROJECT_DIR$/RestAssured-Twitter/src/test/java/api/tests/TestTweets.java" />
       </list>
     </option>
   </component>
@@ -270,11 +327,6 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Ebay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -296,10 +348,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="81" />
-    <option name="y" value="63" />
-    <option name="width" value="1250" />
-    <option name="height" value="728" />
+    <option name="width" value="1280" />
+    <option name="height" value="751" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -319,147 +369,85 @@
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Excel" type="462c0819:PsiDirectoryNode" />
+              <item name="authorization" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="keyword" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="searchdropdowns" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="tweets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dropdown" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fashionpage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testkeyword" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -468,122 +456,8 @@
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tabledata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tabletest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -594,9 +468,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553939416482" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554798850345" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/HomeDepot/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/RestAssured-Twitter/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -619,11 +494,11 @@
       <recent name="search" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RestAssured-Twitter/src/main/java" />
+      <recent name="$PROJECT_DIR$/Ebay/src/main/java/keyword" />
       <recent name="$PROJECT_DIR$/Ebay/src/ExcelFile" />
       <recent name="$PROJECT_DIR$/Ebay/excel" />
       <recent name="$PROJECT_DIR$/Ebay/src/main/java" />
-      <recent name="$PROJECT_DIR$/HomeDepot" />
-      <recent name="$PROJECT_DIR$/Ebay" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -638,20 +513,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml">
-    <configuration name="DataBase (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datasource.DataBase" />
-      <module name="HomeDepot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datasource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestTweets">
     <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datasource.DataBase" />
       <module name="Ebay" />
@@ -665,16 +527,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Links" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestExcel" />
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.Links" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTweets" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredTwitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.TestTweets" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -704,11 +583,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" />
-        <item itemvalue="Application.DataBase (1)" />
+        <item itemvalue="TestNG.TestTweets" />
         <item itemvalue="TestNG./Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" />
+        <item itemvalue="TestNG./Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" />
         <item itemvalue="Application.DataBase" />
-        <item itemvalue="TestNG.TestExcel" />
+        <item itemvalue="TestNG.Links" />
       </list>
     </recent_temporary>
   </component>
@@ -726,42 +605,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_HomeDepot_src_test_resources_HomeDepotTestRunner_xml - 2019.03.30 at 02h 02m 43s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.03.30 at 04h 08m 17s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.04.13 at 04h 58m 54s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.03.30 at 04h 17m 48s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.04.13 at 05h 21m 07s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.03.30 at 04h 26m 28s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.04.13 at 05h 50m 30s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.03.30 at 04h 38m 40s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.04.13 at 15h 04m 12s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.03.30 at 05h 01m 38s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" configurationId="TestNG" />
+    <history-entry file="TestTweets - 2019.04.14 at 02h 43m 44s.xml">
+      <configuration name="TestTweets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_HomeDepot_src_test_resources_HomeDepotTestRunner_xml - 2019.03.30 at 05h 19m 12s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestTweets - 2019.04.14 at 02h 45m 06s.xml">
+      <configuration name="TestTweets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_HomeDepot_src_test_resources_HomeDepotTestRunner_xml - 2019.03.30 at 05h 20m 29s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestTweets - 2019.04.14 at 02h 46m 09s.xml">
+      <configuration name="TestTweets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_HomeDepot_src_test_resources_HomeDepotTestRunner_xml - 2019.03.30 at 05h 21m 51s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestTweets - 2019.04.14 at 02h 47m 44s.xml">
+      <configuration name="TestTweets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_HomeDepot_src_test_resources_HomeDepotTestRunner_xml - 2019.03.30 at 05h 29m 29s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestTweets - 2019.04.14 at 02h 48m 18s.xml">
+      <configuration name="TestTweets" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestTweets - 2019.04.14 at 03h 24m 35s.xml">
+      <configuration name="TestTweets" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2996769" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26655897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -770,13 +648,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49757674" weight="0.1513437" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83602583" visible="true" weight="0.407355" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.83037156" visible="true" weight="0.46027398" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.779483" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983845" weight="0.32956153" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.16397415" side_tool="true" visible="true" weight="0.407355" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.16962843" side_tool="true" visible="true" weight="0.46027398" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.7625202" weight="0.32531825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -791,308 +669,80 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/BusinessAndIndstrial.java">
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/search/SearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="144" selection-start-line="21" selection-start-column="144" selection-end-line="21" selection-end-column="144" />
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CameraAndPhoto.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/tests/TestExcel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+        <state relative-caret-position="255">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CellPhoneAndAcc.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/pages/Fashion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+        <state relative-caret-position="194">
+          <caret line="37" column="144" selection-start-line="37" selection-start-column="144" selection-end-line="37" selection-end-column="144" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ClothingShoesAcc.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/pages/Orders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+        <state relative-caret-position="299">
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/CoinsAndPaperMoney.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/pages/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+        <state relative-caret-position="-481">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Collectibles.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/keyword/GoogleSheetAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ComputersTabletsNetworking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ConsumerElectronics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Crafts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/DollsBears.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/DVDMovies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EBayMotors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EntertainmentMemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/EverythingElse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Fashion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="144" selection-start-line="19" selection-start-column="144" selection-end-line="19" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/GiftCardsCoupons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/HealthBeauty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/HomeAndGarden.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/JewelryWatches.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/MusicalInstrumentsGear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PetSupplies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="255">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/AllCategories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="118" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Antiques.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Art.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PotteryGlass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="8" selection-start-line="18" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/RealEstate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SpecialtyServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SportingGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/SportsMemCards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+        <state relative-caret-position="449">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Stamps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+        <state relative-caret-position="449">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/TicketsExperiences.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PetSupplies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+        <state relative-caret-position="344">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/ToysHobbies.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Music.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Travel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="144" selection-start-line="17" selection-start-column="144" selection-end-line="17" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/VideoGamesConsoles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/Excel/ReadFromExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/datasource/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="144" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="53" column="140" selection-start-line="53" selection-start-column="140" selection-end-line="53" selection-end-column="140" />
-          <folding>
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="319">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePageLinks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="81" column="144" selection-start-line="81" selection-start-column="144" selection-end-line="81" selection-end-column="144" />
+        <state relative-caret-position="191">
+          <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
           <folding>
             <element signature="e#3100#3101#0" expanded="true" />
             <element signature="e#3138#3139#0" expanded="true" />
@@ -1102,64 +752,345 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/home/StoreFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="27" column="144" selection-start-line="27" selection-start-column="144" selection-end-line="27" selection-end-column="144" />
+        <state relative-caret-position="224">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/CreditCardApp.java">
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="101" column="144" selection-start-line="101" selection-start-column="144" selection-end-line="101" selection-end-column="144" />
+        <state relative-caret-position="344">
+          <caret line="158" column="36" selection-start-line="158" selection-start-column="36" selection-end-line="158" selection-end-column="36" />
+          <folding>
+            <element signature="e#2317#2318#0" expanded="true" />
+            <element signature="e#2349#2350#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+            <element signature="e#2340#2341#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2453#2454#0" expanded="true" />
+            <element signature="e#2485#2486#0" expanded="true" />
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2554#2555#0" expanded="true" />
+            <element signature="e#2708#2709#0" expanded="true" />
+            <element signature="e#2735#2736#0" expanded="true" />
+            <element signature="e#3122#3123#0" expanded="true" />
+            <element signature="e#3162#3163#0" expanded="true" />
+            <element signature="e#3377#3378#0" expanded="true" />
+            <element signature="e#3437#3438#0" expanded="true" />
+            <element signature="e#3488#3489#0" expanded="true" />
+            <element signature="e#3542#3543#0" expanded="true" />
+            <element signature="e#3580#3581#0" expanded="true" />
+            <element signature="e#3634#3635#0" expanded="true" />
+            <element signature="e#3677#3678#0" expanded="true" />
+            <element signature="e#3731#3732#0" expanded="true" />
+            <element signature="e#3769#3770#0" expanded="true" />
+            <element signature="e#3823#3824#0" expanded="true" />
+            <element signature="e#3860#3861#0" expanded="true" />
+            <element signature="e#3914#3915#0" expanded="true" />
+            <element signature="e#3953#3954#0" expanded="true" />
+            <element signature="e#4007#4008#0" expanded="true" />
+            <element signature="e#4042#4043#0" expanded="true" />
+            <element signature="e#4096#4097#0" expanded="true" />
+            <element signature="e#4136#4137#0" expanded="true" />
+            <element signature="e#4190#4191#0" expanded="true" />
+            <element signature="e#4228#4229#0" expanded="true" />
+            <element signature="e#4282#4283#0" expanded="true" />
+            <element signature="e#4326#4327#0" expanded="true" />
+            <element signature="e#4380#4381#0" expanded="true" />
+            <element signature="e#4417#4418#0" expanded="true" />
+            <element signature="e#4471#4472#0" expanded="true" />
+            <element signature="e#4508#4509#0" expanded="true" />
+            <element signature="e#4562#4563#0" expanded="true" />
+            <element signature="e#4584#4585#0" expanded="true" />
+            <element signature="e#4646#4647#0" expanded="true" />
+            <element signature="e#4678#4679#0" expanded="true" />
+            <element signature="e#4740#4741#0" expanded="true" />
+            <element signature="e#4770#4771#0" expanded="true" />
+            <element signature="e#4832#4833#0" expanded="true" />
+            <element signature="e#4863#4864#0" expanded="true" />
+            <element signature="e#4925#4926#0" expanded="true" />
+            <element signature="e#4952#4953#0" expanded="true" />
+            <element signature="e#5014#5015#0" expanded="true" />
+            <element signature="e#5045#5046#0" expanded="true" />
+            <element signature="e#5105#5106#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/search/SearchPage.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="-1278">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/tabletest/TestTableData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/tabledata/TablePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/keyword/keyWordDriven.java" />
+    <entry file="file://$PROJECT_DIR$/../Keyword-Driven-Web-UI-Framework/src/main/java/com/qa/hs/keyword/base/Base.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="62" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="16" selection-start-column="11" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/src/test/resources/MySpaceTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="60" selection-start-line="15" selection-start-column="10" selection-end-line="16" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CnnTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/keyword/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/keyword/KeywordDrivenBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="32" column="145" selection-start-line="32" selection-start-column="145" selection-end-line="32" selection-end-column="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/keyword/KeyWordEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1891">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/login/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/home/TestLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="170" column="32" selection-start-line="170" selection-start-column="32" selection-end-line="170" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/pages/Developer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1313">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="1215">
+          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/pages/Fashion.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/home/Title.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="37" column="144" selection-start-line="37" selection-start-column="144" selection-end-line="37" selection-end-column="144" />
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/pages/GiftsCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="57" column="76" selection-start-line="57" selection-start-column="76" selection-end-line="57" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/home/Links.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4485">
+          <caret line="308" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="308" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/keyword/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/search/SearchTestExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/testkeyword/automationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2690#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/home/EHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="1455">
+          <caret line="105" column="9" selection-start-line="105" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/home/TestOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/dropdown/TestDropSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3690">
+          <caret line="249" column="5" selection-start-line="249" selection-start-column="5" selection-end-line="249" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/datasource/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/search/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/authorization/secret.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/base/BaseTwitterClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/tweets/TweetsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/test/java/api/tests/TestTweets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="70" column="7" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="70" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,7 +1146,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Ebay</last-edited>
+          <last-edited>RestAssuredTwitter</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

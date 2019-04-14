@@ -15,7 +15,6 @@ public class HometoFashion extends CommonAPI {
         clickByXpath ("//*[@id=\"mainContent\"]/div[1]/ul/li[4]/a");
         clickByXpath ("//*[@id=\"gh-as-a\"]");
         typeByCssNEnter ("#_nkw", "ToysHobbies");
-
     }
 
 }

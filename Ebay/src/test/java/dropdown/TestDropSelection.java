@@ -9,14 +9,12 @@ public class TestDropSelection extends CommonAPI {
 
     @Test
     public void TestBusiness(){
-
         BusinessAndIndstrial businessAndIndstrial= PageFactory.initElements (driver, BusinessAndIndstrial.class );
         businessAndIndstrial.Business ();
     }
 
     @Test
     public void TestCollectibles(){
-
         Collectibles collectibles= PageFactory.initElements (driver, Collectibles.class );
         collectibles.CollectiblesPage ();
     }
@@ -71,6 +69,12 @@ public class TestDropSelection extends CommonAPI {
         AllCategories allCategories = PageFactory.initElements (driver, AllCategories.class);
         allCategories.AllCatPage ();
     }
+    @Test
+    public void TestMusic2(){
+        Music music = PageFactory.initElements (driver, Music.class );
+        music.MusicPage2 ();
+    }
+
 
     @Test
     public void TestAntiques() {
@@ -81,6 +85,23 @@ public class TestDropSelection extends CommonAPI {
     public void TestArt() {
         Art art = PageFactory.initElements (driver, Art.class);
         art.ArtPage ();
+    }
+    @Test
+    public void TestStampsPage3() {
+        Stamps stamps = PageFactory.initElements (driver, Stamps.class);
+        stamps.StampsPage3 ();
+    }
+
+    @Test
+    public void TestMusic3(){
+        Music music = PageFactory.initElements (driver, Music.class );
+        music.MusicPage3 ();
+    }
+
+    @Test
+    public void TestAllCat2() {
+        AllCategories allCategories = PageFactory.initElements (driver, AllCategories.class);
+        allCategories.AllCatPage2 ();
     }
     @Test
     public void TestBaby() {
@@ -178,6 +199,11 @@ public class TestDropSelection extends CommonAPI {
         realEstate.RealEstatePage ();
     }
     @Test
+    public void TestPetPage2() {
+        PetSupplies petSupplies = PageFactory.initElements (driver, PetSupplies.class);
+        petSupplies.PetsPage2 ();
+    }
+    @Test
     public void TestSpecialtyl() {
         SpecialtyServices specialtyServices = PageFactory.initElements (driver, SpecialtyServices.class);
         specialtyServices.SpecialtyPage ();
@@ -206,6 +232,16 @@ public class TestDropSelection extends CommonAPI {
     public void TestTravel() {
         Travel travel = PageFactory.initElements (driver, Travel.class);
         travel.TravelPage ();
+    }
+    @Test
+    public void TestPetPage3() {
+        PetSupplies petSupplies = PageFactory.initElements (driver, PetSupplies.class);
+        petSupplies.PetsPage3 ();
+    }
+    @Test
+    public void TestStampsPage2() {
+        Stamps stamps = PageFactory.initElements (driver, Stamps.class);
+        stamps.StampsPage2 ();
     }
     @Test
     public void TestVideosGames(){

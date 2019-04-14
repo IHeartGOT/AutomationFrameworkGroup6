@@ -24,6 +24,7 @@ public class StoreFinder extends CommonAPI {
     public WebElement StoreFinder(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return storelocation;}
+
     public WebElement ZipCode(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return zip;}

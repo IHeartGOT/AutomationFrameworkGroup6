@@ -44,7 +44,6 @@ public class EHomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"gf-BIG\"]/table/tbody/tr/td[5]/ul/li[5]/a")
     WebElement returns;
 
-
     @FindBy (linkText = "Company info")
     WebElement info;
 
@@ -81,8 +80,35 @@ public class EHomePage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'eBay Community')]")
     WebElement community;
 
+    @FindBy(xpath = "//*[@id=\"gh-p-3\"]/a")
+    WebElement help;
 
+    @FindBy(linkText = "Knowledge Base")
+    WebElement knowledge;
 
+    @FindBy(xpath = "//a[contains(text(),'Business sellers')]")
+    WebElement business;
+
+    @FindBy (linkText = "See all companies")
+    WebElement companies;
+
+    public WebElement getCompanies(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return companies;
+    }
+
+    public WebElement getBusiness(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return business;
+    }
+
+    public  WebElement getKnowledge(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return knowledge; }
+
+    public WebElement HelpandContact(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return help;}
 
     public WebElement Community(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -169,89 +195,185 @@ public class EHomePage extends CommonAPI {
         return sell;}
 
 
+        public void MoneyBackPage5(){
+        MoneyBack ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "eBay Money Back Guarantee | eBay");
+
+        }
+
+        public void CareerPage4(){
+        Career ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+        }
+
+        public void BusinessPage(){
+        getBusiness ().click (); }
+
+        public void KnowledgePage(){
+        getKnowledge ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Commonly Asked Questions - The eBay Community");
+        }
+
+        public  void HelpPage(){
+        HelpandContact ().click ();
+        String title=driver.getTitle ();
+        Assert.assertEquals (title, "eBay Customer Service" );
+        }
+
+        public void CareerPage3(){
+        Career ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+
+        }
 
         public void CompanyInfoPage(){
         Company ().click ();
         String title = driver.getTitle ();
-        Assert.assertEquals (title, "Our Company - eBay Inc.");
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+        }
+
+        public void PoliciesPage5(){
+        Policies ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Rules and policies | eBay");
+
     }
 
         public void ClassifiedsPage() {
         EClassified ().click ();
         String title = driver.getTitle ();
-        Assert.assertEquals (title, "Home | eBay Classifieds Group");
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
 
     }
+        public  void StubHubPage2(){
+        StubHub ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
 
+    }
         public void HomePageLinks() {
-            MotorLink ().click ();
-            String title = driver.getTitle ();
-            Assert.assertEquals (title, "eBay Motors: Auto Parts and Vehicles | eBay");
+        MotorLink ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "eBay Motors: Auto Parts and Vehicles | eBay");
         }
 
         public void HomePageLinks2() {
-            LoginLink ().click ();
-            String title = driver.getTitle ();
-            Assert.assertEquals (title, "Sign in or Register | eBay");
+        LoginLink ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Sign in or Register | eBay");
 
         }
+        public void StorePage2(){
+        Stores ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Why Get an eBay Store");
 
+         }
         public void HomePageLinks3() {
-
-            ShoppingLink ().click ();
+        ShoppingLink ().click ();
 
         }
         public void SigninPage(){
-            SignInLink ().click ();
-            UserName ().sendKeys ("ProdipBhowmik");
-            Password ().sendKeys ("123456");
-            SignButton ().click ();
+        SignInLink ().click ();
+        UserName ().sendKeys ("ProdipBhowmik");
+        Password ().sendKeys ("123456");
+        SignButton ().click ();
     }
 
         public void ReturnsPage(){
         Returns ().click ();
-            String title = driver.getTitle ();
-            Assert.assertEquals (title, "eBay Returns");
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "eBay Returns");
 
     }
 
         public void NewsPage(){
         News ().click ();
         String title = driver.getTitle ();
-        Assert.assertEquals (title, "Our News - eBay Inc.");
+        Assert.assertEquals (title, "Our News - eBay Inc");
+
+    }
+        public void PoliciesPage4(){
+        Policies ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Rules and policies | eBay");
 
     }
 
         public void InvestorsPage(){
         Inversting ().click ();
         String title = driver.getTitle ();
-        Assert.assertEquals (title, "eBay Inc. - Investor Relations");
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+
+    }
+        public void NewsPage5(){
+        News ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Our News - eBay Inc");
 
     }
         public void MoneyBackPage(){
         MoneyBack ().click ();
         String title = driver.getTitle ();
-        Assert.assertEquals (title, "Money Back Guarantee | eBay\n");
+        Assert.assertEquals (title, "eBay Money Back Guarantee | eBay");
 
     }
+        public void CareerPage5(){
+        Career ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
 
+    }
         public void StorePage(){
         Stores ().click ();
         String title = driver.getTitle ();
         Assert.assertEquals (title, "Why Get an eBay Store");
 
     }
-
-        public  void StubHubPage(){
+        public  void StubHubPage3(){
         StubHub ().click ();
         String title = driver.getTitle ();
-        Assert.assertEquals (title, "Buy sports, concert and theater tickets on StubHub!");
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
 
     }
+        public void InvestorsPage2(){
+        Inversting ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+
+    }
+        public void CommunityPage2(){
+        Community ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+    }
+
         public void CareerPage(){
         Career ().click ();
         String title = driver.getTitle ();
         Assert.assertEquals (title, "Find Your Dream Job - eBay Inc. Careers");
+
+    }
+        public void MoneyBackPage2(){
+        MoneyBack ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "eBay Money Back Guarantee | eBay");
+
+    }
+        public void StorePage3(){
+        Stores ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Why Get an eBay Store");
+
+        }
+        public void InvestorsPage3(){
+        Inversting ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
 
     }
         public void PoliciesPage(){
@@ -260,10 +382,22 @@ public class EHomePage extends CommonAPI {
         Assert.assertEquals (title, "Rules and policies | eBay");
 
     }
+        public  void StubHubPage(){
+         StubHub ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+
+    }
         public  void ContactPage(){
         Contact ().click ();
         String title = driver.getTitle ();
         Assert.assertEquals (title, "Sign in or Register | eBay");
+
+    }
+        public void InvestorsPage4(){
+        Inversting ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
 
     }
         public void AnnouncementPage(){
@@ -272,16 +406,80 @@ public class EHomePage extends CommonAPI {
         Assert.assertEquals (title, "Announcements - The eBay Community");
 
     }
-        public void SellPage(){
+        public void NewsPage4(){
+        News ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+
+    }
+        public void StorePage4(){
+        Stores ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Why Get an eBay Store");
+
+    }
+        public void SellPage2(){
         Sell ().click ();
+
+    }
+        public void InvestorsPage5(){
+        Inversting ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+
+    }
+        public void NewsPage3(){
+        News ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+
+    }
+        public void PoliciesPage2(){
+        Policies ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Rules and policies | eBay");
 
     }
         public void CommunityPage(){
         Community ().click ();
         String title = driver.getTitle ();
-        Assert.assertEquals (title, "Groups - The eBay Community");
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
         }
 
+        public void StorePage5(){
+        Stores ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Why Get an eBay Store");
 
+    }
+    public void MoneyBackPage3(){
+        MoneyBack ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "eBay Money Back Guarantee | eBay");
 
+    }
+        public void CareerPage2(){
+        Career ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Find Your Dream Job - eBay Inc. Careers");
+
+    }
+        public void NewsPage2(){
+        News ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+
+    }
+        public void MoneyBackPage4(){
+        MoneyBack ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "eBay Money Back Guarantee | eBay");
+
+    }
+        public void PoliciesPage3(){
+        Policies ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Rules and policies | eBay");
+
+    }
     }

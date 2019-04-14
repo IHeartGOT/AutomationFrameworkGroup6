@@ -87,6 +87,42 @@ public class HomePageLinks extends CommonAPI {
         getProtect ().click ();
     }
 
+    public void FavoritePage2(){
+        getFavs ().click ();
+    }
+
+    public void CorporatePage2(){
+        getCorporate ().click ();
+    }
+
+    public void NewsPage2(){
+        getNews ().click ();
+    }
+
+    public void ShippingPage2(){
+        getSh ().click ();
+    }
+
+    public void HelpPage2(){
+        getHelp ().click ();
+    }
+
+    public void TruckandToolsPage2(){
+        Truckandtool ().click ();
+    }
+
+    public void FortheProPage2(){
+        ForthePro1 ().click ();
+    }
+
+    public void  GiftsCardsPage2(){
+        GiftCards ().click ();
+    }
+
+    public void CreditPage2(){
+        CreditServ ().click ();
+    }
+
     public void FavoritePage(){
         getFavs ().click ();
     }
@@ -94,7 +130,6 @@ public class HomePageLinks extends CommonAPI {
     public void CorporatePage(){
         getCorporate ().click ();
     }
-
 
     public void NewsPage(){
         getNews ().click ();
@@ -123,6 +158,7 @@ public class HomePageLinks extends CommonAPI {
     public void CreditPage(){
         CreditServ ().click ();
     }
+
 
 
 }
