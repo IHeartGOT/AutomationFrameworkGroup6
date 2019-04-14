@@ -9,11 +9,10 @@ import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
+
 
 import static org.hamcrest.Matchers.hasValue;
 import static org.hamcrest.Matchers.not;
-import static org.jvnet.fastinfoset.EncodingAlgorithmIndexes.UUID;
 
 public class TestTweets{
 
@@ -24,16 +23,16 @@ public class TestTweets{
     @BeforeClass
     public void setUp() {
         this.tweetsClient = new TweetsClient();
-        // List for all the tweet ids which will be used for cleanup
+       
         this.tweetIdList = new ArrayList<Long>();
     }
 
-    @Test(description = "Retrieves the user's tweets from their timeline")
+    @Test(description = "Retrieves tweets")
     public void testGetUserTimeline() throws Exception {
         this.tweetsClient.getUserTimeline();
     }
 
-    @Test(description = "User can successfully tweet")
+    @Test(description = "User tweet")
     public void testUserCanTweet() throws Exception {
         String tweet = "What's up!!" + java.util.UUID.randomUUID();
         ValidatableResponse response = this.tweetsClient.createTweet(tweet);
@@ -42,7 +41,7 @@ public class TestTweets{
         this.tweetIdList.add(this.tweetId);
     }
 
-    @Test(description = "User unsuccessfully tweets the same tweet twice")
+    @Test(description = "Can't repeat same tweet")
     public void testUserCannotTweetTheSameTweetTwiceInARow() throws Exception {
         String tweet = "What's UP!" + java.util.UUID.randomUUID();
         ValidatableResponse response = this.tweetsClient.createTweet(tweet);
@@ -53,7 +52,7 @@ public class TestTweets{
         response.statusCode(HttpStatus.SC_FORBIDDEN);
     }
 
-    @Test(dependsOnMethods = {"testUserCanTweet"}, description = "User can successfully delete a tweet", enabled = false)
+    @Test(dependsOnMethods = {"testUserCanTweet"}, description = "User can delete a tweet", enabled = false)
     public void testUserCanDeleteTweet() throws Exception {
         ValidatableResponse response = this.tweetsClient.deleteTweet(this.tweetId);
         response.statusCode(HttpStatus.SC_OK)
@@ -61,13 +60,13 @@ public class TestTweets{
                 .body("$", not(hasValue(this.tweetId)));
     }
 
-//    @AfterClass(description = "Deletes all the tweets created by the tests")
-//    public void cleanUp() {
-//        if (this.tweetIdList != null) {
-//            for (Long tweetId : this.tweetIdList) {
-//                this.tweetsClient.deleteTweet(tweetId);
-//            }
-//        }
-//    }
+    @AfterClass(description = "Cleans up the tweets")
+    public void cleanUp() {
+        if (this.tweetIdList != null) {
+            for (Long tweetId : this.tweetIdList) {
+                this.tweetsClient.deleteTweet(tweetId);
+            }
+        }
+    }
 
 }

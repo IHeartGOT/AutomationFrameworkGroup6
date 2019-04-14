@@ -4,111 +4,8 @@
     <list default="true" id="23242d06-b98e-4953-b5d3-fb8352fc2e12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/home/EHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/home/EHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/pages/GiftsCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/pages/GiftsCards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/AllCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/AllCategories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PetSupplies.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/PetSupplies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Stamps.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/searchdropdowns/Stamps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/dropdown/TestDropSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/dropdown/TestDropSelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/fashionpage/HometoFashion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/home/Links.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/home/Links.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/META-INF/Ebay.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/EHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/pages/GiftsCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/pages/GiftsCards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/AllCategories.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/AllCategories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Antiques$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Antiques.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Antiques.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Music.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/PetSupplies.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/PetSupplies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/RealEstate.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/RealEstate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SpecialtyServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SpecialtyServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SportingGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SportingGoods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SportsMemCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/SportsMemCards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Stamps.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Stamps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/TicketsExperiences.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/TicketsExperiences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/ToysHobbies.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/ToysHobbies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Travel.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/Travel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/VideoGamesConsoles.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/searchdropdowns/VideoGamesConsoles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/junitreports/TEST-home.TestOrders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/junitreports/TEST-home.TestOrders.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/dropdown/TestDropSelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/dropdown/TestDropSelection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/fashionpage/HometoFashion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/fashionpage/HometoFashion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/home/Links.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/home/Links.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group6AutomationFramework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePageLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/home/HomePageLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/home/StoreFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/home/StoreFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/test/java/home/TestLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/home/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/home/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/home/HomePageLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/home/HomePageLinks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/home/StoreFinder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/home/StoreFinder$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/home/StoreFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/home/StoreFinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /HomeDepot Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /HomeDepot Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /HomeDepot Home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/HomeDepot Automation Script /HomeDepot Home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/HomeDepot Automation Script /toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/HomeDepotTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/test-classes/HomeDepotTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/home/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/test-classes/home/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/home/TestLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/test-classes/home/TestLinks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CnnTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/src/test/resources/MySpaceTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects/AutomationFrameworkGroup6/MySpace/src/test/resources/MySpaceTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssured-Twitter/Extent-Report/ExtentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssured-Twitter/src/test/java/api/tests/TestTweets.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssured-Twitter/src/test/java/api/tests/TestTweets.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -132,27 +29,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/search/SearchTest.java">
+        <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="194">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-            </state>
+            <state relative-caret-position="-385" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/authorization/secret.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="45">
               <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
             </state>
           </provider>
@@ -161,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/tweets/TweetsClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="464">
+              <caret line="60" selection-end-line="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/test/java/api/tests/TestTweets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="70" column="7" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="70" selection-end-column="7" />
+            <state relative-caret-position="375">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/base/BaseTwitterClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="180">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -194,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+            <state relative-caret-position="394">
+              <caret line="108" column="33" lean-forward="true" selection-start-line="89" selection-start-column="18" selection-end-line="108" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -349,7 +244,7 @@
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="751" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -369,6 +264,11 @@
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
               <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -376,58 +276,6 @@
               <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
               <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="tweets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
@@ -453,18 +301,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AutomationFrameworkGroup6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationFrameworkGroup6" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAssured-Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -605,9 +447,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.04.13 at 04h 58m 54s.xml">
-      <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_prodipbhowmik_IdeaProjects_AutomationFrameworkGroup6_Ebay_src_test_resources_EbayTestRunner1_xml - 2019.04.13 at 05h 21m 07s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/AutomationFrameworkGroup6/Ebay/src/test/resources/EbayTestRunner1.xml" configurationId="TestNG" />
     </history-entry>
@@ -635,11 +474,15 @@
     <history-entry file="TestTweets - 2019.04.14 at 03h 24m 35s.xml">
       <configuration name="TestTweets" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestTweets - 2019.04.14 at 14h 39m 56s.xml">
+      <configuration name="TestTweets" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26655897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27059773" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -648,13 +491,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49757674" weight="0.1513437" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.83037156" visible="true" weight="0.46027398" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8295638" visible="true" weight="0.3890411" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.779483" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983845" weight="0.32956153" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.16962843" side_tool="true" visible="true" weight="0.46027398" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.17043619" side_tool="true" visible="true" weight="0.3890411" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.7625202" weight="0.32531825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -669,13 +512,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/search/SearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/tests/TestExcel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1015,6 +851,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/search/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/dropdown/TestDropSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3690">
@@ -1039,55 +882,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/search/SearchTest.java">
+    <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/base/BaseTwitterClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+        <state relative-caret-position="394">
+          <caret line="108" column="33" lean-forward="true" selection-start-line="89" selection-start-column="18" selection-end-line="108" selection-end-column="33" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/authorization/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/base/BaseTwitterClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="194">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/java/client/tweets/TweetsClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="464">
+          <caret line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/main/authorization/secret.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RestAssured-Twitter/src/test/java/api/tests/TestTweets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="70" column="7" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="70" selection-end-column="7" />
+        <state relative-caret-position="375">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
