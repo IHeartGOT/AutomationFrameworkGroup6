@@ -3,18 +3,26 @@ package exceldatareader;
 import base.CommonAPI;
 import exceldata.ExcelDataSource;
 import org.testng.annotations.Test;
-import tabledata.TablePage;
+import reporting.TestLogger;
+import search.SearchPage;
 
 import java.util.List;
 
 public class TestExcelDataSource extends CommonAPI {
 
-    String ForFramework = "/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/ForFramework.xls";
+    String CNNdata = ("/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CNNdata.xls");
 
-   @Test
-   public void ForFramework() {
-       ExcelDataSource excelDataSource = new ExcelDataSource();
-       excelDataSource.navigateForward();
+SearchPage searchPage;
+String homeUrl = "https://www.cnn.com/";
 
+@Test
+    public void TestExceldata () {
+    ExcelDataSource dr = new ExcelDataSource();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    String[] data = dr.getExcelData(this.CNNdata, 0);
+    for (int i= 0; i< data.length; i++) {
+        System.out.println(data[i]);
+    }
+}
        }
-   }
+

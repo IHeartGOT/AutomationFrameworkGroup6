@@ -13,7 +13,8 @@
 
     <test name = "My Space">
         <classes>
-            <class name="title.TestHome"/>
+            <!--<class name="title.TestHome"/>-->
+            <!--<class name="discoverlink.TestDiscoverTab"/>-->
         </classes>
     </test>
 </suite>

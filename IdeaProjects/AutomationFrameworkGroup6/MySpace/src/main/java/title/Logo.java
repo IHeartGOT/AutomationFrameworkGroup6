@@ -18,9 +18,8 @@ public class Logo extends CommonAPI {
     public WebElement EntertainmentTab() {
         return logoTab;
     }
-    public void setLogoTab() {
-        logoTab.click();
-        logoTab.sendKeys("logo", Keys.ENTER);
+    public void LogoTab() { logoTab.click();
+    logoTab.sendKeys("logo", Keys.ENTER);
 
     }
 

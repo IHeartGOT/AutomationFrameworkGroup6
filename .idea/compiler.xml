@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Ebay" />
         <module name="Generic" />
+        <module name="Ebay" />
+        <module name="RestAssuredTwitter" />
         <module name="HomeDepot" />
       </profile>
     </annotationProcessing>

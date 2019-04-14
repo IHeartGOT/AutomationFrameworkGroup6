@@ -2,11 +2,15 @@ package title;
 
 import base.CommonAPI;
 import org.jsoup.select.Evaluator;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import javax.naming.Name;
 
 public class CnnHomePage extends CommonAPI {
 
@@ -15,7 +19,7 @@ public class CnnHomePage extends CommonAPI {
     }
 
     @FindBy(xpath = "//div[@class='nav-menu-links']//a[@href='/us']")
-    WebElement USLink;
+    WebElement US;
 
     @FindBy(css = "#nav > div.nav__container > div.nav-menu-links > a:nth-child(2")
     WebElement WorldLink;
@@ -110,17 +114,50 @@ public class CnnHomePage extends CommonAPI {
     @FindBy(css = "body > div.widget-grid-container > div > div:nth-child(13) > div > h2 > a")
     WebElement PersonalFinanceLink;
 
+    @FindBy(xpath = "//*[@id=\"homepage4-zone-7\"]/div[2]/div[1]/h2")
+    WebElement InCaseYouMissedIt;
+
+    @FindBy(xpath = "//img[@class='el-weather__header-icon']")
+    WebElement WeatherIcon;
+
+    @FindBy(partialLinkText = "footer_terms-of-use")
+    WebElement TermsOfUseTab;
+
+    @FindBy(xpath = "/html/body/footer/div[2]/div/div[2]/div[2]/div[2]/ul/li[2]/a")
+    WebElement PrivacyPolicyTab;
+
+    @FindBy(css = "/html/body/footer/div[2]/div/div[2]/div[2]/div[2]/ul/li[4]/a ")
+    WebElement AddChoicesTab;
+
+    @FindBy(partialLinkText = "footer_about-us")
+    WebElement AboutUsTab;
+
+    @FindBy(partialLinkText = "footer_cnn-studio-tours")
+    WebElement CNNStudioTours;
+
+    @FindBy(partialLinkText = "footer_cnn-store")
+    WebElement CnnStoreTab;
+
+    @FindBy(xpath = "/html/body/footer/div[2]/div/div[2]/div[2]/div[2]/ul/li[8]/a")
+    WebElement NewsLetterTab;
+
+    @FindBy(partialLinkText = "footer_transcripts")
+    WebElement TranScriptTab;
+
+    @FindBy(partialLinkText = "footer_license-footage")
+    WebElement LicenseFootageTab;
+
+    @FindBy(xpath = "/html/body/footer/div[2]/div/div[2]/div[2]/div[2]/ul/li[11]/a")
+    WebElement CnnNewsSourceTab;
 
 
     public WebElement getUSLink() {
-        return USLink;
+        return US;
     }
     public WebElement getWorldLink() {
         return WorldLink;
     }
-    public WebElement getPoliticsLink() {
-        return PoliticsLink;
-    }
+    public WebElement getPoliticsLink() { return PoliticsLink; }
     public WebElement getBusinessLink(){
         return BusinessLink;
     }
@@ -205,17 +242,29 @@ public class CnnHomePage extends CommonAPI {
     public WebElement getPersonalFinanceLink(){
         return PersonalFinanceLink;
     }
+    public WebElement getInCaseYouMissedIt(){ return InCaseYouMissedIt;}
+    public WebElement getWeatherIcon(){ return WeatherIcon;}
+    public WebElement getTermOfUseTab(){return TermsOfUseTab;}
+    public WebElement getPrivacyPolicyTab(){return PrivacyPolicyTab;}
+    public WebElement getAddChoicesTab(){return AddChoicesTab;}
+    public WebElement getAboutUsTab(){return AboutUsTab;}
+    public WebElement getCNNStudioTours() {return CNNStudioTours;}
+    public WebElement getCnnStoreTab(){return  CnnStoreTab;}
+    public WebElement getNewsLetterTab(){return NewsLetterTab;}
+    public WebElement getTranScriptTab(){return TranScriptTab;}
+    public WebElement getLicenseFootageTab(){return LicenseFootageTab;}
+    public WebElement getCnnNewsSourceTab() {return CnnNewsSourceTab;}
+
+
     public void CnnHomePageLinks(){
-        USLink.click();
-
-        WorldLink.click();
-
+        US.sendKeys("US", Keys.ENTER);
+        WorldLink.sendKeys("WorldLink",Keys.ENTER);
         PoliticsLink.click();
         BusinessLink.click();
         OpinionLink.click();
         HealthLink.click();
         EntertainmentLink.click();
-        StyleLink.click();
+        StyleLink.sendKeys("Style", Keys.ENTER);
         CNNlogoLink.click();
         TravelLink.click();
         SportsLink.click();
@@ -223,14 +272,14 @@ public class CnnHomePage extends CommonAPI {
         USEditionLink.click();
         SearchTabLink.click();
         TodayInPoliticsLink.click();
-        TopStoriesLink.click();
+        TopStoriesLink.sendKeys("TopStories", Keys.ENTER);
         BreakingNewsLink.click();
         NewsAndBuzzLink.click();
         AppleBigEventLink.click();
         CNNBusinessLink.click();
         CheckThisOutLink.click();
         PaidPartnerContentLink.click();
-        TechLink.click();
+        TechLink.sendKeys("Tech",Keys.ENTER);
         TrandingLink.click();
         PaidContent.click();
         MoreFromCNNLink.click();
@@ -239,6 +288,18 @@ public class CnnHomePage extends CommonAPI {
         LendingTree.click();
         TopCreditCardRewards.click();
         PersonalFinanceLink.click();
+        InCaseYouMissedIt.sendKeys("InCaseYouMissedIt", Keys.ENTER);
+        WeatherIcon.sendKeys("WeatherIcon", Keys.ENTER);
+        TermsOfUseTab.sendKeys("TermsOfUse", Keys.ENTER);
+        PrivacyPolicyTab.click();
+        AddChoicesTab.sendKeys("AddChoices", Keys.ENTER);
+        AboutUsTab.sendKeys("AboutUs", Keys.ENTER);
+        CNNStudioTours.click();
+        CNNStudioTours.sendKeys("CnnStore",Keys.ENTER);
+        NewsLetterTab.click();
+        TranScriptTab.sendKeys("TranScriptTab",Keys.ENTER);
+        LicenseFootageTab.click();
+        CnnNewsSourceTab.click();
 
     }
 

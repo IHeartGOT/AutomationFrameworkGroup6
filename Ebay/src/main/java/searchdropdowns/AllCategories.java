@@ -28,4 +28,17 @@ public class AllCategories extends CommonAPI {
 
 
     }
+    public void AllCatPage2() {
+        driver.findElement (By.id ("gh-ac")).sendKeys ("Honey");
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select s = new Select (driver.findElement (By.id ("gh-cat")));
+        s.selectByValue ("0");
+        driver.findElement (By.id ("gh-btn")).click ();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Honey | eBay");
+
+
+
+    }
 }

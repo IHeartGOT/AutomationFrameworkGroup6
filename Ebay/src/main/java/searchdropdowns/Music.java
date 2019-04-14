@@ -14,7 +14,23 @@ public class Music  extends CommonAPI {
         PageFactory.initElements (driver, this);
     }
 
-    public void MusicPage() {
+        public void MusicPage() {
+        driver.findElement (By.id ("gh-ac")).sendKeys ("Nirvana");
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select s = new Select (driver.findElement (By.id ("gh-cat")));
+        s.selectByValue ("11233");
+        driver.findElement (By.id ("gh-btn")).click ();
+
+    }
+        public void MusicPage2() {
+        driver.findElement (By.id ("gh-ac")).sendKeys ("Nirvana");
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select s = new Select (driver.findElement (By.id ("gh-cat")));
+        s.selectByValue ("11233");
+        driver.findElement (By.id ("gh-btn")).click ();
+
+    }
+        public void MusicPage3() {
         driver.findElement (By.id ("gh-ac")).sendKeys ("Nirvana");
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select s = new Select (driver.findElement (By.id ("gh-cat")));

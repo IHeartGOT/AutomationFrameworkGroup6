@@ -47,6 +47,14 @@ public class GiftsCards extends CommonAPI {
         DigitalCards ().click ();
         Under35Cards ().click ();
         String title = driver.getTitle ();
-        Assert.assertEquals (title, "Digital Gifts & Coupons | eBay");
+        Assert.assertEquals (title, "Digital Gifts & Coupons for sale | eBay");
+    }
+
+    public void GiftCardsPage2(){
+        GiftCards ().click ();
+        DigitalCards ().click ();
+        Under35Cards ().click ();
+        String title = driver.getTitle ();
+        Assert.assertEquals (title, "Digital Gifts & Coupons for sale | eBay");
     }
 }

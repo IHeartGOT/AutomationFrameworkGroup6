@@ -18,8 +18,7 @@ public class ExcelDataSource extends CommonAPI {
 
     public String[] getExcelData(String path, int sheetIndex) {
 
-        String[] data = {"/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/ForFramework.xls"};
-
+        String[] data = {"\"/Users/alexkarmokar/IdeaProjects/AutomationFrameworkGroup6/Cnn/src/test/resources/CNNdata.xls"};
         try {
             File file = new File(path);
             FileInputStream fis = new FileInputStream(file);
@@ -61,5 +60,6 @@ public class ExcelDataSource extends CommonAPI {
         }
         return value.toString();
     }
+
 }
 
