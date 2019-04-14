@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
         <module name="Myspace" />
+        <module name="Twitter" />
+        <module name="TwitterRestAssured" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +18,9 @@
       <module name="ExtentReport" target="1.8" />
       <module name="Instagram" target="1.8" />
       <module name="MySpace" target="1.8" />
+      <module name="RestApi" target="1.8" />
+      <module name="Twitter" target="1.8" />
+      <module name="twitter1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

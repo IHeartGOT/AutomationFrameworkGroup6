@@ -1,3 +1,4 @@
-title/HomePage.class
-title/signinpage.class
-title/Logo.class
+home/HomePage.class
+freelunch/FreeLunch.class
+discover/DiscoverTab.class
+more/More.class

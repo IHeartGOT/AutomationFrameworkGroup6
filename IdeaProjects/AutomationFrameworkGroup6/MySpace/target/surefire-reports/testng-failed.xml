@@ -8,22 +8,67 @@
   <parameter name="browserName" value="chrome"/>
   <parameter name="cloudEnvName" value="browserstack"/>
   <parameter name="url" value="https://www.myspace.com/"/>
-  <test thread-count="5" verbose="0" name="Employee Information Services(failed)" parallel="methods">
+  <test thread-count="5" verbose="0" name="My Space(failed)" parallel="methods">
     <classes>
-      <class name="title.TestHome">
+      <class name="testfreelunch.TestFreeLunch">
         <methods>
-          <include name="Test2"/>
-          <include name="Test1"/>
           <include name="afterEachTestMethod"/>
+          <include name="Test86"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
           <include name="startExtent"/>
-          <include name="Test4"/>
           <include name="cleanUp"/>
-          <include name="Test3"/>
         </methods>
-      </class> <!-- title.TestHome -->
+      </class> <!-- testfreelunch.TestFreeLunch -->
+      <class name="testhome.TestHome">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="Test74"/>
+          <include name="Test71"/>
+          <include name="Test82"/>
+          <include name="Test76"/>
+          <include name="Test73"/>
+          <include name="Test84"/>
+          <include name="extentSetup"/>
+          <include name="Test70"/>
+          <include name="Test81"/>
+          <include name="startExtent"/>
+          <include name="Test72"/>
+          <include name="Test83"/>
+          <include name="cleanUp"/>
+          <include name="Test80"/>
+          <include name="Test79"/>
+          <include name="Test78"/>
+          <include name="Test75"/>
+          <include name="Test69"/>
+          <include name="Test77"/>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testhome.TestHome -->
+      <class name="discoverlink.TestDiscoverTab">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="Test63"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- discoverlink.TestDiscoverTab -->
+      <class name="testmusicpage.TestUploadMusic">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="TestUplaodMusicTab"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testmusicpage.TestUploadMusic -->
     </classes>
-  </test> <!-- Employee Information Services(failed) -->
+  </test> <!-- My Space(failed) -->
 </suite> <!-- Failed suite [Myspace Automation Script ] -->

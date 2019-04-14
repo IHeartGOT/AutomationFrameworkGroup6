@@ -1,3 +1,4 @@
-signin/TestSignInPage.class
-title/TestHome.class
-logobutton/TestLogo.class
+testhome/TestHome.class
+testhome/TestHome$1.class
+testmore/TestMore.class
+testfreelunch/TestFreeLunch.class
